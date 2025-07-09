@@ -13,8 +13,14 @@ find_package(std_msgs REQUIRED)
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
 
+include_directories(
+  include
+)
+
 add_executable(SimDataPublisher
   src/sim_data_publisher.cpp
+  src/processor_node.cpp
+  src/main.cpp
   )
 
 ament_target_dependencies(SimDataPublisher
