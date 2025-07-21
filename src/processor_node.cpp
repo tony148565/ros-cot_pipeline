@@ -3,7 +3,7 @@
 ProcessorNode::ProcessorNode() : Node("processor_node")
 {
     subscription_ = this->create_subscription<std_msgs::msg::String>(
-        "raw_sim_data", 10,
+        "cot_event", 10,
         std::bind(&ProcessorNode::process_callback, this, std::placeholders::_1));
 
     publisher_ = this->create_publisher<std_msgs::msg::String>("target_info", 10);
@@ -14,23 +14,9 @@ ProcessorNode::ProcessorNode() : Node("processor_node")
 void ProcessorNode::process_callback(const std_msgs::msg::String::SharedPtr msg)
   {
     auto input = msg->data;
-    TargetInfo info = parse_target_info_from_json(input);
+    std::string info = input;
 
-    RCLCPP_INFO(this->get_logger(), "[Parsed] ID: %s | Lat: %.5f | Lon: %.5f | Alt: %.1f | Type: %s | Heading: %.1f",
-                info.id.c_str(), info.lat, info.lon, info.alt, info.type.c_str(), info.heading);
-
-    // 將資料再包回 JSON
-    std_msgs::msg::String output;
-    output.data = "{"
-                  "\"id\": \"" + info.id + "\", "
-                  "\"lat\": " + std::to_string(info.lat) + ", "
-                  "\"lon\": " + std::to_string(info.lon) + ", "
-                  "\"alt\": " + std::to_string(info.alt) + ", "
-                  "\"type\": \"" + info.type + "\", "
-                  "\"heading\": " + std::to_string(info.heading) +
-                  "}";
-
-    publisher_->publish(output);
+    RCLCPP_INFO(this->get_logger(), "%s", info.c_str());
   }
 
   TargetInfo ProcessorNode::parse_target_info_from_json(const std::string& input)

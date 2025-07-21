@@ -20,6 +20,8 @@ include_directories(
 add_executable(SimDataPublisher
   src/sim_data_publisher.cpp
   src/processor_node.cpp
+  src/cot_encoder_node.cpp
+  src/cot_builder.cpp
   src/main.cpp
   )
 

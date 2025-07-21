@@ -1,11 +1,11 @@
 #include "rclcpp/rclcpp.hpp"
 #include "cot_pipeline/processor_node.hpp"
-#include "cot_pipeline/sim_data_publisher.hpp"
+#include "cot_pipeline/cot_encoder_node.hpp"
 
 
 int main(int argc, char ** argv){
     rclcpp::init(argc, argv);
-    auto data_publisher = std::make_shared<SimDataPublisher>();
+    auto data_publisher = std::make_shared<CotEncoderNode>();
     auto processor = std::make_shared<ProcessorNode>();
     rclcpp::executors::SingleThreadedExecutor exec;
   
