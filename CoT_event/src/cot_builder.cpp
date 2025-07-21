@@ -1,4 +1,4 @@
-#include "cot_pipeline/cot_builder.hpp"
+#include "cot_builder.hpp"
 #include <sstream>
 #include <iomanip>
 #include <ctime>

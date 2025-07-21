@@ -1,6 +1,6 @@
 #include "cot_pipeline/cot_encoder_node.hpp"
-#include "cot_pipeline/cot_info.hpp"
-#include "cot_pipeline/cot_builder.hpp"
+#include "cot_info.hpp"
+#include "cot_builder.hpp"
 #include <chrono>
 #include <sstream>
 
