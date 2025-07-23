@@ -1,0 +1,7178 @@
+{
+  "A": {
+    "------": {
+      "name": "AIR TRACK",
+      "hierarchy": "SIGINT.AIRTRK",
+      "affiliation": "*"
+    },
+    "M-----": {
+      "name": "MILITARY",
+      "hierarchy": "WAR.AIRTRK.MIL",
+      "affiliation": "*"
+    },
+    "MF----": {
+      "name": "FIXED WING",
+      "hierarchy": "WAR.AIRTRK.MIL.FIXD",
+      "affiliation": "*"
+    },
+    "MFB---": {
+      "name": "BOMBER",
+      "hierarchy": "WAR.AIRTRK.MIL.FIXD.BMB",
+      "affiliation": "*"
+    },
+    "MFF---": {
+      "name": "FIGHTER",
+      "hierarchy": "WAR.AIRTRK.MIL.FIXD.FTR",
+      "affiliation": "*"
+    },
+    "MFFI--": {
+      "name": "INTERCEPTOR",
+      "hierarchy": "WAR.AIRTRK.MIL.FIXD.FTR.INCR",
+      "affiliation": "*"
+    },
+    "MFT---": {
+      "name": "TRAINER",
+      "hierarchy": "WAR.AIRTRK.MIL.FIXD.TNE",
+      "affiliation": "*"
+    },
+    "MFA---": {
+      "name": "ATTACK/STRIKE",
+      "hierarchy": "WAR.AIRTRK.MIL.FIXD.ATK",
+      "affiliation": "*"
+    },
+    "MFL---": {
+      "name": "VSTOL",
+      "hierarchy": "WAR.AIRTRK.MIL.FIXD.VSTOL",
+      "affiliation": "*"
+    },
+    "MFK---": {
+      "name": "TANKER",
+      "hierarchy": "WAR.AIRTRK.MIL.FIXD.TNK",
+      "affiliation": "*"
+    },
+    "MFKB--": {
+      "name": "TANKER BOOM-ONLY",
+      "hierarchy": "WAR.AIRTRK.MIL.FIXD.TNK.BOOM",
+      "affiliation": "*"
+    },
+    "MFKD--": {
+      "name": "TANKER DROGUE-ONLY",
+      "hierarchy": "WAR.AIRTRK.MIL.FIXD.TNK.DROG",
+      "affiliation": "*"
+    },
+    "MFC---": {
+      "name": "CARGO AIRLIFT (TRANSPORT)",
+      "hierarchy": "WAR.AIRTRK.MIL.FIXD.CGOALT",
+      "affiliation": "*"
+    },
+    "MFCL--": {
+      "name": "CARGO AIRLIFT (LIGHT)",
+      "hierarchy": "WAR.AIRTRK.MIL.FIXD.CGOALT.LIT",
+      "affiliation": "*"
+    },
+    "MFCM--": {
+      "name": "CARGO AIRLIFT (MEDIUM)",
+      "hierarchy": "WAR.AIRTRK.MIL.FIXD.CGOALT.MDM",
+      "affiliation": "*"
+    },
+    "MFCH--": {
+      "name": "CARGO AIRLIFT (HEAVY)",
+      "hierarchy": "WAR.AIRTRK.MIL.FIXD.CGOALT.HVY",
+      "affiliation": "*"
+    },
+    "MFJ---": {
+      "name": "ELECTRONIC COUNTERMEASURES (ECM/JAMMER)",
+      "hierarchy": "WAR.AIRTRK.MIL.FIXD.ECM",
+      "affiliation": "*"
+    },
+    "MFO---": {
+      "name": "MEDEVAC",
+      "hierarchy": "WAR.AIRTRK.MIL.FIXD.MEDV",
+      "affiliation": "*"
+    },
+    "MFR---": {
+      "name": "RECONNAISSANCE",
+      "hierarchy": "WAR.AIRTRK.MIL.FIXD.RECON",
+      "affiliation": "*"
+    },
+    "MFRW--": {
+      "name": "AIRBORNE EARLY WARNING (AEW)",
+      "hierarchy": "WAR.AIRTRK.MIL.FIXD.RECON.ABNEW",
+      "affiliation": "*"
+    },
+    "MFRZ--": {
+      "name": "ELECTRONIC SURVEILLANCE MEASURES",
+      "hierarchy": "WAR.AIRTRK.MIL.FIXD.RECON.ESM",
+      "affiliation": "*"
+    },
+    "MFRX--": {
+      "name": "PHOTOGRAPHIC",
+      "hierarchy": "WAR.AIRTRK.MIL.FIXD.RECON.PHG",
+      "affiliation": "*"
+    },
+    "MFP---": {
+      "name": "PATROL",
+      "hierarchy": "WAR.AIRTRK.MIL.FIXD.PAT",
+      "affiliation": "*"
+    },
+    "MFPN--": {
+      "name": "ANTISURFACE WARFARE (ASUW)",
+      "hierarchy": "WAR.AIRTRK.MIL.FIXD.PAT.ASUW",
+      "affiliation": "*"
+    },
+    "MFPM--": {
+      "name": "MINE COUNTERMEASURES",
+      "hierarchy": "WAR.AIRTRK.MIL.FIXD.PAT.MNECM",
+      "affiliation": "*"
+    },
+    "MFU---": {
+      "name": "UTILITY",
+      "hierarchy": "WAR.AIRTRK.MIL.FIXD.UTY",
+      "affiliation": "*"
+    },
+    "MFUL--": {
+      "name": "UTILITY (LIGHT)",
+      "hierarchy": "WAR.AIRTRK.MIL.FIXD.UTY.LIT",
+      "affiliation": "*"
+    },
+    "MFUM--": {
+      "name": "UTILITY (MEDIUM)",
+      "hierarchy": "WAR.AIRTRK.MIL.FIXD.UTY.MDM",
+      "affiliation": "*"
+    },
+    "MFUH--": {
+      "name": "UTILITY (HEAVY)",
+      "hierarchy": "WAR.AIRTRK.MIL.FIXD.UTY.HVY",
+      "affiliation": "*"
+    },
+    "MFY---": {
+      "name": "COMMUNICATIONS (C3I)",
+      "hierarchy": "WAR.AIRTRK.MIL.FIXD.COMM",
+      "affiliation": "*"
+    },
+    "MFH---": {
+      "name": "COMBAT SEARCH AND RESCUE (CSAR)",
+      "hierarchy": "WAR.AIRTRK.MIL.FIXD.CSAR",
+      "affiliation": "*"
+    },
+    "MFD---": {
+      "name": "AIRBORNE COMMAND POST (C2)",
+      "hierarchy": "WAR.AIRTRK.MIL.FIXD.ABNCP",
+      "affiliation": "*"
+    },
+    "MFQ---": {
+      "name": "DRONE (RPV/UAV)",
+      "hierarchy": "WAR.AIRTRK.MIL.FIXD.DRN",
+      "affiliation": "*"
+    },
+    "MFQA--": {
+      "name": "ATTACK",
+      "hierarchy": "WAR.AIRTRK.MIL.FIXD.DRN.ATK",
+      "affiliation": "*"
+    },
+    "MFQB--": {
+      "name": "BOMBER",
+      "hierarchy": "WAR.AIRTRK.MIL.FIXD.DRN.BMB",
+      "affiliation": "*"
+    },
+    "MFQC--": {
+      "name": "CARGO",
+      "hierarchy": "WAR.AIRTRK.MIL.FIXD.DRN.CGO",
+      "affiliation": "*"
+    },
+    "MFQD--": {
+      "name": "AIRBORNE COMMAND POST",
+      "hierarchy": "WAR.AIRTRK.MIL.FIXD.DRN.ABNCP",
+      "affiliation": "*"
+    },
+    "MFQF--": {
+      "name": "FIGHTER",
+      "hierarchy": "WAR.AIRTRK.MIL.FIXD.DRN.FTR",
+      "affiliation": "*"
+    },
+    "MFQH--": {
+      "name": "SEARCH & RESCUE (CSAR)",
+      "hierarchy": "WAR.AIRTRK.MIL.FIXD.DRN.CSAR",
+      "affiliation": "*"
+    },
+    "MFQJ--": {
+      "name": "ELECTRONIC COUNTERMEASURES (JAMMER)",
+      "hierarchy": "WAR.AIRTRK.MIL.FIXD.DRN.ECM",
+      "affiliation": "*"
+    },
+    "MFQK--": {
+      "name": "TANKER",
+      "hierarchy": "WAR.AIRTRK.MIL.FIXD.DRN.TNK",
+      "affiliation": "*"
+    },
+    "MFQL--": {
+      "name": "VSTOL",
+      "hierarchy": "WAR.AIRTRK.MIL.FIXD.DRN.VSTOL",
+      "affiliation": "*"
+    },
+    "MFQM--": {
+      "name": "SPECIAL OPERATIONS FORCES (SOF)",
+      "hierarchy": "WAR.AIRTRK.MIL.FIXD.DRN.SOF",
+      "affiliation": "*"
+    },
+    "MFQI--": {
+      "name": "MINE COUNTERMEASURES",
+      "hierarchy": "WAR.AIRTRK.MIL.FIXD.DRN.MNECM",
+      "affiliation": "*"
+    },
+    "MFQN--": {
+      "name": "ANTI-SURFACE WARFARE (ASUW)",
+      "hierarchy": "WAR.AIRTRK.MIL.FIXD.DRN.ASUW",
+      "affiliation": "*"
+    },
+    "MFQP--": {
+      "name": "PATROL",
+      "hierarchy": "WAR.AIRTRK.MIL.FIXD.DRN.PAT",
+      "affiliation": "*"
+    },
+    "MFQR--": {
+      "name": "RECONNAISSANCE",
+      "hierarchy": "WAR.AIRTRK.MIL.FIXD.DRN.RECON",
+      "affiliation": "*"
+    },
+    "MFQRW-": {
+      "name": "AIRBORNE EARLY WARNING (AEW)",
+      "hierarchy": "WAR.AIRTRK.MIL.FIXD.DRN.RECON.ABNEW",
+      "affiliation": "*"
+    },
+    "MFQRZ-": {
+      "name": "ELECTRONIC SURVEILLANCE MEASURES",
+      "hierarchy": "WAR.AIRTRK.MIL.FIXD.DRN.RECON.ESM",
+      "affiliation": "*"
+    },
+    "MFQRX-": {
+      "name": "PHOTOGRAPHIC",
+      "hierarchy": "WAR.AIRTRK.MIL.FIXD.DRN.RECON.PHG",
+      "affiliation": "*"
+    },
+    "MFQS--": {
+      "name": "ANTI-SUBMARINE WARFARE (ASW)",
+      "hierarchy": "WAR.AIRTRK.MIL.FIXD.DRN.ASBW",
+      "affiliation": "*"
+    },
+    "MFQT--": {
+      "name": "TRAINER",
+      "hierarchy": "WAR.AIRTRK.MIL.FIXD.DRN.TNE",
+      "affiliation": "*"
+    },
+    "MFQU--": {
+      "name": "UTILITY",
+      "hierarchy": "WAR.AIRTRK.MIL.FIXD.DRN.UTY",
+      "affiliation": "*"
+    },
+    "MFQY--": {
+      "name": "COMMUNICATIONS (C3I)",
+      "hierarchy": "WAR.AIRTRK.MIL.FIXD.DRN.COMM",
+      "affiliation": "*"
+    },
+    "MFQO--": {
+      "name": "MEDEVAC",
+      "hierarchy": "WAR.AIRTRK.MIL.FIXD.DRN.MEDV",
+      "affiliation": "*"
+    },
+    "MFS---": {
+      "name": "ANTISUBMARINE WARFARE (ASW) CARRIER BASED",
+      "hierarchy": "WAR.AIRTRK.MIL.FIXD.ASBWCB",
+      "affiliation": "*"
+    },
+    "MFM---": {
+      "name": "SPECIAL OPERATIONS FORCES (SOF)",
+      "hierarchy": "WAR.AIRTRK.MIL.FIXD.SOF",
+      "affiliation": "*"
+    },
+    "MH----": {
+      "name": "ROTARY WING",
+      "hierarchy": "WAR.AIRTRK.MIL.ROT",
+      "affiliation": "*"
+    },
+    "MHA---": {
+      "name": "ATTACK",
+      "hierarchy": "WAR.AIRTRK.MIL.ROT.ATK",
+      "affiliation": "*"
+    },
+    "MHS---": {
+      "name": "ANTISUBMARINE WARFARE/MPA",
+      "hierarchy": "WAR.AIRTRK.MIL.ROT.ASBW",
+      "affiliation": "*"
+    },
+    "MHU---": {
+      "name": "UTILITY",
+      "hierarchy": "WAR.AIRTRK.MIL.ROT.UTY",
+      "affiliation": "*"
+    },
+    "MHUL--": {
+      "name": "UTILITY (LIGHT)",
+      "hierarchy": "WAR.AIRTRK.MIL.ROT.UTY.LIT",
+      "affiliation": "*"
+    },
+    "MHUM--": {
+      "name": "UTILITY (MEDIUM)",
+      "hierarchy": "WAR.AIRTRK.MIL.ROT.UTY.MDM",
+      "affiliation": "*"
+    },
+    "MHUH--": {
+      "name": "UTILITY (HEAVY)",
+      "hierarchy": "WAR.AIRTRK.MIL.ROT.UTY.HVY",
+      "affiliation": "*"
+    },
+    "MHI---": {
+      "name": "MINE COUNTERMEASURES",
+      "hierarchy": "WAR.AIRTRK.MIL.ROT.MNECM",
+      "affiliation": "*"
+    },
+    "MHH---": {
+      "name": "COMBAT SEARCH AND RESCUE (CSAR)",
+      "hierarchy": "WAR.AIRTRK.MIL.ROT.CSAR",
+      "affiliation": "*"
+    },
+    "MHR---": {
+      "name": "RECONNAISSANCE",
+      "hierarchy": "WAR.AIRTRK.MIL.ROT.RECON",
+      "affiliation": "*"
+    },
+    "MHQ---": {
+      "name": "DRONE (RPV/UAV)",
+      "hierarchy": "WAR.AIRTRK.MIL.ROT.DRN",
+      "affiliation": "*"
+    },
+    "MHC---": {
+      "name": "CARGO AIRLIFT (TRANSPORT)",
+      "hierarchy": "WAR.AIRTRK.MIL.ROT.CGOALT",
+      "affiliation": "*"
+    },
+    "MHCL--": {
+      "name": "CARGO AIRLIFT (LIGHT)",
+      "hierarchy": "WAR.AIRTRK.MIL.ROT.CGOALT.LIT",
+      "affiliation": "*"
+    },
+    "MHCM--": {
+      "name": "CARGO AIRLIFT (MEDIUM)",
+      "hierarchy": "WAR.AIRTRK.MIL.ROT.CGOALT.MDM",
+      "affiliation": "*"
+    },
+    "MHCH--": {
+      "name": "CARGO AIRLIFT (HEAVY)",
+      "hierarchy": "WAR.AIRTRK.MIL.ROT.CGOALT.HVY",
+      "affiliation": "*"
+    },
+    "MHT---": {
+      "name": "TRAINER",
+      "hierarchy": "WAR.AIRTRK.MIL.ROT.TNE",
+      "affiliation": "*"
+    },
+    "MHO---": {
+      "name": "MEDEVAC",
+      "hierarchy": "WAR.AIRTRK.MIL.ROT.MEDV",
+      "affiliation": "*"
+    },
+    "MHM---": {
+      "name": "SPECIAL OPERATIONS FORCES (SOF)",
+      "hierarchy": "WAR.AIRTRK.MIL.ROT.SOF",
+      "affiliation": "*"
+    },
+    "MHD---": {
+      "name": "AIRBORNE COMMAND POST (C2)",
+      "hierarchy": "WAR.AIRTRK.MIL.ROT.ABNCP",
+      "affiliation": "*"
+    },
+    "MHK---": {
+      "name": "TANKER",
+      "hierarchy": "WAR.AIRTRK.MIL.ROT.TNK",
+      "affiliation": "*"
+    },
+    "MHJ---": {
+      "name": "ELECTRONIC COUNTERMEASURES (ECM/JAMMER)",
+      "hierarchy": "WAR.AIRTRK.MIL.ROT.ECM",
+      "affiliation": "*"
+    },
+    "ML----": {
+      "name": "LIGHTER THAN AIR",
+      "hierarchy": "WAR.AIRTRK.MIL.LTA",
+      "affiliation": "*"
+    },
+    "W-----": {
+      "name": "WEAPON",
+      "hierarchy": "WAR.AIRTRK.WPN",
+      "affiliation": "*"
+    },
+    "WM----": {
+      "name": "MISSILE IN FLIGHT",
+      "hierarchy": "WAR.AIRTRK.WPN.MSLIF",
+      "affiliation": "*"
+    },
+    "WMS---": {
+      "name": "SURFACE LAUNCHED MISSILE",
+      "hierarchy": "WAR.AIRTRK.WPN.MSLIF.SLM",
+      "affiliation": "*"
+    },
+    "WMSS--": {
+      "name": "SURFACE TO SURFACE MISSILE (SSM)",
+      "hierarchy": "WAR.AIRTRK.WPN.MSLIF.SLM.SSM",
+      "affiliation": "*"
+    },
+    "WMSA--": {
+      "name": "SURFACE TO AIR MISSILE (SAM)",
+      "hierarchy": "WAR.AIRTRK.WPN.MSLIF.SLM.SAM",
+      "affiliation": "*"
+    },
+    "WMSU--": {
+      "name": "SURFACE TO SUBSURFACE MISSILE",
+      "hierarchy": "WAR.AIRTRK.WPN.MSLIF.SLM.SSUM",
+      "affiliation": "*"
+    },
+    "WMSB--": {
+      "name": "ANTI-BALLISTIC MISSILE (ABM)",
+      "hierarchy": "WAR.AIRTRK.WPN.MSLIF.SLM.ABM",
+      "affiliation": "*"
+    },
+    "WMA---": {
+      "name": "AIR LAUNCHED MISSILE",
+      "hierarchy": "WAR.AIRTRK.WPN.MSLIF.ALM",
+      "affiliation": "*"
+    },
+    "WMAS--": {
+      "name": "AIR TO SURFACE MISSILE (ASM)",
+      "hierarchy": "WAR.AIRTRK.WPN.MSLIF.ALM.ASM",
+      "affiliation": "*"
+    },
+    "WMAA--": {
+      "name": "AIR TO AIR MISSILE (AAM)",
+      "hierarchy": "WAR.AIRTRK.WPN.MSLIF.ALM.AAM",
+      "affiliation": "*"
+    },
+    "WMAP--": {
+      "name": "AIR TO SPACE MISSILE",
+      "hierarchy": "WAR.AIRTRK.WPN.MSLIF.ALM.ASPC",
+      "affiliation": "*"
+    },
+    "WMU---": {
+      "name": "SUBSURFACE TO SURFACE MISSILE (S/SSM)",
+      "hierarchy": "WAR.AIRTRK.WPN.MSLIF.SBSM",
+      "affiliation": "*"
+    },
+    "WMCM--": {
+      "name": "CRUISE MISSILE",
+      "hierarchy": "WAR.AIRTRK.WPN.MSLIF.CM",
+      "affiliation": "*"
+    },
+    "WMB---": {
+      "name": "BALLISTIC MISSILE",
+      "hierarchy": "WAR.AIRTRK.WPN.MSLIF.BLST",
+      "affiliation": "*"
+    },
+    "WB----": {
+      "name": "BOMB",
+      "hierarchy": "WAR.AIRTRK.WPN.BM",
+      "affiliation": "*"
+    },
+    "WD----": {
+      "name": "DECOY",
+      "hierarchy": "WAR.AIRTRK.WPN.DCY",
+      "affiliation": "*"
+    },
+    "C-----": {
+      "name": "CIVIL AIRCRAFT",
+      "hierarchy": "WAR.AIRTRK.CVL",
+      "affiliation": "*"
+    },
+    "CF----": {
+      "name": "FIXED WING",
+      "hierarchy": "WAR.AIRTRK.CVL.FIXD",
+      "affiliation": "*"
+    },
+    "CH----": {
+      "name": "ROTARY WING",
+      "hierarchy": "WAR.AIRTRK.CVL.ROT",
+      "affiliation": "*"
+    },
+    "CL----": {
+      "name": "LIGHTER THAN AIR",
+      "hierarchy": "WAR.AIRTRK.CVL.LTA",
+      "affiliation": "*"
+    },
+    "S-----": {
+      "name": "SIGNAL INTERCEPT",
+      "hierarchy": "SIGINT.AIRTRK.SIGINC",
+      "affiliation": "*"
+    },
+    "SC----": {
+      "name": "COMMUNICATIONS",
+      "hierarchy": "SIGINT.AIRTRK.SIGINC.COMM",
+      "affiliation": "*"
+    },
+    "SCC---": {
+      "name": "CELLULAR/MOBILE",
+      "hierarchy": "SIGINT.AIRTRK.SIGINC.COMM.CELL",
+      "affiliation": "*"
+    },
+    "SCO---": {
+      "name": "OMNI-LINE-OF-SIGHT (LOS)",
+      "hierarchy": "SIGINT.AIRTRK.SIGINC.COMM.OLOS",
+      "affiliation": "*"
+    },
+    "SCP---": {
+      "name": "POINT-TO-POINT LINE-OF-SIGHT (LOS)",
+      "hierarchy": "SIGINT.AIRTRK.SIGINC.COMM.PTPLOS",
+      "affiliation": "*"
+    },
+    "SCS---": {
+      "name": "SATELLITE UP-LINK",
+      "hierarchy": "SIGINT.AIRTRK.SIGINC.COMM.SATUL",
+      "affiliation": "*"
+    },
+    "SR----": {
+      "name": "RADAR",
+      "hierarchy": "SIGINT.AIRTRK.SIGINC.RAD",
+      "affiliation": "*"
+    },
+    "SRAI--": {
+      "name": "AIRBORNE INTERCEPT",
+      "hierarchy": "SIGINT.AIRTRK.SIGINC.RAD.ABNINC",
+      "affiliation": "*"
+    },
+    "SRAS--": {
+      "name": "AIRBORNE SEARCH & BOMBING",
+      "hierarchy": "SIGINT.AIRTRK.SIGINC.RAD.ABNSB",
+      "affiliation": "*"
+    },
+    "SRC---": {
+      "name": "CONTROLLED INTERCEPT",
+      "hierarchy": "SIGINT.AIRTRK.SIGINC.RAD.CTDINC",
+      "affiliation": "*"
+    },
+    "SRD---": {
+      "name": "DATA TRANSMISSION",
+      "hierarchy": "SIGINT.AIRTRK.SIGINC.RAD.DATTMN",
+      "affiliation": "*"
+    },
+    "SRE---": {
+      "name": "EARLY WARNING",
+      "hierarchy": "SIGINT.AIRTRK.SIGINC.RAD.EW",
+      "affiliation": "*"
+    },
+    "SRF---": {
+      "name": "FIRE CONTROL",
+      "hierarchy": "SIGINT.AIRTRK.SIGINC.RAD.FIRCTL",
+      "affiliation": "*"
+    },
+    "SRI---": {
+      "name": "IFF (TRANSPONDER)",
+      "hierarchy": "SIGINT.AIRTRK.SIGINC.RAD.IFF",
+      "affiliation": "*"
+    },
+    "SRMA--": {
+      "name": "MISSILE ACQUISITION",
+      "hierarchy": "SIGINT.AIRTRK.SIGINC.RAD.MSLAQ",
+      "affiliation": "*"
+    },
+    "SRMD--": {
+      "name": "MISSILE DOWNLINK",
+      "hierarchy": "SIGINT.AIRTRK.SIGINC.RAD.MSLDL",
+      "affiliation": "*"
+    },
+    "SRMG--": {
+      "name": "MISSILE GUIDANCE",
+      "hierarchy": "SIGINT.AIRTRK.SIGINC.RAD.MSLGDN",
+      "affiliation": "*"
+    },
+    "SRMT--": {
+      "name": "MISSILE TRACKING",
+      "hierarchy": "SIGINT.AIRTRK.SIGINC.RAD.MSLTRK",
+      "affiliation": "*"
+    },
+    "SRMF--": {
+      "name": "MULTI-FUNCTION",
+      "hierarchy": "SIGINT.AIRTRK.SIGINC.RAD.MFN",
+      "affiliation": "*"
+    },
+    "SRTI--": {
+      "name": "TARGET ILLUMINATOR",
+      "hierarchy": "SIGINT.AIRTRK.SIGINC.RAD.TGTILL",
+      "affiliation": "*"
+    },
+    "SRTA--": {
+      "name": "TARGET ACQUISITION",
+      "hierarchy": "SIGINT.AIRTRK.SIGINC.RAD.TGTAQ",
+      "affiliation": "*"
+    },
+    "SRTT--": {
+      "name": "TARGET TRACKING",
+      "hierarchy": "SIGINT.AIRTRK.SIGINC.RAD.TGTTRK",
+      "affiliation": "*"
+    },
+    "SRU---": {
+      "name": "UNKNOWN",
+      "hierarchy": "SIGINT.AIRTRK.SIGINC.RAD.UNK",
+      "affiliation": "*"
+    }
+  },
+  "G": {
+    "------": {
+      "name": "COMMAND AND CONTROL AND GENERAL MANEUVER",
+      "hierarchy": "TACGRP.C2GM",
+      "affiliation": "*"
+    },
+    "U-----": {
+      "name": "UNIT",
+      "hierarchy": "WAR.GRDTRK.UNT",
+      "affiliation": "*"
+    },
+    "UC----": {
+      "name": "COMBAT",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT",
+      "affiliation": "*"
+    },
+    "UCD---": {
+      "name": "AIR DEFENSE",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.ADF",
+      "affiliation": "*"
+    },
+    "UCDS--": {
+      "name": "SHORT RANGE",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.ADF.SHTR",
+      "affiliation": "*"
+    },
+    "UCDSC-": {
+      "name": "CHAPARRAL",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.ADF.SHTR.CPL",
+      "affiliation": "*"
+    },
+    "UCDSS-": {
+      "name": "STINGER",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.ADF.SHTR.STG",
+      "affiliation": "*"
+    },
+    "UCDSV-": {
+      "name": "VULCAN",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.ADF.SHTR.VUL",
+      "affiliation": "*"
+    },
+    "UCDM--": {
+      "name": "AIR DEFENSE MISSILE",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.ADF.MSL",
+      "affiliation": "*"
+    },
+    "UCDML-": {
+      "name": "AIR DEFENSE MISSILE LIGHT",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.ADF.MSL.LIT",
+      "affiliation": "*"
+    },
+    "UCDMLA": {
+      "name": "AIR DEFENSE MISSILE MOTORIZED (AVENGER)",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.ADF.MSL.LIT.MOT",
+      "affiliation": "*"
+    },
+    "UCDMM-": {
+      "name": "AIR DEFENSE MISSILE MEDIUM",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.ADF.MSL.MDM",
+      "affiliation": "*"
+    },
+    "UCDMH-": {
+      "name": "AIR DEFENSE MISSILE HEAVY",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.ADF.MSL.HVY",
+      "affiliation": "*"
+    },
+    "UCDH--": {
+      "name": "H/MAD",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.ADF.MSL.HMAD",
+      "affiliation": "*"
+    },
+    "UCDHH-": {
+      "name": "HAWK",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.ADF.MSL.HMAD.HWK",
+      "affiliation": "*"
+    },
+    "UCDHP-": {
+      "name": "PATRIOT",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.ADF.MSL.HMAD.PATT",
+      "affiliation": "*"
+    },
+    "UCDG--": {
+      "name": "GUN UNIT",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.ADF.GUNUNT",
+      "affiliation": "*"
+    },
+    "UCDC--": {
+      "name": "COMPOSITE",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.ADF.CMPS",
+      "affiliation": "*"
+    },
+    "UCDT--": {
+      "name": "TARGETING UNIT",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.ADF.TGTGUT",
+      "affiliation": "*"
+    },
+    "UCDO--": {
+      "name": "THEATER MISSILE DEFENSE UNIT",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.ADF.TMDU",
+      "affiliation": "*"
+    },
+    "UCA---": {
+      "name": "ARMOR",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.ARM",
+      "affiliation": "*"
+    },
+    "UCAT--": {
+      "name": "ARMOR TRACK",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.ARM.TRK",
+      "affiliation": "*"
+    },
+    "UCATA-": {
+      "name": "ARMOR TRACK AIRBORNE",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.ARM.TRK.ABN",
+      "affiliation": "*"
+    },
+    "UCATW-": {
+      "name": "ARMOR TRACK AMPHIBIOUS",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.ARM.TRK.AMP",
+      "affiliation": "*"
+    },
+    "UCATWR": {
+      "name": "ARMOR TRACK AMPHIBIOUS RECOVERY",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.ARM.TRK.AMP.RCY",
+      "affiliation": "*"
+    },
+    "UCATL-": {
+      "name": "ARMOR TRACK, LIGHT",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.ARM.TRK.LIT",
+      "affiliation": "*"
+    },
+    "UCATM-": {
+      "name": "ARMOR TRACK, MEDIUM",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.ARM.TRK.MDM",
+      "affiliation": "*"
+    },
+    "UCATH-": {
+      "name": "ARMOR TRACK, HEAVY",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.ARM.TRK.HVY",
+      "affiliation": "*"
+    },
+    "UCATR-": {
+      "name": "ARMOR TRACK, RECOVERY",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.ARM.TRK.RCY",
+      "affiliation": "*"
+    },
+    "UCAW--": {
+      "name": "ARMOR, WHEELED",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.ARM.WHD",
+      "affiliation": "*"
+    },
+    "UCAWS-": {
+      "name": "ARMOR, WHEELED AIR ASSAULT",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.ARM.WHD.AAST",
+      "affiliation": "*"
+    },
+    "UCAWA-": {
+      "name": "ARMOR, WHEELED AIRBORNE",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.ARM.WHD.ABN",
+      "affiliation": "*"
+    },
+    "UCAWW-": {
+      "name": "ARMOR, WHEELED AMPHIBIOUS",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.ARM.WHD.AMP",
+      "affiliation": "*"
+    },
+    "UCAWWR": {
+      "name": "ARMOR, WHEELED AMPHIBIOUS RECOVERY",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.ARM.WHD.AMP.RCY",
+      "affiliation": "*"
+    },
+    "UCAWL-": {
+      "name": "ARMOR, WHEELED LIGHT",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.ARM.WHD.LIT",
+      "affiliation": "*"
+    },
+    "UCAWM-": {
+      "name": "ARMOR, WHEELED MEDIUM",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.ARM.WHD.MDM",
+      "affiliation": "*"
+    },
+    "UCAWH-": {
+      "name": "ARMOR, WHEELED HEAVY",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.ARM.WHD.HVY",
+      "affiliation": "*"
+    },
+    "UCAWR-": {
+      "name": "ARMOR, WHEELED RECOVERY",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.ARM.WHD.RCY",
+      "affiliation": "*"
+    },
+    "UCAA--": {
+      "name": "ANTI ARMOR",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.AARM",
+      "affiliation": "*"
+    },
+    "UCAAD-": {
+      "name": "ANTI ARMOR DISMOUNTED",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.AARM.DMD",
+      "affiliation": "*"
+    },
+    "UCAAL-": {
+      "name": "ANTI ARMOR LIGHT",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.AARM.LIT",
+      "affiliation": "*"
+    },
+    "UCAAM-": {
+      "name": "ANTI ARMOR AIRBORNE",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.AARM.ABN",
+      "affiliation": "*"
+    },
+    "UCAAS-": {
+      "name": "ANTI ARMOR AIR ASSAULT",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.AARM.AAST",
+      "affiliation": "*"
+    },
+    "UCAAU-": {
+      "name": "ANTI ARMOR MOUNTAIN",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.AARM.MNT",
+      "affiliation": "*"
+    },
+    "UCAAC-": {
+      "name": "ANTI ARMOR ARCTIC",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.AARM.ARC",
+      "affiliation": "*"
+    },
+    "UCAAA-": {
+      "name": "ANTI ARMOR ARMORED",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.AARM.ARMD",
+      "affiliation": "*"
+    },
+    "UCAAAT": {
+      "name": "ANTI ARMOR ARMORED TRACKED",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.AARM.ARMD.TKD",
+      "affiliation": "*"
+    },
+    "UCAAAW": {
+      "name": "ANTI ARMOR ARMORED WHEELED",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.AARM.ARMD.WHD",
+      "affiliation": "*"
+    },
+    "UCAAAS": {
+      "name": "ANTI ARMOR ARMORED AIR ASSAULT",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.AARM.ARMD.AAST",
+      "affiliation": "*"
+    },
+    "UCAAO-": {
+      "name": "ANTI ARMOR MOTORIZED",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.AARM.MOT",
+      "affiliation": "*"
+    },
+    "UCAAOS": {
+      "name": "ANTI ARMOR MOTORIZED AIR ASSAULT",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.AARM.MOT.AAST",
+      "affiliation": "*"
+    },
+    "UCV---": {
+      "name": "AVIATION",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.AVN",
+      "affiliation": "*"
+    },
+    "UCVF--": {
+      "name": "FIXED WING",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.AVN.FIXD",
+      "affiliation": "*"
+    },
+    "UCVFU-": {
+      "name": "UTILITY FIXED WING",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.AVN.FIXD.UTY",
+      "affiliation": "*"
+    },
+    "UCVFA-": {
+      "name": "ATTACK FIXED WING",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.AVN.FIXD.ATK",
+      "affiliation": "*"
+    },
+    "UCVFR-": {
+      "name": "RECON FIXED WING",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.AVN.FIXD.RECON",
+      "affiliation": "*"
+    },
+    "UCVR--": {
+      "name": "ROTARY WING",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.AVN.ROT",
+      "affiliation": "*"
+    },
+    "UCVRA-": {
+      "name": "ATTACK ROTARY WING",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.AVN.ROT.ATK",
+      "affiliation": "*"
+    },
+    "UCVRS-": {
+      "name": "SCOUT ROTARY WING",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.AVN.ROT.SCUT",
+      "affiliation": "*"
+    },
+    "UCVRW-": {
+      "name": "ANTISUBMARINE WARFARE ROTARY WING",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.AVN.ROT.ASBW",
+      "affiliation": "*"
+    },
+    "UCVRU-": {
+      "name": "UTILITY ROTARY WING",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.AVN.ROT.UTY",
+      "affiliation": "*"
+    },
+    "UCVRUL": {
+      "name": "LIGHT UTILITY ROTARY WING",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.AVN.ROT.UTY.LIT",
+      "affiliation": "*"
+    },
+    "UCVRUM": {
+      "name": "MEDIUM UTILITY ROTARY WING",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.AVN.ROT.UTY.MDM",
+      "affiliation": "*"
+    },
+    "UCVRUH": {
+      "name": "HEAVY UTILITY ROTARY WING",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.AVN.ROT.UTY.HVY",
+      "affiliation": "*"
+    },
+    "UCVRUC": {
+      "name": "C2 ROTARY WING",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.AVN.ROT.C2",
+      "affiliation": "*"
+    },
+    "UCVRUE": {
+      "name": "MEDEVAC ROTARY WING",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.AVN.ROT.MEDV",
+      "affiliation": "*"
+    },
+    "UCVRM-": {
+      "name": "MINE COUNTERMEASURE ROTARY WING",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.AVN.ROT.MNECM",
+      "affiliation": "*"
+    },
+    "UCVS--": {
+      "name": "SEARCH AND RESCUE",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.AVN.SAR",
+      "affiliation": "*"
+    },
+    "UCVC--": {
+      "name": "COMPOSITE",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.AVN.CMPS",
+      "affiliation": "*"
+    },
+    "UCVV--": {
+      "name": "VERTICAL/SHORT TAKEOFF AND LANDING (V/STOL)",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.AVN.VSTOL",
+      "affiliation": "*"
+    },
+    "UCVU--": {
+      "name": "UNMANNED AERIAL VEHICLE",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.AVN.UAV",
+      "affiliation": "*"
+    },
+    "UCVUF-": {
+      "name": "UNMANNED AERIAL VEHICLE FIXED WING",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.AVN.UAV.FIXD",
+      "affiliation": "*"
+    },
+    "UCVUR-": {
+      "name": "UNMANNED AERIAL VEHICLE ROTARY WING",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.AVN.UAV.ROT",
+      "affiliation": "*"
+    },
+    "UCI---": {
+      "name": "INFANTRY",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.INF",
+      "affiliation": "*"
+    },
+    "UCIL--": {
+      "name": "INFANTRY LIGHT",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.INF.LIT",
+      "affiliation": "*"
+    },
+    "UCIM--": {
+      "name": "INFANTRY MOTORIZED",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.INF.MOT",
+      "affiliation": "*"
+    },
+    "UCIO--": {
+      "name": "INFANTRY MOUNTAIN",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.INF.MNT",
+      "affiliation": "*"
+    },
+    "UCIA--": {
+      "name": "INFANTRY AIRBORNE",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.INF.ABN",
+      "affiliation": "*"
+    },
+    "UCIS--": {
+      "name": "INFANTRY AIR ASSAULT",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.INF.AAST",
+      "affiliation": "*"
+    },
+    "UCIZ--": {
+      "name": "INFANTRY MECHANIZED",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.INF.MECH",
+      "affiliation": "*"
+    },
+    "UCIN--": {
+      "name": "INFANTRY NAVAL",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.INF.NAV",
+      "affiliation": "*"
+    },
+    "UCII--": {
+      "name": "INFANTRY FIGHTING VEHICLE",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.INF.INFFV",
+      "affiliation": "*"
+    },
+    "UCIC--": {
+      "name": "INFANTRY ARCTIC",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.INF.ARC",
+      "affiliation": "*"
+    },
+    "UCE---": {
+      "name": "ENGINEER",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.ENG",
+      "affiliation": "*"
+    },
+    "UCEC--": {
+      "name": "ENGINEER COMBAT",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.ENG.CBT",
+      "affiliation": "*"
+    },
+    "UCECS-": {
+      "name": "ENGINEER COMBAT AIR ASSAULT",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.ENG.CBT.AAST",
+      "affiliation": "*"
+    },
+    "UCECA-": {
+      "name": "ENGINEER COMBAT AIRBORNE",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.ENG.CBT.ABN",
+      "affiliation": "*"
+    },
+    "UCECC-": {
+      "name": "ENGINEER COMBAT ARCTIC",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.ENG.CBT.ARC",
+      "affiliation": "*"
+    },
+    "UCECL-": {
+      "name": "ENGINEER COMBAT LIGHT (SAPPER)",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.ENG.CBT.LIT",
+      "affiliation": "*"
+    },
+    "UCECM-": {
+      "name": "ENGINEER COMBAT MEDIUM",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.ENG.CBT.MDM",
+      "affiliation": "*"
+    },
+    "UCECH-": {
+      "name": "ENGINEER COMBAT HEAVY",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.ENG.CBT.HVY",
+      "affiliation": "*"
+    },
+    "UCECT-": {
+      "name": "ENGINEER COMBAT MECHANIZED (TRACK)",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.ENG.CBT.MECH",
+      "affiliation": "*"
+    },
+    "UCECW-": {
+      "name": "ENGINEER COMBAT MOTORIZED",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.ENG.CBT.MOT",
+      "affiliation": "*"
+    },
+    "UCECO-": {
+      "name": "ENGINEER COMBAT MOUNTAIN",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.ENG.CBT.MNT",
+      "affiliation": "*"
+    },
+    "UCECR-": {
+      "name": "ENGINEER COMBAT RECON",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.ENG.CBT.RECON",
+      "affiliation": "*"
+    },
+    "UCEN--": {
+      "name": "ENGINEER CONSTRUCTION",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.ENG.CSN",
+      "affiliation": "*"
+    },
+    "UCENN-": {
+      "name": "ENGINEER NAVAL CONSTRUCTION",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.ENG.CSN.NAV",
+      "affiliation": "*"
+    },
+    "UCF---": {
+      "name": "FIELD ARTILLERY",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.FLDART",
+      "affiliation": "*"
+    },
+    "UCFH--": {
+      "name": "HOWITZER/GUN",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.FLDART.HOW",
+      "affiliation": "*"
+    },
+    "UCFHE-": {
+      "name": "SELF-PROPELLED",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.FLDART.HOW.SPD",
+      "affiliation": "*"
+    },
+    "UCFHS-": {
+      "name": "AIR ASSAULT",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.FLDART.HOW.AAST",
+      "affiliation": "*"
+    },
+    "UCFHA-": {
+      "name": "AIRBORNE",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.FLDART.HOW.ABN",
+      "affiliation": "*"
+    },
+    "UCFHC-": {
+      "name": "ARCTIC",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.FLDART.HOW.ARC",
+      "affiliation": "*"
+    },
+    "UCFHO-": {
+      "name": "MOUNTAIN",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.FLDART.HOW.MNT",
+      "affiliation": "*"
+    },
+    "UCFHL-": {
+      "name": "LIGHT",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.FLDART.HOW.LIT",
+      "affiliation": "*"
+    },
+    "UCFHM-": {
+      "name": "MEDIUM",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.FLDART.HOW.MDM",
+      "affiliation": "*"
+    },
+    "UCFHH-": {
+      "name": "HEAVY",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.FLDART.HOW.HVY",
+      "affiliation": "*"
+    },
+    "UCFHX-": {
+      "name": "AMPHIBIOUS",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.FLDART.HOW.AMP",
+      "affiliation": "*"
+    },
+    "UCFR--": {
+      "name": "ROCKET",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.FLDART.ROC",
+      "affiliation": "*"
+    },
+    "UCFRS-": {
+      "name": "SINGLE ROCKET LAUNCHER",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.FLDART.ROC.SRL",
+      "affiliation": "*"
+    },
+    "UCFRSS": {
+      "name": "SINGLE ROCKET SELF-PROPELLED",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.FLDART.ROC.SRL.SRSPD",
+      "affiliation": "*"
+    },
+    "UCFRSR": {
+      "name": "SINGLE ROCKET TRUCK",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.FLDART.ROC.SRL.SRTRK",
+      "affiliation": "*"
+    },
+    "UCFRST": {
+      "name": "SINGLE ROCKET TOWED",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.FLDART.ROC.SRL.SRTOW",
+      "affiliation": "*"
+    },
+    "UCFRM-": {
+      "name": "MULTI ROCKET LAUNCHER",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.FLDART.ROC.MRL",
+      "affiliation": "*"
+    },
+    "UCFRMS": {
+      "name": "MULTI ROCKET SELF-PROPELLED",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.FLDART.ROC.MRL.MRSPD",
+      "affiliation": "*"
+    },
+    "UCFRMR": {
+      "name": "MULTI ROCKET TRUCK",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.FLDART.ROC.MRL.MRTRK",
+      "affiliation": "*"
+    },
+    "UCFRMT": {
+      "name": "MULTI ROCKET TOWED",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.FLDART.ROC.MRL.MRTOW",
+      "affiliation": "*"
+    },
+    "UCFT--": {
+      "name": "TARGET ACQUISITION",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.FLDART.TGTAQ",
+      "affiliation": "*"
+    },
+    "UCFTR-": {
+      "name": "RADAR",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.FLDART.TGTAQ.RAD",
+      "affiliation": "*"
+    },
+    "UCFTS-": {
+      "name": "SOUND",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.FLDART.TGTAQ.SND",
+      "affiliation": "*"
+    },
+    "UCFTF-": {
+      "name": "FLASH (OPTICAL)",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.FLDART.TGTAQ.FLH",
+      "affiliation": "*"
+    },
+    "UCFTC-": {
+      "name": "COLT/FIST",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.FLDART.TGTAQ.CLT",
+      "affiliation": "*"
+    },
+    "UCFTCD": {
+      "name": "DISMOUNTED COLT/FIST",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.FLDART.TGTAQ.CLT.DMD",
+      "affiliation": "*"
+    },
+    "UCFTCM": {
+      "name": "TRACKED COLT/FIST",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.FLDART.TGTAQ.CLT.TKD",
+      "affiliation": "*"
+    },
+    "UCFTA-": {
+      "name": "ANGLICO",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.FLDART.TGTAQ.ANG",
+      "affiliation": "*"
+    },
+    "UCFM--": {
+      "name": "MORTAR",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.FLDART.MORT",
+      "affiliation": "*"
+    },
+    "UCFMS-": {
+      "name": "SELF-PROPELLED (SP) TRACKED MORTAR",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.FLDART.MORT.SPDTRK",
+      "affiliation": "*"
+    },
+    "UCFMW-": {
+      "name": "SP WHEELED MORTAR",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.FLDART.MORT.SPDWHD",
+      "affiliation": "*"
+    },
+    "UCFMT-": {
+      "name": "TOWED MORTAR",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.FLDART.MORT.TOW",
+      "affiliation": "*"
+    },
+    "UCFMTA": {
+      "name": "TOWED AIRBORNE MORTAR",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.FLDART.MORT.TOW.ABN",
+      "affiliation": "*"
+    },
+    "UCFMTS": {
+      "name": "TOWED AIR ASSAULT MORTAR",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.FLDART.MORT.TOW.AAST",
+      "affiliation": "*"
+    },
+    "UCFMTC": {
+      "name": "TOWED ARCTIC MORTAR",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.FLDART.MORT.TOW.ARC",
+      "affiliation": "*"
+    },
+    "UCFMTO": {
+      "name": "TOWED MOUNTAIN MORTAR",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.FLDART.MORT.TOW.MNT",
+      "affiliation": "*"
+    },
+    "UCFML-": {
+      "name": "AMPHIBIOUS MORTAR",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.FLDART.MORT.AMP",
+      "affiliation": "*"
+    },
+    "UCFS--": {
+      "name": "ARTILLERY SURVEY",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.FLDART.ARTSVY",
+      "affiliation": "*"
+    },
+    "UCFSS-": {
+      "name": "AIR ASSAULT",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.FLDART.ARTSVY.AAST",
+      "affiliation": "*"
+    },
+    "UCFSA-": {
+      "name": "AIRBORNE",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.FLDART.ARTSVY.ABN",
+      "affiliation": "*"
+    },
+    "UCFSL-": {
+      "name": "LIGHT",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.FLDART.ARTSVY.LIT",
+      "affiliation": "*"
+    },
+    "UCFSO-": {
+      "name": "MOUNTAIN",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.FLDART.ARTSVY.MNT",
+      "affiliation": "*"
+    },
+    "UCFO--": {
+      "name": "METEOROLOGICAL",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.FLDART.METO",
+      "affiliation": "*"
+    },
+    "UCFOS-": {
+      "name": "AIR ASSAULT METEOROLOGICAL",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.FLDART.METO.AAST",
+      "affiliation": "*"
+    },
+    "UCFOA-": {
+      "name": "AIRBORNE METEOROLOGICAL",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.FLDART.METO.ABN",
+      "affiliation": "*"
+    },
+    "UCFOL-": {
+      "name": "LIGHT METEOROLOGICAL",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.FLDART.METO.LIT",
+      "affiliation": "*"
+    },
+    "UCFOO-": {
+      "name": "MOUNTAIN METEOROLOGICAL",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.FLDART.METO.MNT",
+      "affiliation": "*"
+    },
+    "UCR---": {
+      "name": "RECONNAISSANCE",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.RECON",
+      "affiliation": "*"
+    },
+    "UCRH--": {
+      "name": "RECONNAISSANCE HORSE",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.RECON.HRE",
+      "affiliation": "*"
+    },
+    "UCRV--": {
+      "name": "RECONNAISSANCE CAVALRY",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.RECON.CVY",
+      "affiliation": "*"
+    },
+    "UCRVA-": {
+      "name": "RECONNAISSANCE CAVALRY ARMORED",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.RECON.CVY.ARMD",
+      "affiliation": "*"
+    },
+    "UCRVM-": {
+      "name": "RECONNAISSANCE CAVALRY MOTORIZED",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.RECON.CVY.MOT",
+      "affiliation": "*"
+    },
+    "UCRVG-": {
+      "name": "RECONNAISSANCE CAVALRY GROUND",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.RECON.CVY.GRD",
+      "affiliation": "*"
+    },
+    "UCRVO-": {
+      "name": "RECONNAISSANCE CAVALRY AIR",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.RECON.CVY.AIR",
+      "affiliation": "*"
+    },
+    "UCRC--": {
+      "name": "RECONNAISSANCE ARCTIC",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.RECON.ARC",
+      "affiliation": "*"
+    },
+    "UCRS--": {
+      "name": "RECONNAISSANCE AIR ASSAULT",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.RECON.AAST",
+      "affiliation": "*"
+    },
+    "UCRA--": {
+      "name": "RECONNAISSANCE AIRBORNE",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.RECON.ABN",
+      "affiliation": "*"
+    },
+    "UCRO--": {
+      "name": "RECONNAISSANCE MOUNTAIN",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.RECON.MNT",
+      "affiliation": "*"
+    },
+    "UCRL--": {
+      "name": "RECONNAISSANCE LIGHT",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.RECON.LIT",
+      "affiliation": "*"
+    },
+    "UCRR--": {
+      "name": "RECONNAISSANCE MARINE",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.RECON.MAR",
+      "affiliation": "*"
+    },
+    "UCRRD-": {
+      "name": "RECONNAISSANCE MARINE DIVISION",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.RECON.MAR.DIV",
+      "affiliation": "*"
+    },
+    "UCRRF-": {
+      "name": "RECONNAISSANCE MARINE FORCE",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.RECON.MAR.FOR",
+      "affiliation": "*"
+    },
+    "UCRRL-": {
+      "name": "RECONNAISSANCE MARINE LIGHT ARMORED RECONNAISSNACE (LAR)",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.RECON.MAR.LAR",
+      "affiliation": "*"
+    },
+    "UCRX--": {
+      "name": "RECONNAISSANCE LONG RANGE SURVEILLANCE (LRS)",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.RECON.LRS",
+      "affiliation": "*"
+    },
+    "UCM---": {
+      "name": "MISSILE (SURF-SURF)",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.MSL",
+      "affiliation": "*"
+    },
+    "UCMT--": {
+      "name": "MISSILE (SURF-SURF) TACTICAL",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.MSL.TAC",
+      "affiliation": "*"
+    },
+    "UCMS--": {
+      "name": "MISSILE (SURF-SURF) STRATEGIC",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.MSL.STGC",
+      "affiliation": "*"
+    },
+    "UCS---": {
+      "name": "INTERNAL SECURITY FORCES",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.ISF",
+      "affiliation": "*"
+    },
+    "UCSW--": {
+      "name": "RIVERINE",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.ISF.RIV",
+      "affiliation": "*"
+    },
+    "UCSG--": {
+      "name": "GROUND",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.ISF.GRD",
+      "affiliation": "*"
+    },
+    "UCSGD-": {
+      "name": "DISMOUNTED GROUND",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.ISF.GRD.DMD",
+      "affiliation": "*"
+    },
+    "UCSGM-": {
+      "name": "MOTORIZED GROUND",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.ISF.GRD.MOT",
+      "affiliation": "*"
+    },
+    "UCSGA-": {
+      "name": "MECHANIZED GROUND",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.ISF.GRD.MECH",
+      "affiliation": "*"
+    },
+    "UCSM--": {
+      "name": "WHEELED MECHANIZED",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.ISF.WHMECH",
+      "affiliation": "*"
+    },
+    "UCSR--": {
+      "name": "RAILROAD",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.ISF.RALRD",
+      "affiliation": "*"
+    },
+    "UCSA--": {
+      "name": "AVIATION",
+      "hierarchy": "WAR.GRDTRK.UNT.CBT.ISF.AVN",
+      "affiliation": "*"
+    },
+    "UU----": {
+      "name": "COMBAT SUPPORT",
+      "hierarchy": "WAR.GRDTRK.UNT.CS",
+      "affiliation": "*"
+    },
+    "UUA---": {
+      "name": "COMBAT SUPPORT NBC",
+      "hierarchy": "WAR.GRDTRK.UNT.CS.NBC",
+      "affiliation": "*"
+    },
+    "UUAC--": {
+      "name": "CHEMICAL",
+      "hierarchy": "WAR.GRDTRK.UNT.CS.NBC.CML",
+      "affiliation": "*"
+    },
+    "UUACC-": {
+      "name": "SMOKE/DECON",
+      "hierarchy": "WAR.GRDTRK.UNT.CS.NBC.CML.SMKDEC",
+      "affiliation": "*"
+    },
+    "UUACCK": {
+      "name": "MECHANIZED SMOKE/DECON",
+      "hierarchy": "WAR.GRDTRK.UNT.CS.NBC.CML.SMKDEC.MECH",
+      "affiliation": "*"
+    },
+    "UUACCM": {
+      "name": "MOTORIZED SMOKE/DECON",
+      "hierarchy": "WAR.GRDTRK.UNT.CS.NBC.CML.SMKDEC.MOT",
+      "affiliation": "*"
+    },
+    "UUACS-": {
+      "name": "SMOKE",
+      "hierarchy": "WAR.GRDTRK.UNT.CS.NBC.CML.SMK",
+      "affiliation": "*"
+    },
+    "UUACSM": {
+      "name": "MOTORIZED SMOKE",
+      "hierarchy": "WAR.GRDTRK.UNT.CS.NBC.CML.SMK.MOT",
+      "affiliation": "*"
+    },
+    "UUACSA": {
+      "name": "ARMOR SMOKE",
+      "hierarchy": "WAR.GRDTRK.UNT.CS.NBC.CML.SMK.ARM",
+      "affiliation": "*"
+    },
+    "UUACR-": {
+      "name": "CHEMICAL RECON",
+      "hierarchy": "WAR.GRDTRK.UNT.CS.NBC.CML.RECON",
+      "affiliation": "*"
+    },
+    "UUACRW": {
+      "name": "CHEMICAL WHEELED ARMORED VEHICLE",
+      "hierarchy": "WAR.GRDTRK.UNT.CS.NBC.CML.RECON.WARMVH",
+      "affiliation": "*"
+    },
+    "UUACRS": {
+      "name": "CHEMICAL WHEELED ARMORED VEHICLE RECONNAISSANCE SURVEILLANCE",
+      "hierarchy": "WAR.GRDTRK.UNT.CS.NBC.CML.RECON.WAVS",
+      "affiliation": "*"
+    },
+    "UUAN--": {
+      "name": "NUCLEAR",
+      "hierarchy": "WAR.GRDTRK.UNT.CS.NBC.NUC",
+      "affiliation": "*"
+    },
+    "UUAB--": {
+      "name": "BIOLOGICAL",
+      "hierarchy": "WAR.GRDTRK.UNT.CS.NBC.BIO",
+      "affiliation": "*"
+    },
+    "UUABR-": {
+      "name": "RECON EQUIPPED",
+      "hierarchy": "WAR.GRDTRK.UNT.CS.NBC.BIO.RECEQP",
+      "affiliation": "*"
+    },
+    "UUAD--": {
+      "name": "DECONTAMINATION",
+      "hierarchy": "WAR.GRDTRK.UNT.CS.NBC.DECON",
+      "affiliation": "*"
+    },
+    "UUM---": {
+      "name": "MILITARY INTELLIGENCE",
+      "hierarchy": "WAR.GRDTRK.UNT.CS.MILINT",
+      "affiliation": "*"
+    },
+    "UUMA--": {
+      "name": "AERIAL EXPLOITATION",
+      "hierarchy": "WAR.GRDTRK.UNT.CS.MILINT.AEREXP",
+      "affiliation": "*"
+    },
+    "UUMS--": {
+      "name": "SIGNAL INTELLIGENCE (SIGINT)",
+      "hierarchy": "WAR.GRDTRK.UNT.CS.MILINT.SIGINT",
+      "affiliation": "*"
+    },
+    "UUMSE-": {
+      "name": "ELECTRONIC WARFARE",
+      "hierarchy": "WAR.GRDTRK.UNT.CS.MILINT.SIGINT.ECW",
+      "affiliation": "*"
+    },
+    "UUMSEA": {
+      "name": "ARMORED WHEELED VEHICLE",
+      "hierarchy": "WAR.GRDTRK.UNT.CS.MILINT.SIGINT.ECW.ARMWVH",
+      "affiliation": "*"
+    },
+    "UUMSED": {
+      "name": "DIRECTION FINDING",
+      "hierarchy": "WAR.GRDTRK.UNT.CS.MILINT.SIGINT.ECW.DFN",
+      "affiliation": "*"
+    },
+    "UUMSEI": {
+      "name": "INTERCEPT",
+      "hierarchy": "WAR.GRDTRK.UNT.CS.MILINT.SIGINT.ECW.INC",
+      "affiliation": "*"
+    },
+    "UUMSEJ": {
+      "name": "JAMMING",
+      "hierarchy": "WAR.GRDTRK.UNT.CS.MILINT.SIGINT.ECW.JMG",
+      "affiliation": "*"
+    },
+    "UUMSET": {
+      "name": "THEATER",
+      "hierarchy": "WAR.GRDTRK.UNT.CS.MILINT.SIGINT.ECW.THT",
+      "affiliation": "*"
+    },
+    "UUMSEC": {
+      "name": "CORPS",
+      "hierarchy": "WAR.GRDTRK.UNT.CS.MILINT.SIGINT.ECW.CRP",
+      "affiliation": "*"
+    },
+    "UUMC--": {
+      "name": "COUNTER INTELLIGENCE",
+      "hierarchy": "WAR.GRDTRK.UNT.CS.MILINT.CINT",
+      "affiliation": "*"
+    },
+    "UUMR--": {
+      "name": "SURVEILLANCE",
+      "hierarchy": "WAR.GRDTRK.UNT.CS.MILINT.SVL",
+      "affiliation": "*"
+    },
+    "UUMRG-": {
+      "name": "GROUND SURVEILLANCE RADAR",
+      "hierarchy": "WAR.GRDTRK.UNT.CS.MILINT.SVL.GRDSR",
+      "affiliation": "*"
+    },
+    "UUMRS-": {
+      "name": "SENSOR",
+      "hierarchy": "WAR.GRDTRK.UNT.CS.MILINT.SVL.SNS",
+      "affiliation": "*"
+    },
+    "UUMRSS": {
+      "name": "SENSOR SCM",
+      "hierarchy": "WAR.GRDTRK.UNT.CS.MILINT.SVL.SNS.SCM",
+      "affiliation": "*"
+    },
+    "UUMRX-": {
+      "name": "GROUND STATION MODULE",
+      "hierarchy": "WAR.GRDTRK.UNT.CS.MILINT.SVL.GRDSM",
+      "affiliation": "*"
+    },
+    "UUMMO-": {
+      "name": "METEOROLOGICAL",
+      "hierarchy": "WAR.GRDTRK.UNT.CS.MILINT.SVL.METO",
+      "affiliation": "*"
+    },
+    "UUMO--": {
+      "name": "OPERATIONS",
+      "hierarchy": "WAR.GRDTRK.UNT.CS.MILINT.OPN",
+      "affiliation": "*"
+    },
+    "UUMT--": {
+      "name": "TACTICAL EXPLOIT",
+      "hierarchy": "WAR.GRDTRK.UNT.CS.MILINT.TACEXP",
+      "affiliation": "*"
+    },
+    "UUMQ--": {
+      "name": "INTERROGATION",
+      "hierarchy": "WAR.GRDTRK.UNT.CS.MILINT.INTGN",
+      "affiliation": "*"
+    },
+    "UUMJ--": {
+      "name": "JOINT INTELLIGENCE CENTER",
+      "hierarchy": "WAR.GRDTRK.UNT.CS.MILINT.JINTCT",
+      "affiliation": "*"
+    },
+    "UUL---": {
+      "name": "LAW ENFORCEMENT UNIT",
+      "hierarchy": "WAR.GRDTRK.UNT.CS.LAWENU",
+      "affiliation": "*"
+    },
+    "UULS--": {
+      "name": "SHORE PATROL",
+      "hierarchy": "WAR.GRDTRK.UNT.CS.LAWENU.SHRPAT",
+      "affiliation": "*"
+    },
+    "UULM--": {
+      "name": "MILITARY POLICE",
+      "hierarchy": "WAR.GRDTRK.UNT.CS.LAWENU.MILP",
+      "affiliation": "*"
+    },
+    "UULC--": {
+      "name": "CIVILIAN LAW ENFORCEMENT",
+      "hierarchy": "WAR.GRDTRK.UNT.CS.LAWENU.CLE",
+      "affiliation": "*"
+    },
+    "UULF--": {
+      "name": "SECURITY POLICE (AIR)",
+      "hierarchy": "WAR.GRDTRK.UNT.CS.LAWENU.SECPOL",
+      "affiliation": "*"
+    },
+    "UULD--": {
+      "name": "CENTRAL INTELLIGENCE DIVISION (CID)",
+      "hierarchy": "WAR.GRDTRK.UNT.CS.LAWENU.CID",
+      "affiliation": "*"
+    },
+    "UUS---": {
+      "name": "SIGNAL UNIT",
+      "hierarchy": "WAR.GRDTRK.UNT.CS.SIGUNT",
+      "affiliation": "*"
+    },
+    "UUSA--": {
+      "name": "AREA",
+      "hierarchy": "WAR.GRDTRK.UNT.CS.SIGUNT.ARA",
+      "affiliation": "*"
+    },
+    "UUSC--": {
+      "name": "COMMUNICATION CONFIGURED PACKAGE",
+      "hierarchy": "WAR.GRDTRK.UNT.CS.SIGUNT.COMCP",
+      "affiliation": "*"
+    },
+    "UUSCL-": {
+      "name": "LARGE COMMUNICATION CONFIGURED PACKAGE (LCCP)",
+      "hierarchy": "WAR.GRDTRK.UNT.CS.SIGUNT.COMCP.LCCP",
+      "affiliation": "*"
+    },
+    "UUSO--": {
+      "name": "COMMAND OPERATIONS",
+      "hierarchy": "WAR.GRDTRK.UNT.CS.SIGUNT.CMDOPN",
+      "affiliation": "*"
+    },
+    "UUSF--": {
+      "name": "FORWARD COMMUNICATIONS",
+      "hierarchy": "WAR.GRDTRK.UNT.CS.SIGUNT.FWDCOM",
+      "affiliation": "*"
+    },
+    "UUSM--": {
+      "name": "MULTIPLE SUBSCRIBER ELEMENT",
+      "hierarchy": "WAR.GRDTRK.UNT.CS.SIGUNT.MSE",
+      "affiliation": "*"
+    },
+    "UUSMS-": {
+      "name": "SMALL EXTENSION NODE",
+      "hierarchy": "WAR.GRDTRK.UNT.CS.SIGUNT.MSE.SEN",
+      "affiliation": "*"
+    },
+    "UUSML-": {
+      "name": "LARGE EXTENSION NODE",
+      "hierarchy": "WAR.GRDTRK.UNT.CS.SIGUNT.MSE.LEN",
+      "affiliation": "*"
+    },
+    "UUSMN-": {
+      "name": "NODE CENTER",
+      "hierarchy": "WAR.GRDTRK.UNT.CS.SIGUNT.MSE.NODCTR",
+      "affiliation": "*"
+    },
+    "UUSR--": {
+      "name": "RADIO UNIT",
+      "hierarchy": "WAR.GRDTRK.UNT.CS.SIGUNT.RDOUNT",
+      "affiliation": "*"
+    },
+    "UUSRS-": {
+      "name": "TACTICAL SATELLITE",
+      "hierarchy": "WAR.GRDTRK.UNT.CS.SIGUNT.RDOUNT.TACSAT",
+      "affiliation": "*"
+    },
+    "UUSRT-": {
+      "name": "TELETYPE CENTER",
+      "hierarchy": "WAR.GRDTRK.UNT.CS.SIGUNT.RDOUNT.TTYCTR",
+      "affiliation": "*"
+    },
+    "UUSRW-": {
+      "name": "RELAY",
+      "hierarchy": "WAR.GRDTRK.UNT.CS.SIGUNT.RDOUNT.RLY",
+      "affiliation": "*"
+    },
+    "UUSS--": {
+      "name": "SIGNAL SUPPORT",
+      "hierarchy": "WAR.GRDTRK.UNT.CS.SIGUNT.SIGSUP",
+      "affiliation": "*"
+    },
+    "UUSW--": {
+      "name": "TELEPHONE SWITCH",
+      "hierarchy": "WAR.GRDTRK.UNT.CS.SIGUNT.PHOSWT",
+      "affiliation": "*"
+    },
+    "UUSX--": {
+      "name": "ELECTRONIC RANGING",
+      "hierarchy": "WAR.GRDTRK.UNT.CS.SIGUNT.ECRG",
+      "affiliation": "*"
+    },
+    "UUI---": {
+      "name": "INFORMATION WARFARE UNIT",
+      "hierarchy": "WAR.GRDTRK.UNT.CS.IWU",
+      "affiliation": "*"
+    },
+    "UUP---": {
+      "name": "LANDING SUPPORT",
+      "hierarchy": "WAR.GRDTRK.UNT.CS.LNDSUP",
+      "affiliation": "*"
+    },
+    "UUE---": {
+      "name": "EXPLOSIVE ORDNANCE DISPOSAL",
+      "hierarchy": "WAR.GRDTRK.UNT.CS.EOD",
+      "affiliation": "*"
+    },
+    "US----": {
+      "name": "COMBAT SERVICE SUPPORT",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS",
+      "affiliation": "*"
+    },
+    "USA---": {
+      "name": "ADMINISTRATIVE (ADMIN)",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.ADMIN",
+      "affiliation": "*"
+    },
+    "USAT--": {
+      "name": "ADMIN THEATER",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.ADMIN.THT",
+      "affiliation": "*"
+    },
+    "USAC--": {
+      "name": "ADMIN CORPS",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.ADMIN.CRP",
+      "affiliation": "*"
+    },
+    "USAJ--": {
+      "name": "JUDGE ADVOCATE GENERAL (JAG)",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.ADMIN.JAG",
+      "affiliation": "*"
+    },
+    "USAJT-": {
+      "name": "JAG THEATER",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.ADMIN.JAG.THT",
+      "affiliation": "*"
+    },
+    "USAJC-": {
+      "name": "JAG CORPS",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.ADMIN.JAG.CRP",
+      "affiliation": "*"
+    },
+    "USAO--": {
+      "name": "POSTAL",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.ADMIN.PST",
+      "affiliation": "*"
+    },
+    "USAOT-": {
+      "name": "POSTAL THEATER",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.ADMIN.PST.THT",
+      "affiliation": "*"
+    },
+    "USAOC-": {
+      "name": "POSTAL CORPS",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.ADMIN.PST.CRP",
+      "affiliation": "*"
+    },
+    "USAF--": {
+      "name": "FINANCE",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.ADMIN.FIN",
+      "affiliation": "*"
+    },
+    "USAFT-": {
+      "name": "FINANCE THEATER",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.ADMIN.FIN.THT",
+      "affiliation": "*"
+    },
+    "USAFC-": {
+      "name": "FINANCE CORPS",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.ADMIN.FIN.CRP",
+      "affiliation": "*"
+    },
+    "USAS--": {
+      "name": "PERSONNEL SERVICES",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.ADMIN.PERSVC",
+      "affiliation": "*"
+    },
+    "USAST-": {
+      "name": "PERSONNEL THEATER",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.ADMIN.PERSVC.THT",
+      "affiliation": "*"
+    },
+    "USASC-": {
+      "name": "PERSONNEL CORPS",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.ADMIN.PERSVC.CRP",
+      "affiliation": "*"
+    },
+    "USAM--": {
+      "name": "MORTUARY/GRAVES REGISTRY",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.ADMIN.MTRY",
+      "affiliation": "*"
+    },
+    "USAMT-": {
+      "name": "MORTUARY/GRAVES REGISTRY THEATER",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.ADMIN.MTRY.THT",
+      "affiliation": "*"
+    },
+    "USAMC-": {
+      "name": "MORTUARY/GRAVES REGISTRY CORPS",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.ADMIN.MTRY.CRP",
+      "affiliation": "*"
+    },
+    "USAR--": {
+      "name": "RELIGIOUS/CHAPLAIN",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.ADMIN.RELG",
+      "affiliation": "*"
+    },
+    "USART-": {
+      "name": "RELIGIOUS/CHAPLAIN THEATER",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.ADMIN.RELG.THT",
+      "affiliation": "*"
+    },
+    "USARC-": {
+      "name": "RELIGIOUS/CHAPLAIN CORPS",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.ADMIN.RELG.CRP",
+      "affiliation": "*"
+    },
+    "USAP--": {
+      "name": "PUBLIC AFFAIRS",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.ADMIN.PUBAFF",
+      "affiliation": "*"
+    },
+    "USAPT-": {
+      "name": "PUBLIC AFFAIRS THEATER",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.ADMIN.PUBAFF.THT",
+      "affiliation": "*"
+    },
+    "USAPC-": {
+      "name": "PUBLIC AFFAIRS CORPS",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.ADMIN.PUBAFF.CRP",
+      "affiliation": "*"
+    },
+    "USAPB-": {
+      "name": "PUBLIC AFFAIRS BROADCAST",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.ADMIN.PUBAFF.BRCT",
+      "affiliation": "*"
+    },
+    "USAPBT": {
+      "name": "PUBLIC AFFAIRS BROADCAST THEATER",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.ADMIN.PUBAFF.BRCT.THT",
+      "affiliation": "*"
+    },
+    "USAPBC": {
+      "name": "PUBLIC AFFAIRS BROADCAST CORPS",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.ADMIN.PUBAFF.BRCT.CRP",
+      "affiliation": "*"
+    },
+    "USAPM-": {
+      "name": "PUBLIC AFFAIRS JOINT INFORMATION BUREAU (JIB)",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.ADMIN.PUBAFF.JIB",
+      "affiliation": "*"
+    },
+    "USAPMT": {
+      "name": "PUBLIC AFFAIRS JIB THEATER",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.ADMIN.PUBAFF.JIB.THT",
+      "affiliation": "*"
+    },
+    "USAPMC": {
+      "name": "PUBLIC AFFAIRS JIB CORPS",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.ADMIN.PUBAFF.JIB.CRP",
+      "affiliation": "*"
+    },
+    "USAX--": {
+      "name": "REPLACEMENT HOLDING UNIT (RHU)",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.ADMIN.RHU",
+      "affiliation": "*"
+    },
+    "USAXT-": {
+      "name": "RHU THEATER",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.ADMIN.RHU.THT",
+      "affiliation": "*"
+    },
+    "USAXC-": {
+      "name": "RHU CORPS",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.ADMIN.RHU.CRP",
+      "affiliation": "*"
+    },
+    "USAL--": {
+      "name": "LABOR",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.ADMIN.LBR",
+      "affiliation": "*"
+    },
+    "USALT-": {
+      "name": "LABOR THEATER",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.ADMIN.LBR.THT",
+      "affiliation": "*"
+    },
+    "USALC-": {
+      "name": "LABOR CORPS",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.ADMIN.LBR.CRP",
+      "affiliation": "*"
+    },
+    "USAW--": {
+      "name": "MORALE, WELFARE, RECREATION (MWR)",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.ADMIN.MWR",
+      "affiliation": "*"
+    },
+    "USAWT-": {
+      "name": "MWR THEATER",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.ADMIN.MWR.THT",
+      "affiliation": "*"
+    },
+    "USAWC-": {
+      "name": "MWR CORPS",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.ADMIN.MWR.CRP",
+      "affiliation": "*"
+    },
+    "USAQ--": {
+      "name": "QUARTERMASTER (SUPPLY)",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.ADMIN.SUPPLY",
+      "affiliation": "*"
+    },
+    "USAQT-": {
+      "name": "QUARTERMASTER (SUPPLY) THEATER",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.ADMIN.SUPPLY.THT",
+      "affiliation": "*"
+    },
+    "USAQC-": {
+      "name": "QUARTERMASTER (SUPPLY) CORPS",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.ADMIN.SUPPLY.CRP",
+      "affiliation": "*"
+    },
+    "USM---": {
+      "name": "MEDICAL",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.MED",
+      "affiliation": "*"
+    },
+    "USMT--": {
+      "name": "MEDICAL THEATER",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.MED.THT",
+      "affiliation": "*"
+    },
+    "USMC--": {
+      "name": "MEDICAL CORPS",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.MED.CRP",
+      "affiliation": "*"
+    },
+    "USMM--": {
+      "name": "MEDICAL TREATMENT FACILITY",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.MED.MEDTF",
+      "affiliation": "*"
+    },
+    "USMMT-": {
+      "name": "MEDICAL TREATMENT FACILITY THEATER",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.MED.MEDTF.THT",
+      "affiliation": "*"
+    },
+    "USMMC-": {
+      "name": "MEDICAL TREATMENT FACILITY CORPS",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.MED.MEDTF.CRP",
+      "affiliation": "*"
+    },
+    "USMV--": {
+      "name": "MEDICAL VETERINARY",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.MED.VNY",
+      "affiliation": "*"
+    },
+    "USMVT-": {
+      "name": "MEDICAL VETERINARY THEATER",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.MED.VNY.THT",
+      "affiliation": "*"
+    },
+    "USMVC-": {
+      "name": "MEDICAL VETERINARY CORPS",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.MED.VNY.CRP",
+      "affiliation": "*"
+    },
+    "USMD--": {
+      "name": "MEDICAL DENTAL",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.MED.DEN",
+      "affiliation": "*"
+    },
+    "USMDT-": {
+      "name": "MEDICAL DENTAL THEATER",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.MED.DEN.THT",
+      "affiliation": "*"
+    },
+    "USMDC-": {
+      "name": "MEDICAL DENTAL CORPS",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.MED.DEN.CRP",
+      "affiliation": "*"
+    },
+    "USMP--": {
+      "name": "MEDICAL PSYCHOLOGICAL",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.MED.PSY",
+      "affiliation": "*"
+    },
+    "USMPT-": {
+      "name": "MEDICAL PSYCHOLOGICAL THEATER",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.MED.PSY.THT",
+      "affiliation": "*"
+    },
+    "USMPC-": {
+      "name": "MEDICAL PSYCHOLOGICAL CORPS",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.MED.PSY.CRP",
+      "affiliation": "*"
+    },
+    "USS---": {
+      "name": "SUPPLY",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.SLP",
+      "affiliation": "*"
+    },
+    "USST--": {
+      "name": "SUPPLY THEATER",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.SLP.THT",
+      "affiliation": "*"
+    },
+    "USSC--": {
+      "name": "SUPPLY CORPS",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.SLP.CRP",
+      "affiliation": "*"
+    },
+    "USS1--": {
+      "name": "SUPPLY CLASS I",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.SLP.CLS1",
+      "affiliation": "*"
+    },
+    "USS1T-": {
+      "name": "SUPPLY CLASS I THEATER",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.SLP.CLS1.THT",
+      "affiliation": "*"
+    },
+    "USS1C-": {
+      "name": "SUPPLY CLASS I CORPS",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.SLP.CLS1.CRP",
+      "affiliation": "*"
+    },
+    "USS2--": {
+      "name": "SUPPLY CLASS II",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.SLP.CLS2",
+      "affiliation": "*"
+    },
+    "USS2T-": {
+      "name": "SUPPLY CLASS II THEATER",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.SLP.CLS2.THT",
+      "affiliation": "*"
+    },
+    "USS2C-": {
+      "name": "SUPPLY CLASS II CORPS",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.SLP.CLS2.CRP",
+      "affiliation": "*"
+    },
+    "USS3--": {
+      "name": "SUPPLY CLASS III",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.SLP.CLS3",
+      "affiliation": "*"
+    },
+    "USS3T-": {
+      "name": "SUPPLY CLASS III THEATER",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.SLP.CLS3.THT",
+      "affiliation": "*"
+    },
+    "USS3C-": {
+      "name": "SUPPLY CLASS III CORPS",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.SLP.CLS3.CRP",
+      "affiliation": "*"
+    },
+    "USS3A-": {
+      "name": "SUPPLY CLASS III AVIATION",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.SLP.CLS3.AVN",
+      "affiliation": "*"
+    },
+    "USS3AT": {
+      "name": "SUPPLY CLASS III AVIATION THEATER",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.SLP.CLS3.AVN.THT",
+      "affiliation": "*"
+    },
+    "USS3AC": {
+      "name": "SUPPLY CLASS III AVIATION CORPS",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.SLP.CLS3.AVN.CRP",
+      "affiliation": "*"
+    },
+    "USS4--": {
+      "name": "SUPPLY CLASS IV",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.SLP.CLS4",
+      "affiliation": "*"
+    },
+    "USS4T-": {
+      "name": "SUPPLY CLASS IV THEATER",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.SLP.CLS4.THT",
+      "affiliation": "*"
+    },
+    "USS4C-": {
+      "name": "SUPPLY CLASS IV CORPS",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.SLP.CLS4.CRP",
+      "affiliation": "*"
+    },
+    "USS5--": {
+      "name": "SUPPLY CLASS V",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.SLP.CLS5",
+      "affiliation": "*"
+    },
+    "USS5T-": {
+      "name": "SUPPLY CLASS V THEATER",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.SLP.CLS5.THT",
+      "affiliation": "*"
+    },
+    "USS5C-": {
+      "name": "SUPPLY CLASS V CORPS",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.SLP.CLS5.CRP",
+      "affiliation": "*"
+    },
+    "USS6--": {
+      "name": "SUPPLY CLASS VI",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.SLP.CLS6",
+      "affiliation": "*"
+    },
+    "USS6T-": {
+      "name": "SUPPLY CLASS VI THEATER",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.SLP.CLS6.THT",
+      "affiliation": "*"
+    },
+    "USS6C-": {
+      "name": "SUPPLY CLASS VI CORPS",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.SLP.CLS6.CRP",
+      "affiliation": "*"
+    },
+    "USS7--": {
+      "name": "SUPPLY CLASS VII",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.SLP.CLS7",
+      "affiliation": "*"
+    },
+    "USS7T-": {
+      "name": "SUPPLY CLASS VII THEATER",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.SLP.CLS7.THT",
+      "affiliation": "*"
+    },
+    "USS7C-": {
+      "name": "SUPPLY CLASS VII CORPS",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.SLP.CLS7.CRP",
+      "affiliation": "*"
+    },
+    "USS8--": {
+      "name": "SUPPLY CLASS VIII",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.SLP.CLS8",
+      "affiliation": "*"
+    },
+    "USS8T-": {
+      "name": "SUPPLY CLASS VIII THEATER",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.SLP.CLS8.THT",
+      "affiliation": "*"
+    },
+    "USS8C-": {
+      "name": "SUPPLY CLASS VIII CORPS",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.SLP.CLS8.CRP",
+      "affiliation": "*"
+    },
+    "USS9--": {
+      "name": "SUPPLY CLASS IX",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.SLP.CLS9",
+      "affiliation": "*"
+    },
+    "USS9T-": {
+      "name": "SUPPLY CLASS IX THEATER",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.SLP.CLS9.THT",
+      "affiliation": "*"
+    },
+    "USS9C-": {
+      "name": "SUPPLY CLASS IX CORPS",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.SLP.CLS9.CRP",
+      "affiliation": "*"
+    },
+    "USSX--": {
+      "name": "SUPPLY CLASS X",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.SLP.CLS10",
+      "affiliation": "*"
+    },
+    "USSXT-": {
+      "name": "SUPPLY CLASS X THEATER",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.SLP.CLS10.THT",
+      "affiliation": "*"
+    },
+    "USSXC-": {
+      "name": "SUPPLY CLASS X CORPS",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.SLP.CLS10.CRP",
+      "affiliation": "*"
+    },
+    "USSL--": {
+      "name": "SUPPLY LAUNDRY/BATH",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.SLP.LDY",
+      "affiliation": "*"
+    },
+    "USSLT-": {
+      "name": "SUPPLY LAUNDRY/BATH THEATER",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.SLP.LDY.THT",
+      "affiliation": "*"
+    },
+    "USSLC-": {
+      "name": "SUPPLY LAUNDRY/BATH CORPS",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.SLP.LDY.CRP",
+      "affiliation": "*"
+    },
+    "USSW--": {
+      "name": "SUPPLY WATER",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.SLP.H2O",
+      "affiliation": "*"
+    },
+    "USSWT-": {
+      "name": "SUPPLY WATER THEATER",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.SLP.H2O.THT",
+      "affiliation": "*"
+    },
+    "USSWC-": {
+      "name": "SUPPLY WATER CORPS",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.SLP.H2O.CRP",
+      "affiliation": "*"
+    },
+    "USSWP-": {
+      "name": "SUPPLY WATER PURIFICATION",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.SLP.H2O.PUR",
+      "affiliation": "*"
+    },
+    "USSWPT": {
+      "name": "SUPPLY WATER PURIFICATION THEATER",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.SLP.H2O.PUR.THT",
+      "affiliation": "*"
+    },
+    "USSWPC": {
+      "name": "SUPPLY WATER PURIFICATION CORPS",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.SLP.H2O.PUR.CRP",
+      "affiliation": "*"
+    },
+    "UST---": {
+      "name": "TRANSPORTATION",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.TPT",
+      "affiliation": "*"
+    },
+    "USTT--": {
+      "name": "TRANSPORTATION THEATER",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.TPT.THT",
+      "affiliation": "*"
+    },
+    "USTC--": {
+      "name": "TRANSPORTATION CORPS",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.TPT.CRP",
+      "affiliation": "*"
+    },
+    "USTM--": {
+      "name": "MOVEMENT CONTROL CENTER (MCC)",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.TPT.MCC",
+      "affiliation": "*"
+    },
+    "USTMT-": {
+      "name": "MCC THEATER",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.TPT.MCC.THT",
+      "affiliation": "*"
+    },
+    "USTMC-": {
+      "name": "MCC CORPS",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.TPT.MCC.CRP",
+      "affiliation": "*"
+    },
+    "USTR--": {
+      "name": "RAILHEAD",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.TPT.RHD",
+      "affiliation": "*"
+    },
+    "USTRT-": {
+      "name": "RAILHEAD THEATER",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.TPT.RHD.THT",
+      "affiliation": "*"
+    },
+    "USTRC-": {
+      "name": "RAILHEAD CORPS",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.TPT.RHD.CRP",
+      "affiliation": "*"
+    },
+    "USTS--": {
+      "name": "SPOD/SPOE",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.TPT.SPOD",
+      "affiliation": "*"
+    },
+    "USTST-": {
+      "name": "SPOD/SPOE THEATER",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.TPT.SPOD.THT",
+      "affiliation": "*"
+    },
+    "USTSC-": {
+      "name": "SPOD/SPOE CORPS",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.TPT.SPOD.CRP",
+      "affiliation": "*"
+    },
+    "USTA--": {
+      "name": "APOD/APOE",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.TPT.APOD",
+      "affiliation": "*"
+    },
+    "USTAT-": {
+      "name": "APOD/APOE THEATER",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.TPT.APOD.THT",
+      "affiliation": "*"
+    },
+    "USTAC-": {
+      "name": "APOD/APOE CORPS",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.TPT.APOD.CRP",
+      "affiliation": "*"
+    },
+    "USTI--": {
+      "name": "MISSILE",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.TPT.MSL",
+      "affiliation": "*"
+    },
+    "USTIT-": {
+      "name": "MISSILE THEATER",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.TPT.MSL.THT",
+      "affiliation": "*"
+    },
+    "USTIC-": {
+      "name": "MISSILE CORPS",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.TPT.MSL.CRP",
+      "affiliation": "*"
+    },
+    "USX---": {
+      "name": "MAINTENANCE",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.MAINT",
+      "affiliation": "*"
+    },
+    "USXT--": {
+      "name": "MAINTENANCE THEATER",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.MAINT.THT",
+      "affiliation": "*"
+    },
+    "USXC--": {
+      "name": "MAINTENANCE CORPS",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.MAINT.CRP",
+      "affiliation": "*"
+    },
+    "USXH--": {
+      "name": "MAINTENANCE HEAVY",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.MAINT.HVY",
+      "affiliation": "*"
+    },
+    "USXHT-": {
+      "name": "MAINTENANCE HEAVY THEATER",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.MAINT.HVY.THT",
+      "affiliation": "*"
+    },
+    "USXHC-": {
+      "name": "MAINTENANCE HEAVY CORPS",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.MAINT.HVY.CRP",
+      "affiliation": "*"
+    },
+    "USXR--": {
+      "name": "MAINTENANCE RECOVERY",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.MAINT.RCY",
+      "affiliation": "*"
+    },
+    "USXRT-": {
+      "name": "MAINTENANCE RECOVERY THEATER",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.MAINT.RCY.THT",
+      "affiliation": "*"
+    },
+    "USXRC-": {
+      "name": "MAINTENANCE RECOVERY CORPS",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.MAINT.RCY.CRP",
+      "affiliation": "*"
+    },
+    "USXO--": {
+      "name": "ORDNANCE",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.MAINT.ORD",
+      "affiliation": "*"
+    },
+    "USXOT-": {
+      "name": "ORDNANCE THEATER",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.MAINT.ORD.THT",
+      "affiliation": "*"
+    },
+    "USXOC-": {
+      "name": "ORDNANCE CORPS",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.MAINT.ORD.CRP",
+      "affiliation": "*"
+    },
+    "USXOM-": {
+      "name": "ORDNANCE MISSILE",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.MAINT.ORD.MSL",
+      "affiliation": "*"
+    },
+    "USXOMT": {
+      "name": "ORDNANCE MISSILE THEATER",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.MAINT.ORD.MSL.THT",
+      "affiliation": "*"
+    },
+    "USXOMC": {
+      "name": "ORDNANCE MISSILE CORPS",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.MAINT.ORD.MSL.CRP",
+      "affiliation": "*"
+    },
+    "USXE--": {
+      "name": "ELECTRO-OPTICAL",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.MAINT.EOP",
+      "affiliation": "*"
+    },
+    "USXET-": {
+      "name": "ELECTRO-OPTICAL THEATER",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.MAINT.EOP.THT",
+      "affiliation": "*"
+    },
+    "USXEC-": {
+      "name": "ELECTRO-OPTICAL CORPS",
+      "hierarchy": "WAR.GRDTRK.UNT.CSS.MAINT.EOP.CRP",
+      "affiliation": "*"
+    },
+    "UH----": {
+      "name": "SPECIAL C2 HEADQUARTERS COMPONENT",
+      "hierarchy": "WAR.GRDTRK.UNT.C2HQ",
+      "affiliation": "*"
+    },
+    "E-----": {
+      "name": "GROUND TRACK EQUIPMENT",
+      "hierarchy": "WAR.GRDTRK.EQT",
+      "affiliation": "*"
+    },
+    "EW----": {
+      "name": "WEAPON",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN",
+      "affiliation": "*"
+    },
+    "EWM---": {
+      "name": "MISSILE LAUNCHER",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.MSLL",
+      "affiliation": "*"
+    },
+    "EWMA--": {
+      "name": "AIR DEFENSE (AD) MISSILE LAUNCHER",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.MSLL.ADFAD",
+      "affiliation": "*"
+    },
+    "EWMAS-": {
+      "name": "SHORT RANGE AD MISSILE LAUNCHER",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.MSLL.ADFAD.SHTR",
+      "affiliation": "*"
+    },
+    "EWMASR": {
+      "name": "TRANSPORTER LAUNCHER AND RADAR (TLAR)",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.MSLL.ADFAD.SHTR.TLAR",
+      "affiliation": "*"
+    },
+    "EWMASE": {
+      "name": "TRANSPORTER ERECTOR LAUNCHER AND RADAR (TELAR)",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.MSLL.ADFAD.SHTR.TELAR",
+      "affiliation": "*"
+    },
+    "EWMAI-": {
+      "name": "INTERMEDIATE RANGE AD MISSILE LAUNCHER",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.MSLL.ADFAD.INTMR",
+      "affiliation": "*"
+    },
+    "EWMAIR": {
+      "name": "TRANSPORTER LAUNCHER AND RADAR (TLAR)",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.MSLL.ADFAD.INTMR.TLAR",
+      "affiliation": "*"
+    },
+    "EWMAIE": {
+      "name": "TRANSPORTER ERECTOR LAUNCHER AND RADAR (TELAR)",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.MSLL.ADFAD.INTMR.TELAR",
+      "affiliation": "*"
+    },
+    "EWMAL-": {
+      "name": "LONG RANGE AD MISSILE LAUNCHER",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.MSLL.ADFAD.LNGR",
+      "affiliation": "*"
+    },
+    "EWMALR": {
+      "name": "TRANSPORTER LAUNCHER AND RADAR (TLAR)",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.MSLL.ADFAD.LNGR.TLAR",
+      "affiliation": "*"
+    },
+    "EWMALE": {
+      "name": "TRANSPORTER ERECTOR LAUNCHER AND RADAR (TELAR)",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.MSLL.ADFAD.LNGR.TELAR",
+      "affiliation": "*"
+    },
+    "EWMAT-": {
+      "name": "AD MISSILE LAUNCHER THEATER",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.MSLL.ADFAD.THT",
+      "affiliation": "*"
+    },
+    "EWMATR": {
+      "name": "TRANSPORTER LAUNCHER AND RADAR (TLAR)",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.MSLL.ADFAD.THT.TLAR",
+      "affiliation": "*"
+    },
+    "EWMATE": {
+      "name": "TRANSPORTER ERECTOR LAUNCHER AND RADAR (TELAR)",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.MSLL.ADFAD.THT.TELAR",
+      "affiliation": "*"
+    },
+    "EWMS--": {
+      "name": "SURF-SURF (SS) MISSILE LAUNCHER",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.MSLL.SUF",
+      "affiliation": "*"
+    },
+    "EWMSS-": {
+      "name": "SHORT RANGE SS MISSILE LAUNCHER",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.MSLL.SUF.SHTR",
+      "affiliation": "*"
+    },
+    "EWMSI-": {
+      "name": "INTERMEDIATE RANGE SS MISSILE LAUNCHER",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.MSLL.SUF.INTMR",
+      "affiliation": "*"
+    },
+    "EWMSL-": {
+      "name": "LONG RANGE SS MISSILE LAUNCHER",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.MSLL.SUF.LNGR",
+      "affiliation": "*"
+    },
+    "EWMT--": {
+      "name": "MISSILE LAUNCHER ANTITANK (AT)",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.MSLL.AT",
+      "affiliation": "*"
+    },
+    "EWMTL-": {
+      "name": "MISSILE LAUNCHER AT LIGHT",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.MSLL.AT.LIT",
+      "affiliation": "*"
+    },
+    "EWMTM-": {
+      "name": "MISSILE LAUNCHER AT MEDIUM",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.MSLL.AT.MDM",
+      "affiliation": "*"
+    },
+    "EWMTH-": {
+      "name": "MISSILE LAUNCHER AT HEAVY",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.MSLL.AT.HVY",
+      "affiliation": "*"
+    },
+    "EWS---": {
+      "name": "SINGLE ROCKET LAUNCHER",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.SRL",
+      "affiliation": "*"
+    },
+    "EWSL--": {
+      "name": "SINGLE ROCKET LAUNCHER LIGHT",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.SRL.LIT",
+      "affiliation": "*"
+    },
+    "EWSM--": {
+      "name": "SINGLE ROCKET LAUNCHER MEDIUM",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.SRL.MDM",
+      "affiliation": "*"
+    },
+    "EWSH--": {
+      "name": "SINGLE ROCKET LAUNCHER HEAVY",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.SRL.HVY",
+      "affiliation": "*"
+    },
+    "EWX---": {
+      "name": "MULTIPLE ROCKET LAUNCHER",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.MRL",
+      "affiliation": "*"
+    },
+    "EWXL--": {
+      "name": "MULTIPLE ROCKET LAUNCHER LIGHT",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.MRL.LIT",
+      "affiliation": "*"
+    },
+    "EWXM--": {
+      "name": "MULTIPLE ROCKET LAUNCHER MEDIUM",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.MRL.MDM",
+      "affiliation": "*"
+    },
+    "EWXH--": {
+      "name": "MULTIPLE ROCKET LAUNCHER HEAVY",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.MRL.HVY",
+      "affiliation": "*"
+    },
+    "EWT---": {
+      "name": "ANTITANK ROCKET LAUNCHER",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.ATRL",
+      "affiliation": "*"
+    },
+    "EWTL--": {
+      "name": "ANTI-TANK ROCKET LAUNCHER LIGHT",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.ATRL.LIT",
+      "affiliation": "*"
+    },
+    "EWTM--": {
+      "name": "ANTI-TANK ROCKET LAUNCHER MEDIUM",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.ATRL.MDM",
+      "affiliation": "*"
+    },
+    "EWTH--": {
+      "name": "ANTI-TANK ROCKET LAUNCHER HEAVY",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.ATRL.HVY",
+      "affiliation": "*"
+    },
+    "EWR---": {
+      "name": "RIFLE/AUTOMATIC WEAPON",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.RIFWPN",
+      "affiliation": "*"
+    },
+    "EWRR--": {
+      "name": "RIFLE",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.RIFWPN.RIF",
+      "affiliation": "*"
+    },
+    "EWRL--": {
+      "name": "LIGHT MACHINE GUN",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.RIFWPN.LMG",
+      "affiliation": "*"
+    },
+    "EWRH--": {
+      "name": "HEAVY MACHINE GUN",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.RIFWPN.HMG",
+      "affiliation": "*"
+    },
+    "EWZ---": {
+      "name": "GRENADE LAUNCHER",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.GREL",
+      "affiliation": "*"
+    },
+    "EWZL--": {
+      "name": "GRENADE LAUNCHER LIGHT",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.GREL.LIT",
+      "affiliation": "*"
+    },
+    "EWZM--": {
+      "name": "GRENADE LAUNCHER MEDIUM",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.GREL.MDM",
+      "affiliation": "*"
+    },
+    "EWZH--": {
+      "name": "GRENADE LAUNCHER HEAVY",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.GREL.HVY",
+      "affiliation": "*"
+    },
+    "EWO---": {
+      "name": "MORTAR",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.MORT",
+      "affiliation": "*"
+    },
+    "EWOL--": {
+      "name": "MORTAR LIGHT",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.MORT.LIT",
+      "affiliation": "*"
+    },
+    "EWOM--": {
+      "name": "MORTAR MEDIUM",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.MORT.MDM",
+      "affiliation": "*"
+    },
+    "EWOH--": {
+      "name": "MORTAR HEAVY",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.MORT.HVY",
+      "affiliation": "*"
+    },
+    "EWH---": {
+      "name": "HOWITZER",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.HOW",
+      "affiliation": "*"
+    },
+    "EWHL--": {
+      "name": "HOWITZER LIGHT",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.HOW.LIT",
+      "affiliation": "*"
+    },
+    "EWHLS-": {
+      "name": "HOWITZER LIGHT SELF-PROPELLED",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.HOW.LIT.SPD",
+      "affiliation": "*"
+    },
+    "EWHM--": {
+      "name": "HOWITZER MEDIUM",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.HOW.MDM",
+      "affiliation": "*"
+    },
+    "EWHMS-": {
+      "name": "HOWITZER MEDIUM SELF-PROPELLED",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.HOW.MDM.SPD",
+      "affiliation": "*"
+    },
+    "EWHH--": {
+      "name": "HOWITZER HEAVY",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.HOW.HVY",
+      "affiliation": "*"
+    },
+    "EWHHS-": {
+      "name": "HOWITZER HEAVY SELF-PROPELLED",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.HOW.HVY.SPD",
+      "affiliation": "*"
+    },
+    "EWG---": {
+      "name": "ANTI-TANK GUN",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.ATG",
+      "affiliation": "*"
+    },
+    "EWGL--": {
+      "name": "ANTI-TANK GUN LIGHT",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.ATG.LIT",
+      "affiliation": "*"
+    },
+    "EWGM--": {
+      "name": "ANTI-TANK GUN MEDIUM",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.ATG.MDM",
+      "affiliation": "*"
+    },
+    "EWGH--": {
+      "name": "ANTI-TANK GUN HEAVY",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.ATG.HVY",
+      "affiliation": "*"
+    },
+    "EWGR--": {
+      "name": "ANTI-TANK GUN RECOILLESS",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.ATG.RECL",
+      "affiliation": "*"
+    },
+    "EWD---": {
+      "name": "DIRECT FIRE GUN",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.DFG",
+      "affiliation": "*"
+    },
+    "EWDL--": {
+      "name": "DIRECT FIRE GUN LIGHT",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.DFG.LIT",
+      "affiliation": "*"
+    },
+    "EWDLS-": {
+      "name": "DIRECT FIRE GUN LIGHT SELF-PROPELLED",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.DFG.LIT.SPD",
+      "affiliation": "*"
+    },
+    "EWDM--": {
+      "name": "DIRECT FIRE GUN MEDIUM",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.DFG.MDM",
+      "affiliation": "*"
+    },
+    "EWDMS-": {
+      "name": "DIRECT FIRE GUN MEDIUM SELF-PROPELLED",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.DFG.MDM.SPD",
+      "affiliation": "*"
+    },
+    "EWDH--": {
+      "name": "DIRECT FIRE GUN HEAVY",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.DFG.HVY",
+      "affiliation": "*"
+    },
+    "EWDHS-": {
+      "name": "DIRECT FIRE GUN HEAVY SELF-PROPELLED",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.DFG.HVY.SPD",
+      "affiliation": "*"
+    },
+    "EWA---": {
+      "name": "AIR DEFENSE GUN",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.ADFG",
+      "affiliation": "*"
+    },
+    "EWAL--": {
+      "name": "AIR DEFENSE GUN LIGHT",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.ADFG.LIT",
+      "affiliation": "*"
+    },
+    "EWAM--": {
+      "name": "AIR DEFENSE GUN MEDIUM",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.ADFG.MDM",
+      "affiliation": "*"
+    },
+    "EWAH--": {
+      "name": "AIR DEFENSE GUN HEAVY",
+      "hierarchy": "WAR.GRDTRK.EQT.WPN.ADFG.HVY",
+      "affiliation": "*"
+    },
+    "EV----": {
+      "name": "GROUND VEHICLE",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH",
+      "affiliation": "*"
+    },
+    "EVA---": {
+      "name": "ARMORED VEHICLE",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.ARMD",
+      "affiliation": "*"
+    },
+    "EVAT--": {
+      "name": "TANK",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.ARMD.TANK",
+      "affiliation": "*"
+    },
+    "EVATL-": {
+      "name": "TANK LIGHT",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.ARMD.TANK.LIT",
+      "affiliation": "*"
+    },
+    "EVATLR": {
+      "name": "TANK LIGHT RECOVERY",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.ARMD.TANK.LIT.RCY",
+      "affiliation": "*"
+    },
+    "EVATM-": {
+      "name": "TANK MEDIUM",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.ARMD.TANK.MDM",
+      "affiliation": "*"
+    },
+    "EVATMR": {
+      "name": "TANK MEDIUM RECOVERY",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.ARMD.TANK.MDM.RCY",
+      "affiliation": "*"
+    },
+    "EVATH-": {
+      "name": "TANK HEAVY",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.ARMD.TANK.HVY",
+      "affiliation": "*"
+    },
+    "EVATHR": {
+      "name": "TANK HEAVY RECOVERY",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.ARMD.TANK.HVY.RCY",
+      "affiliation": "*"
+    },
+    "EVAA--": {
+      "name": "ARMORED PERSONNEL CARRIER",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.ARMD.ARMPC",
+      "affiliation": "*"
+    },
+    "EVAAR-": {
+      "name": "ARMORED PERSONNEL CARRIER RECOVERY",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.ARMD.ARMPC.RCY",
+      "affiliation": "*"
+    },
+    "EVAI--": {
+      "name": "ARMORED INFANTRY",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.ARMD.ARMINF",
+      "affiliation": "*"
+    },
+    "EVAC--": {
+      "name": "C2V/ACV",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.ARMD.C2V",
+      "affiliation": "*"
+    },
+    "EVAS--": {
+      "name": "COMBAT SERVICE SUPPORT VEHICLE",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.ARMD.CSSVEH",
+      "affiliation": "*"
+    },
+    "EVAL--": {
+      "name": "LIGHT ARMORED VEHICLE",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.ARMD.LARMVH",
+      "affiliation": "*"
+    },
+    "EVU---": {
+      "name": "UTILITY VEHICLE",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.UTYVEH",
+      "affiliation": "*"
+    },
+    "EVUB--": {
+      "name": "BUS",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.UTYVEH.BUS",
+      "affiliation": "*"
+    },
+    "EVUS--": {
+      "name": "SEMI",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.UTYVEH.SEMI",
+      "affiliation": "*"
+    },
+    "EVUSL-": {
+      "name": "SEMI LIGHT",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.UTYVEH.SEMI.LIT",
+      "affiliation": "*"
+    },
+    "EVUSM-": {
+      "name": "SEMI MEDIUM",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.UTYVEH.SEMI.MDM",
+      "affiliation": "*"
+    },
+    "EVUSH-": {
+      "name": "SEMI HEAVY",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.UTYVEH.SEMI.HVY",
+      "affiliation": "*"
+    },
+    "EVUL--": {
+      "name": "LIMITED CROSS-COUNTRY TRUCK",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.UTYVEH.LCCTRK",
+      "affiliation": "*"
+    },
+    "EVUX--": {
+      "name": "CROSS-COUNTRY TRUCK",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.UTYVEH.CCTRK",
+      "affiliation": "*"
+    },
+    "EVUR--": {
+      "name": "WATER CRAFT",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.UTYVEH.H2OCRT",
+      "affiliation": "*"
+    },
+    "EVUT--": {
+      "name": "TOW TRUCK",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.UTYVEH.TOWTRK",
+      "affiliation": "*"
+    },
+    "EVUTL-": {
+      "name": "TOW TRUCK LIGHT",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.UTYVEH.TOWTRK.LIT",
+      "affiliation": "*"
+    },
+    "EVUTH-": {
+      "name": "TOW TRUCK HEAVY",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.UTYVEH.TOWTRK.HVY",
+      "affiliation": "*"
+    },
+    "EVUA--": {
+      "name": "AMBULANCE",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.UTYVEH.AMBLNC",
+      "affiliation": "*"
+    },
+    "EVUAA-": {
+      "name": "ARMORED AMBULANCE",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.UTYVEH.AMBLNC.ARMD",
+      "affiliation": "*"
+    },
+    "EVE---": {
+      "name": "ENGINEER VEHICLE",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.ENGVEH",
+      "affiliation": "*"
+    },
+    "EVEB--": {
+      "name": "BRIDGE",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.ENGVEH.BRG",
+      "affiliation": "*"
+    },
+    "EVEE--": {
+      "name": "EARTHMOVER",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.ENGVEH.ERHMR",
+      "affiliation": "*"
+    },
+    "EVEC--": {
+      "name": "CONSTRUCTION VEHICLE",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.ENGVEH.CSNVEH",
+      "affiliation": "*"
+    },
+    "EVEM--": {
+      "name": "MINE LAYING VEHICLE",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.ENGVEH.MLVEH",
+      "affiliation": "*"
+    },
+    "EVEMV-": {
+      "name": "ARMORED CARRIER WITH VOLCANO",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.ENGVEH.MLVEH.ARMCV",
+      "affiliation": "*"
+    },
+    "EVEML-": {
+      "name": "TRUCK MOUNTED WITH VOLCANO",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.ENGVEH.MLVEH.TRKMV",
+      "affiliation": "*"
+    },
+    "EVEA--": {
+      "name": "MINE CLEARING VEHICLE",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.ENGVEH.MCVEH",
+      "affiliation": "*"
+    },
+    "EVEAA-": {
+      "name": "ARMORED MOUNTED MINE CLEARING VEHICLE",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.ENGVEH.MCVEH.ARMVM",
+      "affiliation": "*"
+    },
+    "EVEAT-": {
+      "name": "TRAILER MOUNTED MINE CLEARING VEHICLE",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.ENGVEH.MCVEH.TM",
+      "affiliation": "*"
+    },
+    "EVED--": {
+      "name": "DOZER",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.ENGVEH.DZR",
+      "affiliation": "*"
+    },
+    "EVEDA-": {
+      "name": "ARMORED DOZER",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.ENGVEH.DZR.ARMD",
+      "affiliation": "*"
+    },
+    "EVES--": {
+      "name": "ARMORED ASSAULT",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.ENGVEH.AST",
+      "affiliation": "*"
+    },
+    "EVER--": {
+      "name": "ARMORED ENGINEER RECON VEHICLE (AERV)",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.ENGVEH.ARMERV",
+      "affiliation": "*"
+    },
+    "EVEH--": {
+      "name": "BACKHOE",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.ENGVEH.BH",
+      "affiliation": "*"
+    },
+    "EVEF--": {
+      "name": "FERRY TRANSPORTER",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.ENGVEH.FRYTSP",
+      "affiliation": "*"
+    },
+    "EVT---": {
+      "name": "TRAIN LOCOMOTIVE",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.TRNLCO",
+      "affiliation": "*"
+    },
+    "EVC---": {
+      "name": "CIVILIAN VEHICLE",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.CVLVEH",
+      "affiliation": "*"
+    },
+    "EVCA--": {
+      "name": "AUTOMOBILE",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.CVLVEH.AUT",
+      "affiliation": "*"
+    },
+    "EVCAL-": {
+      "name": "COMPACT AUTOMOBILE",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.CVLVEH.AUT.CPCT",
+      "affiliation": "*"
+    },
+    "EVCAM-": {
+      "name": "MIDSIZE AUTOMOBILE",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.CVLVEH.AUT.MDSZ",
+      "affiliation": "*"
+    },
+    "EVCAH-": {
+      "name": "SEDAN AUTOMOBILE",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.CVLVEH.AUT.SDN",
+      "affiliation": "*"
+    },
+    "EVCO--": {
+      "name": "OPEN-BED TRUCK",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.CVLVEH.OBTRK",
+      "affiliation": "*"
+    },
+    "EVCOL-": {
+      "name": "PICKUP OPEN-BED TRUCK",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.CVLVEH.OBTRK.PU",
+      "affiliation": "*"
+    },
+    "EVCOM-": {
+      "name": "SMALL OPEN-BED TRUCK",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.CVLVEH.OBTRK.SMAL",
+      "affiliation": "*"
+    },
+    "EVCOH-": {
+      "name": "LARGE OPEN-BED TRUCK",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.CVLVEH.OBTRK.LRG",
+      "affiliation": "*"
+    },
+    "EVCM--": {
+      "name": "MULTI-PASSENGER VEHICLE",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.CVLVEH.MPV",
+      "affiliation": "*"
+    },
+    "EVCML-": {
+      "name": "VAN MULTI-PASSENGER VEHICLE",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.CVLVEH.MPV.VAN",
+      "affiliation": "*"
+    },
+    "EVCMM-": {
+      "name": "SMALL BUS MULTI-PASSENGER VEHICLE",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.CVLVEH.MPV.SBUS",
+      "affiliation": "*"
+    },
+    "EVCMH-": {
+      "name": "LARGE BUS MULTI-PASSENGER VEHICLE",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.CVLVEH.MPV.LBUS",
+      "affiliation": "*"
+    },
+    "EVCU--": {
+      "name": "UTILITY VEHICLE",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.CVLVEH.UTYVEH",
+      "affiliation": "*"
+    },
+    "EVCUL-": {
+      "name": "SPORT UTILITY VEHICLE (SUV), UTILITY VEHICLE",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.CVLVEH.UTYVEH.SUV",
+      "affiliation": "*"
+    },
+    "EVCUM-": {
+      "name": "SMALL BOX TRUCK, UTILITY VEHICLE",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.CVLVEH.UTYVEH.SBOX",
+      "affiliation": "*"
+    },
+    "EVCUH-": {
+      "name": "LARGE BOX TRUCK, UTILITY VEHICLE",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.CVLVEH.UTYVEH.LBOX",
+      "affiliation": "*"
+    },
+    "EVCJ--": {
+      "name": "JEEP TYPE VEHICLE",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.CVLVEH.JP",
+      "affiliation": "*"
+    },
+    "EVCJL-": {
+      "name": "SMALL/LIGHT JEEP TYPE VEHICLE",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.CVLVEH.JP.SMAL",
+      "affiliation": "*"
+    },
+    "EVCJM-": {
+      "name": "MEDIUM JEEP TYPE VEHICLE",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.CVLVEH.JP.MDM",
+      "affiliation": "*"
+    },
+    "EVCJH-": {
+      "name": "LARGE/HEAVY JEEP TYPE VEHICLE",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.CVLVEH.JP.LRG",
+      "affiliation": "*"
+    },
+    "EVCT--": {
+      "name": "TRACTOR TRAILER TRUCK WITH BOX TRAILER",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.CVLVEH.TRTRL",
+      "affiliation": "*"
+    },
+    "EVCTL-": {
+      "name": "SMALL/LIGHT BOX TRAILER, TRACTOR TRAILER TRUCK",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.CVLVEH.TRTRL.SMAL",
+      "affiliation": "*"
+    },
+    "EVCTM-": {
+      "name": "MEDIUM BOX TRAILER, TRACTOR TRAILER TRUCK",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.CVLVEH.TRTRL.MDM",
+      "affiliation": "*"
+    },
+    "EVCTH-": {
+      "name": "LARGE/HEAVY BOX TRAILER, TRACTOR TRAILER TRUCK",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.CVLVEH.TRTRL.LRG",
+      "affiliation": "*"
+    },
+    "EVCF--": {
+      "name": "TRACTOR TRAILER TRUCK WITH FLATBED TRAILER",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.CVLVEH.TRTRLF",
+      "affiliation": "*"
+    },
+    "EVCFL-": {
+      "name": "SMALL/LIGHT FLATBED TRAILER, TRACTOR TRAILER TRUCK",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.CVLVEH.TRTRLF.SMAL",
+      "affiliation": "*"
+    },
+    "EVCFM-": {
+      "name": "MEDIUM FLATBED TRAILER, TRACTOR TRAILER TRUCK",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.CVLVEH.TRTRLF.MDM",
+      "affiliation": "*"
+    },
+    "EVCFH-": {
+      "name": "LARGE/HEAVY FLATBED TRAILER, TRACTOR TRAILER TRUCK",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.CVLVEH.TRTRLF.LRG",
+      "affiliation": "*"
+    },
+    "EVM---": {
+      "name": "PACK ANIMAL(S)",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.PKAN",
+      "affiliation": "*"
+    },
+    "EVS---": {
+      "name": "MISSILE SUPPORT VEHICLE",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.MSLSPT",
+      "affiliation": "*"
+    },
+    "EVST--": {
+      "name": "MISSILE SUPPORT VEHICLE TRANSLOADER",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.MSLSPT.TLDR",
+      "affiliation": "*"
+    },
+    "EVSR--": {
+      "name": "MISSILE SUPPORT VEHICLE TRANSPORTER",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.MSLSPT.TPTR",
+      "affiliation": "*"
+    },
+    "EVSC--": {
+      "name": "MISSILE SUPPORT VEHICLE CRANE/LOADING DEVICE",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.MSLSPT.CRN",
+      "affiliation": "*"
+    },
+    "EVSP--": {
+      "name": "MISSILE SUPPORT VEHICLE PROPELLANT TRANSPORTER",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.MSLSPT.PLNT",
+      "affiliation": "*"
+    },
+    "EVSW--": {
+      "name": "MISSILE SUPPORT VEHICLE WARHEAD TRANSPORTER",
+      "hierarchy": "WAR.GRDTRK.EQT.GRDVEH.MSLSPT.WH",
+      "affiliation": "*"
+    },
+    "ES----": {
+      "name": "SENSOR",
+      "hierarchy": "WAR.GRDTRK.EQT.SNS",
+      "affiliation": "*"
+    },
+    "ESR---": {
+      "name": "RADAR",
+      "hierarchy": "WAR.GRDTRK.EQT.SNS.RAD",
+      "affiliation": "*"
+    },
+    "ESE---": {
+      "name": "EMPLACED SENSOR",
+      "hierarchy": "WAR.GRDTRK.EQT.SNS.EMP",
+      "affiliation": "*"
+    },
+    "EX----": {
+      "name": "SPECIAL EQUIPMENT",
+      "hierarchy": "WAR.GRDTRK.EQT.SPL",
+      "affiliation": "*"
+    },
+    "EXL---": {
+      "name": "LASER",
+      "hierarchy": "WAR.GRDTRK.EQT.SPL.LSR",
+      "affiliation": "*"
+    },
+    "EXN---": {
+      "name": "NBC EQUIPMENT",
+      "hierarchy": "WAR.GRDTRK.EQT.SPL.NBCEQT",
+      "affiliation": "*"
+    },
+    "EXF---": {
+      "name": "FLAME THROWER",
+      "hierarchy": "WAR.GRDTRK.EQT.SPL.FLMTHR",
+      "affiliation": "*"
+    },
+    "EXM---": {
+      "name": "LAND MINES",
+      "hierarchy": "WAR.GRDTRK.EQT.SPL.LNDMNE",
+      "affiliation": "*"
+    },
+    "EXMC--": {
+      "name": "CLAYMORE",
+      "hierarchy": "WAR.GRDTRK.EQT.SPL.LNDMNE.CLM",
+      "affiliation": "*"
+    },
+    "EXML--": {
+      "name": "LESS THAN LETHAL",
+      "hierarchy": "WAR.GRDTRK.EQT.SPL.LNDMNE.LTL",
+      "affiliation": "*"
+    },
+    "I-----": {
+      "name": "INSTALLATION",
+      "hierarchy": "WAR.GRDTRK.INS",
+      "affiliation": "*"
+    },
+    "IR----": {
+      "name": "RAW MATERIAL PRODUCTION/STORAGE",
+      "hierarchy": "WAR.GRDTRK.INS.RMP",
+      "affiliation": "*"
+    },
+    "IRM---": {
+      "name": "MINE",
+      "hierarchy": "WAR.GRDTRK.INS.RMP.MNE",
+      "affiliation": "*"
+    },
+    "IRP---": {
+      "name": "PETROLEUM/GAS/OIL",
+      "hierarchy": "WAR.GRDTRK.INS.RMP.PGO",
+      "affiliation": "*"
+    },
+    "IRN---": {
+      "name": "NBC",
+      "hierarchy": "WAR.GRDTRK.INS.RMP.NBC",
+      "affiliation": "*"
+    },
+    "IRNB--": {
+      "name": "BIOLOGICAL",
+      "hierarchy": "WAR.GRDTRK.INS.RMP.NBC.BIO",
+      "affiliation": "*"
+    },
+    "IRNC--": {
+      "name": "CHEMICAL",
+      "hierarchy": "WAR.GRDTRK.INS.RMP.NBC.CML",
+      "affiliation": "*"
+    },
+    "IRNN--": {
+      "name": "NUCLEAR",
+      "hierarchy": "WAR.GRDTRK.INS.RMP.NBC.NUC",
+      "affiliation": "*"
+    },
+    "IP----": {
+      "name": "PROCESSING FACILITY",
+      "hierarchy": "WAR.GRDTRK.INS.PF",
+      "affiliation": "*"
+    },
+    "IPD---": {
+      "name": "DECONTAMINATION",
+      "hierarchy": "WAR.GRDTRK.INS.PF.DECON",
+      "affiliation": "*"
+    },
+    "IE----": {
+      "name": "EQUIPMENT MANUFACTURE",
+      "hierarchy": "WAR.GRDTRK.INS.EQTMNF",
+      "affiliation": "*"
+    },
+    "IU----": {
+      "name": "SERVICE, RESEARCH, UTILITY FACILITY",
+      "hierarchy": "WAR.GRDTRK.INS.SRUF",
+      "affiliation": "*"
+    },
+    "IUR---": {
+      "name": "TECHNOLOGICAL RESEARCH FACILITY",
+      "hierarchy": "WAR.GRDTRK.INS.SRUF.TRF",
+      "affiliation": "*"
+    },
+    "IUT---": {
+      "name": "TELECOMMUNICATIONS FACILITY",
+      "hierarchy": "WAR.GRDTRK.INS.SRUF.TCF",
+      "affiliation": "*"
+    },
+    "IUE---": {
+      "name": "ELECTRIC POWER FACILITY",
+      "hierarchy": "WAR.GRDTRK.INS.SRUF.EPF",
+      "affiliation": "*"
+    },
+    "IUEN--": {
+      "name": "NUCLEAR PLANT",
+      "hierarchy": "WAR.GRDTRK.INS.SRUF.EPF.NPT",
+      "affiliation": "*"
+    },
+    "IUED--": {
+      "name": "DAM",
+      "hierarchy": "WAR.GRDTRK.INS.SRUF.EPF.DAM",
+      "affiliation": "*"
+    },
+    "IUEF--": {
+      "name": "FOSSIL FUEL",
+      "hierarchy": "WAR.GRDTRK.INS.SRUF.EPF.FOSF",
+      "affiliation": "*"
+    },
+    "IUP---": {
+      "name": "PUBLIC WATER SERVICES",
+      "hierarchy": "WAR.GRDTRK.INS.SRUF.PWS",
+      "affiliation": "*"
+    },
+    "IM----": {
+      "name": "MILITARY MATERIEL FACILITY",
+      "hierarchy": "WAR.GRDTRK.INS.MMF",
+      "affiliation": "*"
+    },
+    "IMF---": {
+      "name": "NUCLEAR ENERGY",
+      "hierarchy": "WAR.GRDTRK.INS.MMF.NENY",
+      "affiliation": "*"
+    },
+    "IMFA--": {
+      "name": "ATOMIC ENERGY REACTOR",
+      "hierarchy": "WAR.GRDTRK.INS.MMF.NENY.ATMER",
+      "affiliation": "*"
+    },
+    "IMFP--": {
+      "name": "NUCLEAR MATERIAL PRODUCTION",
+      "hierarchy": "WAR.GRDTRK.INS.MMF.NENY.NMP",
+      "affiliation": "*"
+    },
+    "IMFPW-": {
+      "name": "WEAPONS GRADE",
+      "hierarchy": "WAR.GRDTRK.INS.MMF.NENY.NMP.WPNGR",
+      "affiliation": "*"
+    },
+    "IMFS--": {
+      "name": "NUCLEAR MATERIAL STORAGE",
+      "hierarchy": "WAR.GRDTRK.INS.MMF.NENY.NMS",
+      "affiliation": "*"
+    },
+    "IMA---": {
+      "name": "AIRCRAFT PRODUCTION & ASSEMBLY",
+      "hierarchy": "WAR.GRDTRK.INS.MMF.APA",
+      "affiliation": "*"
+    },
+    "IME---": {
+      "name": "AMMUNITION AND EXPLOSIVES PRODUCTION",
+      "hierarchy": "WAR.GRDTRK.INS.MMF.AMEP",
+      "affiliation": "*"
+    },
+    "IMG---": {
+      "name": "ARMAMENT PRODUCTION",
+      "hierarchy": "WAR.GRDTRK.INS.MMF.AMTP",
+      "affiliation": "*"
+    },
+    "IMV---": {
+      "name": "MILITARY VEHICLE PRODUCTION",
+      "hierarchy": "WAR.GRDTRK.INS.MMF.MILVP",
+      "affiliation": "*"
+    },
+    "IMN---": {
+      "name": "ENGINEERING EQUIPMENT PRODUCTION",
+      "hierarchy": "WAR.GRDTRK.INS.MMF.ENGEP",
+      "affiliation": "*"
+    },
+    "IMNB--": {
+      "name": "BRIDGE",
+      "hierarchy": "WAR.GRDTRK.INS.MMF.ENGEP.BRG",
+      "affiliation": "*"
+    },
+    "IMC---": {
+      "name": "CHEMICAL & BIOLOGICAL WARFARE PRODUCTION",
+      "hierarchy": "WAR.GRDTRK.INS.MMF.CBWP",
+      "affiliation": "*"
+    },
+    "IMS---": {
+      "name": "SHIP CONSTRUCTION",
+      "hierarchy": "WAR.GRDTRK.INS.MMF.SHPCSN",
+      "affiliation": "*"
+    },
+    "IMM---": {
+      "name": "MISSILE & SPACE SYSTEM PRODUCTION",
+      "hierarchy": "WAR.GRDTRK.INS.MMF.MSSP",
+      "affiliation": "*"
+    },
+    "IG----": {
+      "name": "GOVERNMENT LEADERSHIP",
+      "hierarchy": "WAR.GRDTRK.INS.GOVLDR",
+      "affiliation": "*"
+    },
+    "IB----": {
+      "name": "MILITARY BASE/FACILITY",
+      "hierarchy": "WAR.GRDTRK.INS.MILBF",
+      "affiliation": "*"
+    },
+    "IBA---": {
+      "name": "AIRPORT/AIRBASE",
+      "hierarchy": "WAR.GRDTRK.INS.MILBF.AB",
+      "affiliation": "*"
+    },
+    "IBN---": {
+      "name": "SEAPORT/NAVAL BASE",
+      "hierarchy": "WAR.GRDTRK.INS.MILBF.SP",
+      "affiliation": "*"
+    },
+    "IT----": {
+      "name": "TRANSPORT FACILITY",
+      "hierarchy": "WAR.GRDTRK.INS.TSPF",
+      "affiliation": "*"
+    },
+    "IX----": {
+      "name": "MEDICAL FACILITY",
+      "hierarchy": "WAR.GRDTRK.INS.MEDF",
+      "affiliation": "*"
+    },
+    "IXH---": {
+      "name": "HOSPITAL",
+      "hierarchy": "WAR.GRDTRK.INS.MEDF.HSP",
+      "affiliation": "*"
+    },
+    "S-----": {
+      "name": "SPECIAL",
+      "hierarchy": "TACGRP.C2GM.SPL",
+      "affiliation": "*"
+    },
+    "SC----": {
+      "name": "COMMUNICATIONS",
+      "hierarchy": "SIGINT.GRDTRK.SIGINC.COMM",
+      "affiliation": "*"
+    },
+    "SCC---": {
+      "name": "CELLULAR/MOBILE",
+      "hierarchy": "SIGINT.GRDTRK.SIGINC.COMM.CELL",
+      "affiliation": "*"
+    },
+    "SCO---": {
+      "name": "OMNI-LINE-OF-SIGHT (LOS)",
+      "hierarchy": "SIGINT.GRDTRK.SIGINC.COMM.OLOS",
+      "affiliation": "*"
+    },
+    "SCP---": {
+      "name": "POINT-TO-POINT LINE-OF-SIGHT (LOS)",
+      "hierarchy": "SIGINT.GRDTRK.SIGINC.COMM.PTPLOS",
+      "affiliation": "*"
+    },
+    "SCS---": {
+      "name": "SATELLITE UP-LINK",
+      "hierarchy": "SIGINT.GRDTRK.SIGINC.COMM.SATUL",
+      "affiliation": "*"
+    },
+    "SCT---": {
+      "name": "TROPOSPHERIC SCATTER",
+      "hierarchy": "SIGINT.GRDTRK.SIGINC.COMM.TPSSCT",
+      "affiliation": "*"
+    },
+    "SR----": {
+      "name": "RADAR",
+      "hierarchy": "SIGINT.GRDTRK.SIGINC.RAD",
+      "affiliation": "*"
+    },
+    "SRAT--": {
+      "name": "AIR TRAFFIC CONTROL",
+      "hierarchy": "SIGINT.GRDTRK.SIGINC.RAD.ATCTL",
+      "affiliation": "*"
+    },
+    "SRAA--": {
+      "name": "ANTI-AIRCRAFT",
+      "hierarchy": "SIGINT.GRDTRK.SIGINC.RAD.AA/C",
+      "affiliation": "*"
+    },
+    "SRB---": {
+      "name": "BATTLEFIELD SURVEILLANCE",
+      "hierarchy": "SIGINT.GRDTRK.SIGINC.RAD.BTFSVL",
+      "affiliation": "*"
+    },
+    "SRCS--": {
+      "name": "COASTAL SURVEILLANCE",
+      "hierarchy": "SIGINT.GRDTRK.SIGINC.RAD.CSTSVL",
+      "affiliation": "*"
+    },
+    "SRCA--": {
+      "name": "CONTROLLED APPROACH",
+      "hierarchy": "SIGINT.GRDTRK.SIGINC.RAD.CTDAPP",
+      "affiliation": "*"
+    },
+    "SRD---": {
+      "name": "DATA TRANSMISSION",
+      "hierarchy": "SIGINT.GRDTRK.SIGINC.RAD.DATTMN",
+      "affiliation": "*"
+    },
+    "SRE---": {
+      "name": "EARLY WARNING",
+      "hierarchy": "SIGINT.GRDTRK.SIGINC.RAD.EW",
+      "affiliation": "*"
+    },
+    "SRF---": {
+      "name": "FIRE CONTROL",
+      "hierarchy": "SIGINT.GRDTRK.SIGINC.RAD.FIRCTL",
+      "affiliation": "*"
+    },
+    "SRH---": {
+      "name": "HEIGHT FINDING",
+      "hierarchy": "SIGINT.GRDTRK.SIGINC.RAD.HGTFDG",
+      "affiliation": "*"
+    },
+    "SRI---": {
+      "name": "IDENTIFICATION FRIEND/FOE (INTERROGATOR)",
+      "hierarchy": "SIGINT.GRDTRK.SIGINC.RAD.IDFF",
+      "affiliation": "*"
+    },
+    "SRMM--": {
+      "name": "METEOROLOGICAL (MILITARY)",
+      "hierarchy": "SIGINT.GRDTRK.SIGINC.RAD.METO",
+      "affiliation": "*"
+    },
+    "SRMA--": {
+      "name": "MISSILE ACQUISITION",
+      "hierarchy": "SIGINT.GRDTRK.SIGINC.RAD.MSLAQ",
+      "affiliation": "*"
+    },
+    "SRMG--": {
+      "name": "MISSILE GUIDANCE",
+      "hierarchy": "SIGINT.GRDTRK.SIGINC.RAD.MSLGDN",
+      "affiliation": "*"
+    },
+    "SRMT--": {
+      "name": "MISSILE TRACKING",
+      "hierarchy": "SIGINT.GRDTRK.SIGINC.RAD.MSLTRK",
+      "affiliation": "*"
+    },
+    "SRMF--": {
+      "name": "MULTI-FUNCTION",
+      "hierarchy": "SIGINT.GRDTRK.SIGINC.RAD.MFN",
+      "affiliation": "*"
+    },
+    "SRS---": {
+      "name": "SHELL TRACKING",
+      "hierarchy": "SIGINT.GRDTRK.SIGINC.RAD.SHETKG",
+      "affiliation": "*"
+    },
+    "SRTA--": {
+      "name": "TARGET ACQUISITION",
+      "hierarchy": "SIGINT.GRDTRK.SIGINC.RAD.TGTAQ",
+      "affiliation": "*"
+    },
+    "SRTI--": {
+      "name": "TARGET ILLUMINATOR",
+      "hierarchy": "SIGINT.GRDTRK.SIGINC.RAD.TGTILL",
+      "affiliation": "*"
+    },
+    "SRTT--": {
+      "name": "TARGET TRACKING",
+      "hierarchy": "SIGINT.GRDTRK.SIGINC.RAD.TGTTRK",
+      "affiliation": "*"
+    },
+    "SRU---": {
+      "name": "UNKNOWN",
+      "hierarchy": "SIGINT.GRDTRK.SIGINC.RAD.UNK",
+      "affiliation": "*"
+    },
+    "G-----": {
+      "name": "GENERAL",
+      "hierarchy": "TACGRP.C2GM.GNL",
+      "affiliation": "*"
+    },
+    "GP----": {
+      "name": "POINTS",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT",
+      "affiliation": "*"
+    },
+    "GPU---": {
+      "name": "UNDER SEA WARFARE",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.USW",
+      "affiliation": "*"
+    },
+    "GPUU--": {
+      "name": "UNDERWATER",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.USW.UH2",
+      "affiliation": "*"
+    },
+    "GPUUD-": {
+      "name": "DATUM",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.USW.UH2.DTM",
+      "affiliation": "*"
+    },
+    "GPUUB-": {
+      "name": "BRIEF CONTACT",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.USW.UH2.BCON",
+      "affiliation": "*"
+    },
+    "GPUUL-": {
+      "name": "LOST CONTACT",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.USW.UH2.LCON",
+      "affiliation": "*"
+    },
+    "GPUUS-": {
+      "name": "SINKER",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.USW.UH2.SNK",
+      "affiliation": "*"
+    },
+    "GPUY--": {
+      "name": "SONOBUOY",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.USW.SNBY",
+      "affiliation": "*"
+    },
+    "GPUYP-": {
+      "name": "PATTERN CENTER",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.USW.SNBY.PTNCTR",
+      "affiliation": "*"
+    },
+    "GPUYD-": {
+      "name": "DIRECTIONAL FREQUENCY ANALYZING AND RECORDING (DIFAR)",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.USW.SNBY.DIFAR",
+      "affiliation": "*"
+    },
+    "GPUYL-": {
+      "name": "LOW FREQUENCY ANALYZING AND RECORDING (LOFAR)",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.USW.SNBY.LOFAR",
+      "affiliation": "*"
+    },
+    "GPUYC-": {
+      "name": "COMMAND ACTIVE SONOBUOY SYSTEM (CASS)",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.USW.SNBY.CASS",
+      "affiliation": "*"
+    },
+    "GPUYS-": {
+      "name": "DIRECTIONAL COMMAND ACTIVE SONOBUOY SYSTEM (DICASS)",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.USW.SNBY.DICASS",
+      "affiliation": "*"
+    },
+    "GPUYB-": {
+      "name": "BATHYTHERMOGRAPH TRANSMITTING (BT)",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.USW.SNBY.BT",
+      "affiliation": "*"
+    },
+    "GPUYA-": {
+      "name": "ANM",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.USW.SNBY.ANM",
+      "affiliation": "*"
+    },
+    "GPUYV-": {
+      "name": "VERTICAL LINE ARRAY DIFAR (VLAD)",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.USW.SNBY.VLAD",
+      "affiliation": "*"
+    },
+    "GPUYT-": {
+      "name": "ATAC",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.USW.SNBY.ATAC",
+      "affiliation": "*"
+    },
+    "GPUYR-": {
+      "name": "RANGE ONLY (RO)",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.USW.SNBY.RO",
+      "affiliation": "*"
+    },
+    "GPUYK-": {
+      "name": "KINGPIN",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.USW.SNBY.KGP",
+      "affiliation": "*"
+    },
+    "GPUS--": {
+      "name": "SEARCH",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.USW.SRH",
+      "affiliation": "*"
+    },
+    "GPUSA-": {
+      "name": "SEARCH AREA",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.USW.SRH.ARA",
+      "affiliation": "*"
+    },
+    "GPUSD-": {
+      "name": "DIP POSITION",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.USW.SRH.DIPPSN",
+      "affiliation": "*"
+    },
+    "GPUSC-": {
+      "name": "SEARCH CENTER",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.USW.SRH.CTR",
+      "affiliation": "*"
+    },
+    "GPR---": {
+      "name": "REFERENCE POINT",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.REFPNT",
+      "affiliation": "*"
+    },
+    "GPRS--": {
+      "name": "SPECIAL POINT",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.REFPNT.SPLPNT",
+      "affiliation": "*"
+    },
+    "GPRN--": {
+      "name": "NAV REFERENCE",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.REFPNT.NAVREF",
+      "affiliation": "*"
+    },
+    "GPRD--": {
+      "name": "DLRP",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.REFPNT.DLRP",
+      "affiliation": "*"
+    },
+    "GPRI--": {
+      "name": "POINT OF INTEREST",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.REFPNT.PNTINR",
+      "affiliation": "*"
+    },
+    "GPW---": {
+      "name": "WEAPON",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.WPN",
+      "affiliation": "*"
+    },
+    "GPWA--": {
+      "name": "AIM POINT",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.WPN.AIMPNT",
+      "affiliation": "*"
+    },
+    "GPWD--": {
+      "name": "DROP POINT",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.WPN.DRPPNT",
+      "affiliation": "*"
+    },
+    "GPWE--": {
+      "name": "ENTRY POINT",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.WPN.ENTPNT",
+      "affiliation": "*"
+    },
+    "GPWG--": {
+      "name": "GROUND ZERO",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.WPN.GRDZRO",
+      "affiliation": "*"
+    },
+    "GPWM--": {
+      "name": "MSL DETECT POINT",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.WPN.MSLPNT",
+      "affiliation": "*"
+    },
+    "GPWI--": {
+      "name": "IMPACT POINT",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.WPN.IMTPNT",
+      "affiliation": "*"
+    },
+    "GPWP--": {
+      "name": "PREDICTED IMPACT POINT",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.WPN.PIPNT",
+      "affiliation": "*"
+    },
+    "GPF---": {
+      "name": "FORMATION",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.FRMN",
+      "affiliation": "*"
+    },
+    "GPH---": {
+      "name": "HARBOR (GENERAL)",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.HBR",
+      "affiliation": "*"
+    },
+    "GPHQ--": {
+      "name": "POINT Q",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.HBR.PNTQ",
+      "affiliation": "*"
+    },
+    "GPHA--": {
+      "name": "POINT A",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.HBR.PNTA",
+      "affiliation": "*"
+    },
+    "GPHY--": {
+      "name": "POINT Y",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.HBR.PNTY",
+      "affiliation": "*"
+    },
+    "GPHX--": {
+      "name": "POINT X",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.HBR.PNTX",
+      "affiliation": "*"
+    },
+    "GPO---": {
+      "name": "ROUTE",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.RTE",
+      "affiliation": "*"
+    },
+    "GPOZ--": {
+      "name": "RENDEZVOUS",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.RTE.RDV",
+      "affiliation": "*"
+    },
+    "GPOD--": {
+      "name": "DIVERSIONS",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.RTE.DVSN",
+      "affiliation": "*"
+    },
+    "GPOW--": {
+      "name": "WAYPOINT",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.RTE.WAP",
+      "affiliation": "*"
+    },
+    "GPOP--": {
+      "name": "PIM",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.RTE.PIM",
+      "affiliation": "*"
+    },
+    "GPOR--": {
+      "name": "POINT R",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.RTE.PNTR",
+      "affiliation": "*"
+    },
+    "GPA---": {
+      "name": "AIR CONTROL",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.ACTL",
+      "affiliation": "*"
+    },
+    "GPAP--": {
+      "name": "COMBAT AIR PATROL (CAP)",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.ACTL.CAP",
+      "affiliation": "*"
+    },
+    "GPAW--": {
+      "name": "AIRBORNE EARLY WARNING (AEW)",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.ACTL.ABNEW",
+      "affiliation": "*"
+    },
+    "GPAT--": {
+      "name": "TACAN",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.ACTL.TCN",
+      "affiliation": "*"
+    },
+    "GPAK--": {
+      "name": "TANKING",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.ACTL.TAK",
+      "affiliation": "*"
+    },
+    "GPAA--": {
+      "name": "ANTISUBMARINE WARFARE, FIXED WING",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.ACTL.ASBWF",
+      "affiliation": "*"
+    },
+    "GPAH--": {
+      "name": "ANTISUBMARINE WARFARE, ROTARY WING",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.ACTL.ASBWR",
+      "affiliation": "*"
+    },
+    "GPAO--": {
+      "name": "TOMCAT",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.ACTL.TMC",
+      "affiliation": "*"
+    },
+    "GPAR--": {
+      "name": "RESCUE",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.ACTL.RSC",
+      "affiliation": "*"
+    },
+    "GPAL--": {
+      "name": "REPLENISH",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.ACTL.RPH",
+      "affiliation": "*"
+    },
+    "GPAM--": {
+      "name": "MARSHALL",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.ACTL.MRSH",
+      "affiliation": "*"
+    },
+    "GPAS--": {
+      "name": "STRIKE IP",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.ACTL.SKEIP",
+      "affiliation": "*"
+    },
+    "GPAC--": {
+      "name": "CORRIDOR TAB",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.ACTL.CRDRTB",
+      "affiliation": "*"
+    },
+    "GPP---": {
+      "name": "ACTION POINTS (GENERAL)",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.ACTPNT",
+      "affiliation": "*"
+    },
+    "GPPK--": {
+      "name": "CHECK POINT",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.ACTPNT.CHKPNT",
+      "affiliation": "*"
+    },
+    "GPPC--": {
+      "name": "CONTACT POINT",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.ACTPNT.CONPNT",
+      "affiliation": "*"
+    },
+    "GPPO--": {
+      "name": "COORDINATION POINT",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.ACTPNT.CRDPNT",
+      "affiliation": "*"
+    },
+    "GPPD--": {
+      "name": "DECISION POINT",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.ACTPNT.DCNPNT",
+      "affiliation": "*"
+    },
+    "GPPL--": {
+      "name": "LINKUP POINT",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.ACTPNT.LNKUPT",
+      "affiliation": "*"
+    },
+    "GPPP--": {
+      "name": "PASSAGE POINT",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.ACTPNT.PSSPNT",
+      "affiliation": "*"
+    },
+    "GPPR--": {
+      "name": "RALLY POINT",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.ACTPNT.RAYPNT",
+      "affiliation": "*"
+    },
+    "GPPE--": {
+      "name": "RELEASE POINT",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.ACTPNT.RELPNT",
+      "affiliation": "*"
+    },
+    "GPPS--": {
+      "name": "START POINT",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.ACTPNT.STRPNT",
+      "affiliation": "*"
+    },
+    "GPPA--": {
+      "name": "AMNESTY POINT",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.ACTPNT.AMNPNT",
+      "affiliation": "*"
+    },
+    "GPPW--": {
+      "name": "WAYPOINT",
+      "hierarchy": "TACGRP.C2GM.GNL.PNT.ACTPNT.WAP",
+      "affiliation": "*"
+    },
+    "GL----": {
+      "name": "LINES",
+      "hierarchy": "TACGRP.C2GM.GNL.LNE",
+      "affiliation": "*"
+    },
+    "GLB---": {
+      "name": "BOUNDARIES",
+      "hierarchy": "TACGRP.C2GM.GNL.LNE.BNDS",
+      "affiliation": "*"
+    },
+    "GLF---": {
+      "name": "FORWARD LINE OF OWN TROOPS (FLOT)",
+      "hierarchy": "TACGRP.C2GM.GNL.LNE.FLOT",
+      "affiliation": "*"
+    },
+    "GLC---": {
+      "name": "LINE OF CONTACT",
+      "hierarchy": "TACGRP.C2GM.GNL.LNE.LOC",
+      "affiliation": "*"
+    },
+    "GLP---": {
+      "name": "PHASE LINE",
+      "hierarchy": "TACGRP.C2GM.GNL.LNE.PHELNE",
+      "affiliation": "*"
+    },
+    "GLL---": {
+      "name": "LIGHT LINE",
+      "hierarchy": "TACGRP.C2GM.GNL.LNE.LITLNE",
+      "affiliation": "*"
+    },
+    "GA----": {
+      "name": "AREAS",
+      "hierarchy": "TACGRP.C2GM.GNL.ARS",
+      "affiliation": "*"
+    },
+    "GAG---": {
+      "name": "GENERAL AREA",
+      "hierarchy": "TACGRP.C2GM.GNL.ARS.GENARA",
+      "affiliation": "*"
+    },
+    "GAA---": {
+      "name": "ASSEMBLY AREA",
+      "hierarchy": "TACGRP.C2GM.GNL.ARS.ABYARA",
+      "affiliation": "*"
+    },
+    "GAE---": {
+      "name": "ENGAGEMENT AREA",
+      "hierarchy": "TACGRP.C2GM.GNL.ARS.EMTARA",
+      "affiliation": "*"
+    },
+    "GAF---": {
+      "name": "FORTIFIED AREA",
+      "hierarchy": "TACGRP.C2GM.GNL.ARS.FTFDAR",
+      "affiliation": "*"
+    },
+    "GAD---": {
+      "name": "DROP ZONE",
+      "hierarchy": "TACGRP.C2GM.GNL.ARS.DRPZ",
+      "affiliation": "*"
+    },
+    "GAX---": {
+      "name": "EXTRACTION ZONE (EZ)",
+      "hierarchy": "TACGRP.C2GM.GNL.ARS.EZ",
+      "affiliation": "*"
+    },
+    "GAL---": {
+      "name": "LANDING ZONE (LZ)",
+      "hierarchy": "TACGRP.C2GM.GNL.ARS.LZ",
+      "affiliation": "*"
+    },
+    "GAP---": {
+      "name": "PICKUP ZONE (PZ)",
+      "hierarchy": "TACGRP.C2GM.GNL.ARS.PZ",
+      "affiliation": "*"
+    },
+    "GAS---": {
+      "name": "SEARCH AREA/RECONNAISSANCE AREA",
+      "hierarchy": "TACGRP.C2GM.GNL.ARS.SRHARA",
+      "affiliation": "*"
+    },
+    "GAY---": {
+      "name": "LIMITED ACCESS AREA",
+      "hierarchy": "TACGRP.C2GM.GNL.ARS.LAARA",
+      "affiliation": "*"
+    },
+    "GAZ---": {
+      "name": "AIRFIELD ZONE",
+      "hierarchy": "TACGRP.C2GM.GNL.ARS.AIRFZ",
+      "affiliation": "*"
+    },
+    "A-----": {
+      "name": "AVIATION",
+      "hierarchy": "TACGRP.C2GM.AVN",
+      "affiliation": "*"
+    },
+    "AP----": {
+      "name": "POINTS",
+      "hierarchy": "TACGRP.C2GM.AVN.PNT",
+      "affiliation": "*"
+    },
+    "APP---": {
+      "name": "AIR CONTROL POINT (ACP)",
+      "hierarchy": "TACGRP.C2GM.AVN.PNT.ACP",
+      "affiliation": "*"
+    },
+    "APC---": {
+      "name": "COMMUNICATIONS CHECKPOINT (CCP)",
+      "hierarchy": "TACGRP.C2GM.AVN.PNT.COMMCP",
+      "affiliation": "*"
+    },
+    "APU---": {
+      "name": "PULL-UP POINT (PUP)",
+      "hierarchy": "TACGRP.C2GM.AVN.PNT.PUP",
+      "affiliation": "*"
+    },
+    "APD---": {
+      "name": "DOWNED AIRCREW PICKUP POINT",
+      "hierarchy": "TACGRP.C2GM.AVN.PNT.DAPP",
+      "affiliation": "*"
+    },
+    "AL----": {
+      "name": "LINES",
+      "hierarchy": "TACGRP.C2GM.AVN.LNE",
+      "affiliation": "*"
+    },
+    "ALC---": {
+      "name": "AIR CORRIDOR",
+      "hierarchy": "TACGRP.C2GM.AVN.LNE.ACDR",
+      "affiliation": "*"
+    },
+    "ALM---": {
+      "name": "MINIMUM RISK ROUTE (MRR)",
+      "hierarchy": "TACGRP.C2GM.AVN.LNE.MRR",
+      "affiliation": "*"
+    },
+    "ALS---": {
+      "name": "STANDARD-USE ARMY AIRCRAFT FLIGHT ROUTE (SAAFR)",
+      "hierarchy": "TACGRP.C2GM.AVN.LNE.SAAFR",
+      "affiliation": "*"
+    },
+    "ALU---": {
+      "name": "UNMANNED AERIAL VEHICLE (UAV) ROUTE",
+      "hierarchy": "TACGRP.C2GM.AVN.LNE.UAVR",
+      "affiliation": "*"
+    },
+    "ALL---": {
+      "name": "LOW LEVEL TRANSIT ROUTE (LLTR)",
+      "hierarchy": "TACGRP.C2GM.AVN.LNE.LLTR",
+      "affiliation": "*"
+    },
+    "AA----": {
+      "name": "AREAS",
+      "hierarchy": "TACGRP.C2GM.AVN.ARS",
+      "affiliation": "*"
+    },
+    "AAR---": {
+      "name": "RESTRICTED OPERATIONS ZONE (ROZ)",
+      "hierarchy": "TACGRP.C2GM.AVN.ARS.ROZ",
+      "affiliation": "*"
+    },
+    "AAF---": {
+      "name": "FORWARD AREA AIR DEFENSE ZONE (FAADEZ)",
+      "hierarchy": "TACGRP.C2GM.AVN.ARS.FAADEZ",
+      "affiliation": "*"
+    },
+    "AAH---": {
+      "name": "HIGH DENSITY AIRSPACE CONTROL ZONE (HIDACZ)",
+      "hierarchy": "TACGRP.C2GM.AVN.ARS.HIDACZ",
+      "affiliation": "*"
+    },
+    "AAM---": {
+      "name": "MISSILE ENGAGEMENT ZONE (MEZ)",
+      "hierarchy": "TACGRP.C2GM.AVN.ARS.MEZ",
+      "affiliation": "*"
+    },
+    "AAML--": {
+      "name": "LOW ALTITUDE MEZ",
+      "hierarchy": "TACGRP.C2GM.AVN.ARS.MEZ.LAMEZ",
+      "affiliation": "*"
+    },
+    "AAMH--": {
+      "name": "HIGH ALTITUDE MEZ",
+      "hierarchy": "TACGRP.C2GM.AVN.ARS.MEZ.HAMEZ",
+      "affiliation": "*"
+    },
+    "AAW---": {
+      "name": "WEAPONS FREE ZONE",
+      "hierarchy": "TACGRP.C2GM.AVN.ARS.WFZ",
+      "affiliation": "*"
+    },
+    "P-----": {
+      "name": "DECEPTION",
+      "hierarchy": "TACGRP.C2GM.DCPN",
+      "affiliation": "*"
+    },
+    "PD----": {
+      "name": "DUMMY (DECEPTION/DECOY)",
+      "hierarchy": "TACGRP.C2GM.DCPN.DMY",
+      "affiliation": "*"
+    },
+    "PA----": {
+      "name": "AXIS OF ADVANCE FOR FEINT",
+      "hierarchy": "TACGRP.C2GM.DCPN.AAFF",
+      "affiliation": "*"
+    },
+    "PF----": {
+      "name": "DIRECTION OF ATTACK FOR FEINT",
+      "hierarchy": "TACGRP.C2GM.DCPN.DAFF",
+      "affiliation": "*"
+    },
+    "PM----": {
+      "name": "DECOY MINED AREA",
+      "hierarchy": "TACGRP.C2GM.DCPN.DMA",
+      "affiliation": "*"
+    },
+    "PY----": {
+      "name": "DECOY MINED AREA, FENCED",
+      "hierarchy": "TACGRP.C2GM.DCPN.DMAF",
+      "affiliation": "*"
+    },
+    "PN----": {
+      "name": "DUMMY MINEFIELD (STATIC)",
+      "hierarchy": "TACGRP.C2GM.DCPN.DMYMS",
+      "affiliation": "*"
+    },
+    "PC----": {
+      "name": "DUMMY MINEFIELD (DYNAMIC)",
+      "hierarchy": "TACGRP.C2GM.DCPN.DMYMD",
+      "affiliation": "*"
+    },
+    "D-----": {
+      "name": "DEFENSE",
+      "hierarchy": "TACGRP.C2GM.DEF",
+      "affiliation": "*"
+    },
+    "DP----": {
+      "name": "POINTS",
+      "hierarchy": "TACGRP.C2GM.DEF.PNT",
+      "affiliation": "*"
+    },
+    "DPT---": {
+      "name": "TARGET REFERENCE POINT (TRP)",
+      "hierarchy": "TACGRP.C2GM.DEF.PNT.TGTREF",
+      "affiliation": "*"
+    },
+    "DPO---": {
+      "name": "OBSERVATION POST/OUTPOST",
+      "hierarchy": "TACGRP.C2GM.DEF.PNT.OBSPST",
+      "affiliation": "*"
+    },
+    "DPOC--": {
+      "name": "COMBAT OUTPOST",
+      "hierarchy": "TACGRP.C2GM.DEF.PNT.OBSPST.CBTPST",
+      "affiliation": "*"
+    },
+    "DPOR--": {
+      "name": "OBSERVATION POST OCCUPIED BY DISMOUNTED SCOUTS OR RECONNAISSANCE",
+      "hierarchy": "TACGRP.C2GM.DEF.PNT.OBSPST.RECON",
+      "affiliation": "*"
+    },
+    "DPOF--": {
+      "name": "FORWARD OBSERVER POSITION",
+      "hierarchy": "TACGRP.C2GM.DEF.PNT.OBSPST.FWDOP",
+      "affiliation": "*"
+    },
+    "DPOS--": {
+      "name": "SENSOR OUTPOST/LISTENING POST (OP/LP)",
+      "hierarchy": "TACGRP.C2GM.DEF.PNT.OBSPST.SOP",
+      "affiliation": "*"
+    },
+    "DPON--": {
+      "name": "NBC OBSERVATION POST (DISMOUNTED)",
+      "hierarchy": "TACGRP.C2GM.DEF.PNT.OBSPST.NBCOP",
+      "affiliation": "*"
+    },
+    "DL----": {
+      "name": "LINES",
+      "hierarchy": "TACGRP.C2GM.DEF.LNE",
+      "affiliation": "*"
+    },
+    "DLF---": {
+      "name": "FORWARD EDGE OF BATTLE AREA (FEBA)",
+      "hierarchy": "TACGRP.C2GM.DEF.LNE.FEBA",
+      "affiliation": "*"
+    },
+    "DLP---": {
+      "name": "PRINCIPAL DIRECTION OF FIRE (PDF)",
+      "hierarchy": "TACGRP.C2GM.DEF.LNE.PDF",
+      "affiliation": "*"
+    },
+    "DA----": {
+      "name": "AREAS",
+      "hierarchy": "TACGRP.C2GM.DEF.ARS",
+      "affiliation": "*"
+    },
+    "DAB---": {
+      "name": "BATTLE POSITION",
+      "hierarchy": "TACGRP.C2GM.DEF.ARS.BTLPSN",
+      "affiliation": "*"
+    },
+    "DABP--": {
+      "name": "PREPARED BUT NOT OCCUPIED",
+      "hierarchy": "TACGRP.C2GM.DEF.ARS.BTLPSN.PBNO",
+      "affiliation": "*"
+    },
+    "DAE---": {
+      "name": "ENGAGEMENT AREA",
+      "hierarchy": "TACGRP.C2GM.DEF.ARS.EMTARA",
+      "affiliation": "*"
+    },
+    "O-----": {
+      "name": "OFFENSE",
+      "hierarchy": "TACGRP.C2GM.OFF",
+      "affiliation": "*"
+    },
+    "OP----": {
+      "name": "POINTS",
+      "hierarchy": "TACGRP.C2GM.OFF.PNT",
+      "affiliation": "*"
+    },
+    "OPP---": {
+      "name": "POINT OF DEPARTURE",
+      "hierarchy": "TACGRP.C2GM.OFF.PNT.PNTD",
+      "affiliation": "*"
+    },
+    "OL----": {
+      "name": "LINES",
+      "hierarchy": "TACGRP.C2GM.OFF.LNE",
+      "affiliation": "*"
+    },
+    "OLA---": {
+      "name": "AXIS OF ADVANCE",
+      "hierarchy": "TACGRP.C2GM.OFF.LNE.AXSADV",
+      "affiliation": "*"
+    },
+    "OLAV--": {
+      "name": "AVIATION",
+      "hierarchy": "TACGRP.C2GM.OFF.LNE.AXSADV.AVN",
+      "affiliation": "*"
+    },
+    "OLAA--": {
+      "name": "AIRBORNE",
+      "hierarchy": "TACGRP.C2GM.OFF.LNE.AXSADV.ABN",
+      "affiliation": "*"
+    },
+    "OLAR--": {
+      "name": "ATTACK, ROTARY WING",
+      "hierarchy": "TACGRP.C2GM.OFF.LNE.AXSADV.ATK",
+      "affiliation": "*"
+    },
+    "OLAG--": {
+      "name": "GROUND",
+      "hierarchy": "TACGRP.C2GM.OFF.LNE.AXSADV.GRD",
+      "affiliation": "*"
+    },
+    "OLAGM-": {
+      "name": "MAIN ATTACK",
+      "hierarchy": "TACGRP.C2GM.OFF.LNE.AXSADV.GRD.MANATK",
+      "affiliation": "*"
+    },
+    "OLAGS-": {
+      "name": "SUPPORTING ATTACK",
+      "hierarchy": "TACGRP.C2GM.OFF.LNE.AXSADV.GRD.SUPATK",
+      "affiliation": "*"
+    },
+    "OLK---": {
+      "name": "DIRECTION OF ATTACK",
+      "hierarchy": "TACGRP.C2GM.OFF.LNE.DIRATK",
+      "affiliation": "*"
+    },
+    "OLKA--": {
+      "name": "AVIATION",
+      "hierarchy": "TACGRP.C2GM.OFF.LNE.DIRATK.AVN",
+      "affiliation": "*"
+    },
+    "OLKG--": {
+      "name": "GROUND",
+      "hierarchy": "TACGRP.C2GM.OFF.LNE.DIRATK.GRD",
+      "affiliation": "*"
+    },
+    "OLKGM-": {
+      "name": "MAIN ATTACK",
+      "hierarchy": "TACGRP.C2GM.OFF.LNE.DIRATK.GRD.MANATK",
+      "affiliation": "*"
+    },
+    "OLKGS-": {
+      "name": "SUPPORTING ATTACK",
+      "hierarchy": "TACGRP.C2GM.OFF.LNE.DIRATK.GRD.SUPATK",
+      "affiliation": "*"
+    },
+    "OLF---": {
+      "name": "FINAL COORDINATION LINE",
+      "hierarchy": "TACGRP.C2GM.OFF.LNE.FCL",
+      "affiliation": "*"
+    },
+    "OLI---": {
+      "name": "INFILTRATION LANE",
+      "hierarchy": "TACGRP.C2GM.OFF.LNE.INFNLE",
+      "affiliation": "*"
+    },
+    "OLL---": {
+      "name": "LIMIT OF ADVANCE",
+      "hierarchy": "TACGRP.C2GM.OFF.LNE.LMTADV",
+      "affiliation": "*"
+    },
+    "OLT---": {
+      "name": "LINE OF DEPARTURE",
+      "hierarchy": "TACGRP.C2GM.OFF.LNE.LD",
+      "affiliation": "*"
+    },
+    "OLC---": {
+      "name": "LINE OF DEPARTURE/LINE OF CONTACT (LD/LC)",
+      "hierarchy": "TACGRP.C2GM.OFF.LNE.LDLC",
+      "affiliation": "*"
+    },
+    "OLP---": {
+      "name": "PROBABLE LINE OF DEPLOYMENT (PLD)",
+      "hierarchy": "TACGRP.C2GM.OFF.LNE.PLD",
+      "affiliation": "*"
+    },
+    "OA----": {
+      "name": "AREAS",
+      "hierarchy": "TACGRP.C2GM.OFF.ARS",
+      "affiliation": "*"
+    },
+    "OAA---": {
+      "name": "ASSAULT POSITION",
+      "hierarchy": "TACGRP.C2GM.OFF.ARS.ASTPSN",
+      "affiliation": "*"
+    },
+    "OAK---": {
+      "name": "ATTACK POSITION",
+      "hierarchy": "TACGRP.C2GM.OFF.ARS.ATKPSN",
+      "affiliation": "*"
+    },
+    "OAF---": {
+      "name": "ATTACK BY FIRE POSITION",
+      "hierarchy": "TACGRP.C2GM.OFF.ARS.AFP",
+      "affiliation": "*"
+    },
+    "OAS---": {
+      "name": "SUPPORT BY FIRE POSITION",
+      "hierarchy": "TACGRP.C2GM.OFF.ARS.SFP",
+      "affiliation": "*"
+    },
+    "OAO---": {
+      "name": "OBJECTIVE",
+      "hierarchy": "TACGRP.C2GM.OFF.ARS.OBJ",
+      "affiliation": "*"
+    },
+    "OAP---": {
+      "name": "PENETRATION BOX",
+      "hierarchy": "TACGRP.C2GM.OFF.ARS.PBX",
+      "affiliation": "*"
+    },
+    "SL----": {
+      "name": "LINE",
+      "hierarchy": "TACGRP.C2GM.SPL.LNE",
+      "affiliation": "*"
+    },
+    "SLA---": {
+      "name": "AMBUSH",
+      "hierarchy": "TACGRP.C2GM.SPL.LNE.AMB",
+      "affiliation": "*"
+    },
+    "SLH---": {
+      "name": "HOLDING LINE",
+      "hierarchy": "TACGRP.C2GM.SPL.LNE.HGL",
+      "affiliation": "*"
+    },
+    "SLR---": {
+      "name": "RELEASE LINE",
+      "hierarchy": "TACGRP.C2GM.SPL.LNE.REL",
+      "affiliation": "*"
+    },
+    "SLB---": {
+      "name": "BRIDGEHEAD",
+      "hierarchy": "TACGRP.C2GM.SPL.LNE.BRGH",
+      "affiliation": "*"
+    },
+    "SA----": {
+      "name": "AREA",
+      "hierarchy": "TACGRP.C2GM.SPL.ARA",
+      "affiliation": "*"
+    },
+    "SAO---": {
+      "name": "AREA OF OPERATIONS (AO)",
+      "hierarchy": "TACGRP.C2GM.SPL.ARA.AOO",
+      "affiliation": "*"
+    },
+    "SAA---": {
+      "name": "AIRHEAD",
+      "hierarchy": "TACGRP.C2GM.SPL.ARA.AHD",
+      "affiliation": "*"
+    },
+    "SAE---": {
+      "name": "ENCIRCLEMENT",
+      "hierarchy": "TACGRP.C2GM.SPL.ARA.ENCMT",
+      "affiliation": "*"
+    },
+    "SAN---": {
+      "name": "NAMED AREA OF INTEREST (NAI)",
+      "hierarchy": "TACGRP.C2GM.SPL.ARA.NAI",
+      "affiliation": "*"
+    },
+    "SAT---": {
+      "name": "TARGETED AREA OF INTEREST (TAI)",
+      "hierarchy": "TACGRP.C2GM.SPL.ARA.TAI",
+      "affiliation": "*"
+    }
+  },
+  "-": {
+    "-------": {
+      "name": "SIGNALS INTELLIGENCE",
+      "hierarchy": "SIGINT",
+      "affiliation": "-"
+    },
+    "TACTICAL GRAPHICS": {
+      "name": "",
+      "hierarchy": "TACGRP",
+      "affiliation": "*"
+    }
+  },
+  "V": {
+    "------": {
+      "name": "VIOLENT ACTIVITIES (DEATH CAUSING)",
+      "hierarchy": "MOOTW.VIOATY",
+      "affiliation": "*"
+    },
+    "A-----": {
+      "name": "ARSON/FIRE",
+      "hierarchy": "MOOTW.VIOATY.ASN",
+      "affiliation": "*"
+    },
+    "M-----": {
+      "name": "KILLING (GENERAL)",
+      "hierarchy": "MOOTW.VIOATY.KILL",
+      "affiliation": "*"
+    },
+    "MA----": {
+      "name": "MURDER",
+      "hierarchy": "MOOTW.VIOATY.KILL.MDR",
+      "affiliation": "*"
+    },
+    "MB----": {
+      "name": "EXECUTION",
+      "hierarchy": "MOOTW.VIOATY.KILL.EX",
+      "affiliation": "*"
+    },
+    "MC----": {
+      "name": "ASSASSINATION",
+      "hierarchy": "MOOTW.VIOATY.KILL.ASS",
+      "affiliation": "*"
+    },
+    "B-----": {
+      "name": "BOMB/BOMBING",
+      "hierarchy": "MOOTW.VIOATY.BM",
+      "affiliation": "*"
+    },
+    "Y-----": {
+      "name": "BOOBY TRAP",
+      "hierarchy": "MOOTW.VIOATY.BBY",
+      "affiliation": "*"
+    },
+    "D-----": {
+      "name": "DRIVE-BY SHOOTING",
+      "hierarchy": "MOOTW.VIOATY.DBS",
+      "affiliation": "*"
+    },
+    "S-----": {
+      "name": "SNIPING",
+      "hierarchy": "MOOTW.VIOATY.SPG",
+      "affiliation": "*"
+    },
+    "P-----": {
+      "name": "POISONING",
+      "hierarchy": "MOOTW.VIOATY.PSNG",
+      "affiliation": "*"
+    }
+  },
+  "L": {
+    "------": {
+      "name": "LOCATIONS",
+      "hierarchy": "MOOTW.LOCAT",
+      "affiliation": "*"
+    },
+    "B-----": {
+      "name": "BLACK LIST LOCATION",
+      "hierarchy": "MOOTW.LOCAT.BLST",
+      "affiliation": "*"
+    },
+    "G-----": {
+      "name": "GRAY LIST LOCATION",
+      "hierarchy": "MOOTW.LOCAT.GLST",
+      "affiliation": "*"
+    },
+    "W-----": {
+      "name": "WHITE LIST LOCATION",
+      "hierarchy": "MOOTW.LOCAT.WLST",
+      "affiliation": "*"
+    },
+    "M-----": {
+      "name": "MASS GRAVE LOCATION",
+      "hierarchy": "MOOTW.LOCAT.MASS",
+      "affiliation": "*"
+    }
+  },
+  "O": {
+    "------": {
+      "name": "OTHER",
+      "hierarchy": "TACGRP.OTH",
+      "affiliation": "*"
+    },
+    "P-----": {
+      "name": "PATROLLING",
+      "hierarchy": "MOOTW.OPN.PATG",
+      "affiliation": "*"
+    },
+    "R-----": {
+      "name": "RECRUITMENT",
+      "hierarchy": "MOOTW.OPN.RCMT",
+      "affiliation": "*"
+    },
+    "RW----": {
+      "name": "RECRUITMENT (WILLING)",
+      "hierarchy": "MOOTW.OPN.RCMT.WLG",
+      "affiliation": "*"
+    },
+    "RC----": {
+      "name": "RECRUITMENT (COERCED/IMPRESSED)",
+      "hierarchy": "MOOTW.OPN.RCMT.CRCD",
+      "affiliation": "*"
+    },
+    "D-----": {
+      "name": "DEMONSTRATION",
+      "hierarchy": "MOOTW.OPN.DEMO",
+      "affiliation": "*"
+    },
+    "M-----": {
+      "name": "MINE LAYING",
+      "hierarchy": "MOOTW.OPN.ML",
+      "affiliation": "*"
+    },
+    "Y-----": {
+      "name": "PSYCHOLOGICAL OPERATIONS (PSYOP)",
+      "hierarchy": "MOOTW.OPN.PSYOP",
+      "affiliation": "*"
+    },
+    "YT----": {
+      "name": "PSYOP (TV AND RADIO PROPAGANDA)",
+      "hierarchy": "MOOTW.OPN.PSYOP.TARP",
+      "affiliation": "*"
+    },
+    "YW----": {
+      "name": "PSYOP (WRITTEN PROPAGANDA)",
+      "hierarchy": "MOOTW.OPN.PSYOP.WP",
+      "affiliation": "*"
+    },
+    "YH----": {
+      "name": "HOUSE-TO-HOUSE PROPAGANDA",
+      "hierarchy": "MOOTW.OPN.PSYOP.HTHP",
+      "affiliation": "*"
+    },
+    "F-----": {
+      "name": "FIX",
+      "hierarchy": "TACGRP.OTH.FIX",
+      "affiliation": "*"
+    },
+    "S-----": {
+      "name": "SEA SUBSURFACE RETURNS",
+      "hierarchy": "TACGRP.OTH.SSUBSR",
+      "affiliation": "*"
+    },
+    "O-----": {
+      "name": "FOOD DISTRIBUTION",
+      "hierarchy": "MOOTW.OPN.FDDIST",
+      "affiliation": "*"
+    },
+    "E-----": {
+      "name": "EMERGENCY",
+      "hierarchy": "TACGRP.OTH.ER",
+      "affiliation": "*"
+    },
+    "H-----": {
+      "name": "HAZARD",
+      "hierarchy": "TACGRP.OTH.HAZ",
+      "affiliation": "*"
+    },
+    "HT----": {
+      "name": "HIJACKING (VEHICLE)",
+      "hierarchy": "MOOTW.OPN.HJKG.VEH",
+      "affiliation": "*"
+    },
+    "HA----": {
+      "name": "HIJACKING (AIRPLANE)",
+      "hierarchy": "MOOTW.OPN.HJKG.APL",
+      "affiliation": "*"
+    },
+    "HV----": {
+      "name": "HIJACKING (BOAT)",
+      "hierarchy": "MOOTW.OPN.HJKG.BOAT",
+      "affiliation": "*"
+    },
+    "K-----": {
+      "name": "KIDNAPPING",
+      "hierarchy": "MOOTW.OPN.KDNG",
+      "affiliation": "*"
+    },
+    "A-----": {
+      "name": "ARREST",
+      "hierarchy": "MOOTW.OPN.ARR",
+      "affiliation": "*"
+    },
+    "U-----": {
+      "name": "DRUG OPERATION",
+      "hierarchy": "MOOTW.OPN.DGOPN",
+      "affiliation": "*"
+    },
+    "ED----": {
+      "name": "DITCHED AIRCRAFT",
+      "hierarchy": "TACGRP.OTH.ER.DTHAC",
+      "affiliation": "*"
+    },
+    "EP----": {
+      "name": "PERSON IN WATER",
+      "hierarchy": "TACGRP.OTH.ER.PIW",
+      "affiliation": "*"
+    },
+    "EV----": {
+      "name": "DISTRESSED VESSEL",
+      "hierarchy": "TACGRP.OTH.ER.DSTVES",
+      "affiliation": "*"
+    },
+    "HM----": {
+      "name": "SEA MINE-LIKE",
+      "hierarchy": "TACGRP.OTH.HAZ.SML",
+      "affiliation": "*"
+    },
+    "HN----": {
+      "name": "NAVIGATIONAL",
+      "hierarchy": "TACGRP.OTH.HAZ.NVGL",
+      "affiliation": "*"
+    },
+    "HI----": {
+      "name": "ICEBERG",
+      "hierarchy": "TACGRP.OTH.HAZ.IB",
+      "affiliation": "*"
+    },
+    "HO----": {
+      "name": "OIL RIG",
+      "hierarchy": "TACGRP.OTH.HAZ.OLRG",
+      "affiliation": "*"
+    },
+    "SB----": {
+      "name": "BOTTOM RETURN/NOMBO",
+      "hierarchy": "TACGRP.OTH.SSUBSR.BTMRTN",
+      "affiliation": "*"
+    },
+    "SBM---": {
+      "name": "INSTALLATION/MANMADE",
+      "hierarchy": "TACGRP.OTH.SSUBSR.BTMRTN.INS",
+      "affiliation": "*"
+    },
+    "SBN---": {
+      "name": "SEABED ROCK/STONE, OBSTACLE, OTHER",
+      "hierarchy": "TACGRP.OTH.SSUBSR.BTMRTN.SBRSOO",
+      "affiliation": "*"
+    },
+    "SBW---": {
+      "name": "WRECK, NON DANGEROUS",
+      "hierarchy": "TACGRP.OTH.SSUBSR.BTMRTN.WRKND",
+      "affiliation": "*"
+    },
+    "SBWD--": {
+      "name": "WRECK, DANGEROUS",
+      "hierarchy": "TACGRP.OTH.SSUBSR.BTMRTN.WRKND.WRKD",
+      "affiliation": "*"
+    },
+    "SM----": {
+      "name": "MARINE LIFE",
+      "hierarchy": "TACGRP.OTH.SSUBSR.MARLFE",
+      "affiliation": "*"
+    },
+    "SS----": {
+      "name": "SEA ANOMALY (WAKE, CURRENT, KNUCKLE)",
+      "hierarchy": "TACGRP.OTH.SSUBSR.SA",
+      "affiliation": "*"
+    },
+    "B-----": {
+      "name": "BEARING LINE",
+      "hierarchy": "TACGRP.OTH.BERLNE",
+      "affiliation": "*"
+    },
+    "BE----": {
+      "name": "ELECTRONIC",
+      "hierarchy": "TACGRP.OTH.BERLNE.ELC",
+      "affiliation": "*"
+    },
+    "BA----": {
+      "name": "ACOUSTIC",
+      "hierarchy": "TACGRP.OTH.BERLNE.ACU",
+      "affiliation": "*"
+    },
+    "BT----": {
+      "name": "TORPEDO",
+      "hierarchy": "TACGRP.OTH.BERLNE.TPD",
+      "affiliation": "*"
+    },
+    "BO----": {
+      "name": "ELECTRO-OPTICAL INTERCEPT",
+      "hierarchy": "TACGRP.OTH.BERLNE.EOPI",
+      "affiliation": "*"
+    },
+    "FA----": {
+      "name": "ACOUSTIC",
+      "hierarchy": "TACGRP.OTH.FIX.ACU",
+      "affiliation": "*"
+    },
+    "FE----": {
+      "name": "ELECTRO-MAGNETIC",
+      "hierarchy": "TACGRP.OTH.FIX.EM",
+      "affiliation": "*"
+    },
+    "FO----": {
+      "name": "ELECTRO-OPTICAL",
+      "hierarchy": "TACGRP.OTH.FIX.EOP",
+      "affiliation": "*"
+    }
+  },
+  "I": {
+    "------": {
+      "name": "ITEMS",
+      "hierarchy": "MOOTW.ITM",
+      "affiliation": "*"
+    },
+    "R-----": {
+      "name": "REFUGEES",
+      "hierarchy": "MOOTW.ITM.RFG",
+      "affiliation": "*"
+    },
+    "S-----": {
+      "name": "SAFE HOUSE",
+      "hierarchy": "MOOTW.ITM.SAFHSE",
+      "affiliation": "*"
+    },
+    "G-----": {
+      "name": "GRAFFITI",
+      "hierarchy": "MOOTW.ITM.GRF",
+      "affiliation": "*"
+    },
+    "V-----": {
+      "name": "VANDALISM/RAPE/LOOT/RANSACK/PLUNDER/SACK",
+      "hierarchy": "MOOTW.ITM.VRLRPS",
+      "affiliation": "*"
+    },
+    "I-----": {
+      "name": "KNOWN INSURGENT VEHICLE",
+      "hierarchy": "MOOTW.ITM.KNIVEH",
+      "affiliation": "*"
+    },
+    "D-----": {
+      "name": "DRUG VEHICLE",
+      "hierarchy": "MOOTW.ITM.DGVEH",
+      "affiliation": "*"
+    },
+    "F-----": {
+      "name": "INTERNAL SECURITY FORCE",
+      "hierarchy": "MOOTW.ITM.ISF",
+      "affiliation": "*"
+    }
+  },
+  "S": {
+    "------": {
+      "name": "COMBAT SERVICE SUPPORT",
+      "hierarchy": "TACGRP.CSS",
+      "affiliation": "*"
+    },
+    "C-----": {
+      "name": "COMBATANT",
+      "hierarchy": "WAR.SSUF.CBTT",
+      "affiliation": "*"
+    },
+    "CL----": {
+      "name": "LINE",
+      "hierarchy": "WAR.SSUF.CBTT.LNE",
+      "affiliation": "*"
+    },
+    "CLCV--": {
+      "name": "CARRIER",
+      "hierarchy": "WAR.SSUF.CBTT.LNE.CRR",
+      "affiliation": "*"
+    },
+    "CLBB--": {
+      "name": "BATTLESHIP",
+      "hierarchy": "WAR.SSUF.CBTT.LNE.BBS",
+      "affiliation": "*"
+    },
+    "CLCC--": {
+      "name": "CRUISER",
+      "hierarchy": "WAR.SSUF.CBTT.LNE.CRU",
+      "affiliation": "*"
+    },
+    "CLDD--": {
+      "name": "DESTROYER",
+      "hierarchy": "WAR.SSUF.CBTT.LNE.DD",
+      "affiliation": "*"
+    },
+    "CLFF--": {
+      "name": "FRIGATE/CORVETTE",
+      "hierarchy": "WAR.SSUF.CBTT.LNE.FFR",
+      "affiliation": "*"
+    },
+    "CLLL--": {
+      "name": "LITTORAL COMBATANT",
+      "hierarchy": "WAR.SSUF.CBTT.LNE.LL",
+      "affiliation": "*"
+    },
+    "CLLLAS": {
+      "name": "ANTISUBMARINE WARFARE MISSION PACKAGE",
+      "hierarchy": "WAR.SSUF.CBTT.LNE.LL.ASBW",
+      "affiliation": "*"
+    },
+    "CLLLMI": {
+      "name": "MINE WARFARE MISSION PACKAGE",
+      "hierarchy": "WAR.SSUF.CBTT.LNE.LL.MNEW",
+      "affiliation": "*"
+    },
+    "CLLLSU": {
+      "name": "SURFACE WARFARE (SUW) MISSION PACKAGE",
+      "hierarchy": "WAR.SSUF.CBTT.LNE.LL.SUW",
+      "affiliation": "*"
+    },
+    "CA----": {
+      "name": "AMPHIBIOUS WARFARE SHIP",
+      "hierarchy": "WAR.SSUF.CBTT.AMPWS",
+      "affiliation": "*"
+    },
+    "CALA--": {
+      "name": "ASSAULT VESSEL",
+      "hierarchy": "WAR.SSUF.CBTT.AMPWS.ASTVES",
+      "affiliation": "*"
+    },
+    "CALS--": {
+      "name": "LANDING SHIP",
+      "hierarchy": "WAR.SSUF.CBTT.AMPWS.LNDSHP",
+      "affiliation": "*"
+    },
+    "CALSM-": {
+      "name": "LANDING SHIP MEDIUM",
+      "hierarchy": "WAR.SSUF.CBTT.AMPWS.LNDSHP.MDM",
+      "affiliation": "*"
+    },
+    "CALST-": {
+      "name": "LANDING SHIP TANK",
+      "hierarchy": "WAR.SSUF.CBTT.AMPWS.LNDSHP.TANK",
+      "affiliation": "*"
+    },
+    "CALC--": {
+      "name": "LANDING CRAFT",
+      "hierarchy": "WAR.SSUF.CBTT.AMPWS.LNDCRT",
+      "affiliation": "*"
+    },
+    "CM----": {
+      "name": "MINE WARFARE VESSEL",
+      "hierarchy": "WAR.SSUF.CBTT.MNEWV",
+      "affiliation": "*"
+    },
+    "CMML--": {
+      "name": "MINELAYER",
+      "hierarchy": "WAR.SSUF.CBTT.MNEWV.MNELYR",
+      "affiliation": "*"
+    },
+    "CMMS--": {
+      "name": "MINESWEEPER",
+      "hierarchy": "WAR.SSUF.CBTT.MNEWV.MNESWE",
+      "affiliation": "*"
+    },
+    "CMMH--": {
+      "name": "MINEHUNTER",
+      "hierarchy": "WAR.SSUF.CBTT.MNEWV.MNEHNT",
+      "affiliation": "*"
+    },
+    "CMMA--": {
+      "name": "MCM SUPPORT",
+      "hierarchy": "WAR.SSUF.CBTT.MNEWV.MCMSUP",
+      "affiliation": "*"
+    },
+    "CP----": {
+      "name": "PATROL",
+      "hierarchy": "WAR.SSUF.CBTT.PAT",
+      "affiliation": "*"
+    },
+    "CPSB--": {
+      "name": "ANTISUBMARINE WARFARE",
+      "hierarchy": "WAR.SSUF.CBTT.PAT.ASBW",
+      "affiliation": "*"
+    },
+    "CPSU--": {
+      "name": "ANTISURFACE WARFARE",
+      "hierarchy": "WAR.SSUF.CBTT.PAT.ASUW",
+      "affiliation": "*"
+    },
+    "CPSUM-": {
+      "name": "ANTI-SHIP MISSILE PATROL CRAFT",
+      "hierarchy": "WAR.SSUF.CBTT.PAT.ASUW.ASMSL",
+      "affiliation": "*"
+    },
+    "CPSUT-": {
+      "name": "TORPEDO PATROL CRAFT",
+      "hierarchy": "WAR.SSUF.CBTT.PAT.ASUW.TPD",
+      "affiliation": "*"
+    },
+    "CPSUG-": {
+      "name": "GUN PATROL CRAFT",
+      "hierarchy": "WAR.SSUF.CBTT.PAT.ASUW.GUN",
+      "affiliation": "*"
+    },
+    "CH----": {
+      "name": "HOVERCRAFT",
+      "hierarchy": "WAR.SSUF.CBTT.HOV",
+      "affiliation": "*"
+    },
+    "S-----": {
+      "name": "SIGNAL INTERCEPT",
+      "hierarchy": "SIGINT.SSUF.SIGINC",
+      "affiliation": "*"
+    },
+    "SP----": {
+      "name": "PICKET",
+      "hierarchy": "WAR.SSUF.CBTT.STN.PKT",
+      "affiliation": "*"
+    },
+    "SA----": {
+      "name": "ASW SHIP",
+      "hierarchy": "WAR.SSUF.CBTT.STN.ASWSHP",
+      "affiliation": "*"
+    },
+    "G-----": {
+      "name": "NAVY GROUP",
+      "hierarchy": "WAR.SSUF.CBTT.NAVGRP",
+      "affiliation": "*"
+    },
+    "GT----": {
+      "name": "NAVY TASK FORCE",
+      "hierarchy": "WAR.SSUF.CBTT.NAVGRP.NAVTF",
+      "affiliation": "*"
+    },
+    "GG----": {
+      "name": "NAVY TASK GROUP",
+      "hierarchy": "WAR.SSUF.CBTT.NAVGRP.NAVTG",
+      "affiliation": "*"
+    },
+    "GU----": {
+      "name": "NAVY TASK UNIT",
+      "hierarchy": "WAR.SSUF.CBTT.NAVGRP.NAVTU",
+      "affiliation": "*"
+    },
+    "GC----": {
+      "name": "CONVOY",
+      "hierarchy": "WAR.SSUF.CBTT.NAVGRP.CNY",
+      "affiliation": "*"
+    },
+    "CD----": {
+      "name": "SURFACE DECOY",
+      "hierarchy": "WAR.SSUF.CBTT.SUFDCY",
+      "affiliation": "*"
+    },
+    "CU----": {
+      "name": "UNMANNED SURFACE VEHICLE",
+      "hierarchy": "WAR.SSUF.CBTT.USV",
+      "affiliation": "*"
+    },
+    "CUM---": {
+      "name": "MINE COUNTERMEASURES SURFACE DRONE",
+      "hierarchy": "WAR.SSUF.CBTT.USV.MNECM",
+      "affiliation": "*"
+    },
+    "CUS---": {
+      "name": "ANTISUBMARINE WARFARE SURFACE DRONE",
+      "hierarchy": "WAR.SSUF.CBTT.USV.ASBW",
+      "affiliation": "*"
+    },
+    "CUN---": {
+      "name": "ANTISURFACE WARFARE SURFACE DRONE",
+      "hierarchy": "WAR.SSUF.CBTT.USV.ASUW",
+      "affiliation": "*"
+    },
+    "N-----": {
+      "name": "NONCOMBATANT",
+      "hierarchy": "WAR.SSUF.NCBTT",
+      "affiliation": "*"
+    },
+    "NR----": {
+      "name": "UNDERWAY REPLENISHMENT",
+      "hierarchy": "WAR.SSUF.NCBTT.UWRPM",
+      "affiliation": "*"
+    },
+    "NF----": {
+      "name": "FLEET SUPPORT",
+      "hierarchy": "WAR.SSUF.NCBTT.FLTSUP",
+      "affiliation": "*"
+    },
+    "NI----": {
+      "name": "INTELLIGENCE",
+      "hierarchy": "WAR.SSUF.NCBTT.INT",
+      "affiliation": "*"
+    },
+    "NS----": {
+      "name": "SERVICE & SUPPORT HARBOR",
+      "hierarchy": "WAR.SSUF.NCBTT.SSH",
+      "affiliation": "*"
+    },
+    "NM----": {
+      "name": "HOSPITAL SHIP",
+      "hierarchy": "WAR.SSUF.NCBTT.HSPSHP",
+      "affiliation": "*"
+    },
+    "NH----": {
+      "name": "HOVERCRAFT",
+      "hierarchy": "WAR.SSUF.NCBTT.HOV",
+      "affiliation": "*"
+    },
+    "NN----": {
+      "name": "STATION",
+      "hierarchy": "WAR.SSUF.NCBTT.STN",
+      "affiliation": "*"
+    },
+    "NNR---": {
+      "name": "RESCUE",
+      "hierarchy": "WAR.SSUF.NCBTT.STN.RSC",
+      "affiliation": "*"
+    },
+    "X-----": {
+      "name": "NON-MILITARY",
+      "hierarchy": "WAR.SSUF.NMIL",
+      "affiliation": "*"
+    },
+    "XM----": {
+      "name": "MERCHANT",
+      "hierarchy": "WAR.SSUF.NMIL.MCT",
+      "affiliation": "*"
+    },
+    "XMC---": {
+      "name": "CARGO",
+      "hierarchy": "WAR.SSUF.NMIL.MCT.CGO",
+      "affiliation": "*"
+    },
+    "XMR---": {
+      "name": "ROLL ON/ROLL OFF",
+      "hierarchy": "WAR.SSUF.NMIL.MCT.RORO",
+      "affiliation": "*"
+    },
+    "XMO---": {
+      "name": "OILER/TANKER",
+      "hierarchy": "WAR.SSUF.NMIL.MCT.OLR",
+      "affiliation": "*"
+    },
+    "XMTU--": {
+      "name": "TUG",
+      "hierarchy": "WAR.SSUF.NMIL.MCT.TUG",
+      "affiliation": "*"
+    },
+    "XMF---": {
+      "name": "FERRY",
+      "hierarchy": "WAR.SSUF.NMIL.MCT.FRY",
+      "affiliation": "*"
+    },
+    "XMP---": {
+      "name": "PASSENGER",
+      "hierarchy": "WAR.SSUF.NMIL.MCT.PSG",
+      "affiliation": "*"
+    },
+    "XMH---": {
+      "name": "HAZARDOUS MATERIALS (HAZMAT)",
+      "hierarchy": "WAR.SSUF.NMIL.MCT.HAZMAT",
+      "affiliation": "*"
+    },
+    "XMTO--": {
+      "name": "TOWING VESSEL",
+      "hierarchy": "WAR.SSUF.NMIL.MCT.TOWVES",
+      "affiliation": "*"
+    },
+    "XF----": {
+      "name": "FISHING",
+      "hierarchy": "WAR.SSUF.NMIL.FSG",
+      "affiliation": "*"
+    },
+    "XFDF--": {
+      "name": "DRIFTER",
+      "hierarchy": "WAR.SSUF.NMIL.FSG.DRFT",
+      "affiliation": "*"
+    },
+    "XFDR--": {
+      "name": "DREDGE",
+      "hierarchy": "WAR.SSUF.NMIL.FSG.DRG",
+      "affiliation": "*"
+    },
+    "XFTR--": {
+      "name": "TRAWLER",
+      "hierarchy": "WAR.SSUF.NMIL.FSG.TRW",
+      "affiliation": "*"
+    },
+    "XR----": {
+      "name": "LEISURE CRAFT",
+      "hierarchy": "WAR.SSUF.NMIL.LESCRT",
+      "affiliation": "*"
+    },
+    "XL----": {
+      "name": "LAW ENFORCEMENT VESSEL",
+      "hierarchy": "WAR.SSUF.NMIL.LAWENV",
+      "affiliation": "*"
+    },
+    "XH----": {
+      "name": "HOVERCRAFT",
+      "hierarchy": "WAR.SSUF.NMIL.HOV",
+      "affiliation": "*"
+    },
+    "O-----": {
+      "name": "OWN TRACK",
+      "hierarchy": "WAR.SSUF.OWN",
+      "affiliation": "*"
+    },
+    "SC----": {
+      "name": "COMMUNICATIONS",
+      "hierarchy": "SIGINT.SSUF.SIGINC.COMM",
+      "affiliation": "*"
+    },
+    "SCC---": {
+      "name": "CELLULAR/MOBILE",
+      "hierarchy": "SIGINT.SSUF.SIGINC.COMM.CELL",
+      "affiliation": "*"
+    },
+    "SCO---": {
+      "name": "OMNI-LINE-OF-SIGHT (LOS)",
+      "hierarchy": "SIGINT.SSUF.SIGINC.COMM.OLOS",
+      "affiliation": "*"
+    },
+    "SCP---": {
+      "name": "POINT-TO-POINT LINE-OF-SIGHT (LOS)",
+      "hierarchy": "SIGINT.SSUF.SIGINC.COMM.PTPLOS",
+      "affiliation": "*"
+    },
+    "SCS---": {
+      "name": "SATELLITE UP-LINK",
+      "hierarchy": "SIGINT.SSUF.SIGINC.COMM.SATUL",
+      "affiliation": "*"
+    },
+    "SR----": {
+      "name": "RADAR",
+      "hierarchy": "SIGINT.SSUF.SIGINC.RAD",
+      "affiliation": "*"
+    },
+    "SRAT--": {
+      "name": "AIR TRAFFIC CONTROL",
+      "hierarchy": "SIGINT.SSUF.SIGINC.RAD.ATCTL",
+      "affiliation": "*"
+    },
+    "SRAA--": {
+      "name": "ANTI-AIRCRAFT",
+      "hierarchy": "SIGINT.SSUF.SIGINC.RAD.AA/C",
+      "affiliation": "*"
+    },
+    "SRCA--": {
+      "name": "CONTROLLED APPROACH",
+      "hierarchy": "SIGINT.SSUF.SIGINC.RAD.CTDAPP",
+      "affiliation": "*"
+    },
+    "SRCI--": {
+      "name": "CONTROLLED INTERCEPT",
+      "hierarchy": "SIGINT.SSUF.SIGINC.RAD.CTDINC",
+      "affiliation": "*"
+    },
+    "SRD---": {
+      "name": "DATA TRANSMISSION",
+      "hierarchy": "SIGINT.SSUF.SIGINC.RAD.DATTMN",
+      "affiliation": "*"
+    },
+    "SRE---": {
+      "name": "EARLY WARNING",
+      "hierarchy": "SIGINT.SSUF.SIGINC.RAD.EW",
+      "affiliation": "*"
+    },
+    "SRF---": {
+      "name": "FIRE CONTROL",
+      "hierarchy": "SIGINT.SSUF.SIGINC.RAD.FIRCTL",
+      "affiliation": "*"
+    },
+    "SRH---": {
+      "name": "HEIGHT FINDING",
+      "hierarchy": "SIGINT.SSUF.SIGINC.RAD.HGTFDG",
+      "affiliation": "*"
+    },
+    "SRI---": {
+      "name": "IDENTIFICATION FRIEND/FOE (INTERROGATOR)",
+      "hierarchy": "SIGINT.SSUF.SIGINC.RAD.IDFF",
+      "affiliation": "*"
+    },
+    "SRMM--": {
+      "name": "METEOROLOGICAL (MILITARY)",
+      "hierarchy": "SIGINT.SSUF.SIGINC.RAD.METO",
+      "affiliation": "*"
+    },
+    "SRMA--": {
+      "name": "MISSILE ACQUISITION",
+      "hierarchy": "SIGINT.SSUF.SIGINC.RAD.MSLAQ",
+      "affiliation": "*"
+    },
+    "SRMG--": {
+      "name": "MISSILE GUIDANCE",
+      "hierarchy": "SIGINT.SSUF.SIGINC.RAD.MSLGDN",
+      "affiliation": "*"
+    },
+    "SRMT--": {
+      "name": "MISSILE TRACKING",
+      "hierarchy": "SIGINT.SSUF.SIGINC.RAD.MSLTRK",
+      "affiliation": "*"
+    },
+    "SRMF--": {
+      "name": "MULTI-FUNCTION",
+      "hierarchy": "SIGINT.SSUF.SIGINC.RAD.MFN",
+      "affiliation": "*"
+    },
+    "SRS---": {
+      "name": "SURFACE SEARCH",
+      "hierarchy": "SIGINT.SSUF.SIGINC.RAD.SUFSRH",
+      "affiliation": "*"
+    },
+    "SRTA--": {
+      "name": "TARGET ACQUISITION",
+      "hierarchy": "SIGINT.SSUF.SIGINC.RAD.TGTAQ",
+      "affiliation": "*"
+    },
+    "SRTI--": {
+      "name": "TARGET ILLUMINATOR",
+      "hierarchy": "SIGINT.SSUF.SIGINC.RAD.TGTILL",
+      "affiliation": "*"
+    },
+    "SRTT--": {
+      "name": "TARGET TRACKING",
+      "hierarchy": "SIGINT.SSUF.SIGINC.RAD.TGTTRK",
+      "affiliation": "*"
+    },
+    "SRU---": {
+      "name": "UNKNOWN",
+      "hierarchy": "SIGINT.SSUF.SIGINC.RAD.UNK",
+      "affiliation": "*"
+    },
+    "P-----": {
+      "name": "POINTS",
+      "hierarchy": "TACGRP.CSS.PNT",
+      "affiliation": "*"
+    },
+    "PX----": {
+      "name": "AMBULANCE EXCHANGE POINT",
+      "hierarchy": "TACGRP.CSS.PNT.AEP",
+      "affiliation": "*"
+    },
+    "PC----": {
+      "name": "CANNIBALIZATION POINT",
+      "hierarchy": "TACGRP.CSS.PNT.CBNP",
+      "affiliation": "*"
+    },
+    "PY----": {
+      "name": "CASUALTY COLLECTION POINT",
+      "hierarchy": "TACGRP.CSS.PNT.CCP",
+      "affiliation": "*"
+    },
+    "PT----": {
+      "name": "CIVILIAN COLLECTION POINT",
+      "hierarchy": "TACGRP.CSS.PNT.CVP",
+      "affiliation": "*"
+    },
+    "PD----": {
+      "name": "DETAINEE COLLECTION POINT",
+      "hierarchy": "TACGRP.CSS.PNT.DCP",
+      "affiliation": "*"
+    },
+    "PE----": {
+      "name": "ENEMY PRISONER OF WAR (EPW) COLLECTION POINT",
+      "hierarchy": "TACGRP.CSS.PNT.EPWCP",
+      "affiliation": "*"
+    },
+    "PL----": {
+      "name": "LOGISTICS RELEASE POINT (LRP)",
+      "hierarchy": "TACGRP.CSS.PNT.LRP",
+      "affiliation": "*"
+    },
+    "PM----": {
+      "name": "MAINTENANCE COLLECTION POINT",
+      "hierarchy": "TACGRP.CSS.PNT.MCP",
+      "affiliation": "*"
+    },
+    "PR----": {
+      "name": "REARM, REFUEL AND RESUPPLY POINT",
+      "hierarchy": "TACGRP.CSS.PNT.RRRP",
+      "affiliation": "*"
+    },
+    "PU----": {
+      "name": "REFUEL ON THE MOVE (ROM) POINT",
+      "hierarchy": "TACGRP.CSS.PNT.ROM",
+      "affiliation": "*"
+    },
+    "PO----": {
+      "name": "TRAFFIC CONTROL POST (TCP)",
+      "hierarchy": "TACGRP.CSS.PNT.TCP",
+      "affiliation": "*"
+    },
+    "PI----": {
+      "name": "TRAILER TRANSFER POINT",
+      "hierarchy": "TACGRP.CSS.PNT.TTP",
+      "affiliation": "*"
+    },
+    "PN----": {
+      "name": "UNIT MAINTENANCE COLLECTION POINT",
+      "hierarchy": "TACGRP.CSS.PNT.UMC",
+      "affiliation": "*"
+    },
+    "PS----": {
+      "name": "SUPPLY POINTS",
+      "hierarchy": "TACGRP.CSS.PNT.SPT",
+      "affiliation": "*"
+    },
+    "PSZ---": {
+      "name": "GENERAL",
+      "hierarchy": "TACGRP.CSS.PNT.SPT.GNL",
+      "affiliation": "*"
+    },
+    "PSA---": {
+      "name": "CLASS I",
+      "hierarchy": "TACGRP.CSS.PNT.SPT.CLS1",
+      "affiliation": "*"
+    },
+    "PSB---": {
+      "name": "CLASS II",
+      "hierarchy": "TACGRP.CSS.PNT.SPT.CLS2",
+      "affiliation": "*"
+    },
+    "PSC---": {
+      "name": "CLASS III",
+      "hierarchy": "TACGRP.CSS.PNT.SPT.CLS3",
+      "affiliation": "*"
+    },
+    "PSD---": {
+      "name": "CLASS IV",
+      "hierarchy": "TACGRP.CSS.PNT.SPT.CLS4",
+      "affiliation": "*"
+    },
+    "PSE---": {
+      "name": "CLASS V",
+      "hierarchy": "TACGRP.CSS.PNT.SPT.CLS5",
+      "affiliation": "*"
+    },
+    "PSF---": {
+      "name": "CLASS VI",
+      "hierarchy": "TACGRP.CSS.PNT.SPT.CLS6",
+      "affiliation": "*"
+    },
+    "PSG---": {
+      "name": "CLASS VII",
+      "hierarchy": "TACGRP.CSS.PNT.SPT.CLS7",
+      "affiliation": "*"
+    },
+    "PSH---": {
+      "name": "CLASS VIII",
+      "hierarchy": "TACGRP.CSS.PNT.SPT.CLS8",
+      "affiliation": "*"
+    },
+    "PSI---": {
+      "name": "CLASS IX",
+      "hierarchy": "TACGRP.CSS.PNT.SPT.CLS9",
+      "affiliation": "*"
+    },
+    "PSJ---": {
+      "name": "CLASS X",
+      "hierarchy": "TACGRP.CSS.PNT.SPT.CLS10",
+      "affiliation": "*"
+    },
+    "PA----": {
+      "name": "AMMUNITION POINTS",
+      "hierarchy": "TACGRP.CSS.PNT.AP",
+      "affiliation": "*"
+    },
+    "PAS---": {
+      "name": "AMMUNITION SUPPLY POINT (ASP)",
+      "hierarchy": "TACGRP.CSS.PNT.AP.ASP",
+      "affiliation": "*"
+    },
+    "PAT---": {
+      "name": "AMMUNITION TRANSFER POINT (ATP)",
+      "hierarchy": "TACGRP.CSS.PNT.AP.ATP",
+      "affiliation": "*"
+    },
+    "L-----": {
+      "name": "LINES",
+      "hierarchy": "TACGRP.CSS.LNE",
+      "affiliation": "*"
+    },
+    "LC----": {
+      "name": "CONVOYS",
+      "hierarchy": "TACGRP.CSS.LNE.CNY",
+      "affiliation": "*"
+    },
+    "LCM---": {
+      "name": "MOVING CONVOY",
+      "hierarchy": "TACGRP.CSS.LNE.CNY.MCNY",
+      "affiliation": "*"
+    },
+    "LCH---": {
+      "name": "HALTED CONVOY",
+      "hierarchy": "TACGRP.CSS.LNE.CNY.HCNY",
+      "affiliation": "*"
+    },
+    "LR----": {
+      "name": "SUPPLY ROUTES",
+      "hierarchy": "TACGRP.CSS.LNE.SLPRUT",
+      "affiliation": "*"
+    },
+    "LRM---": {
+      "name": "MAIN SUPPLY ROUTE",
+      "hierarchy": "TACGRP.CSS.LNE.SLPRUT.MSRUT",
+      "affiliation": "*"
+    },
+    "LRA---": {
+      "name": "ALTERNATE SUPPLY ROUTE",
+      "hierarchy": "TACGRP.CSS.LNE.SLPRUT.ASRUT",
+      "affiliation": "*"
+    },
+    "LRO---": {
+      "name": "ONE-WAY TRAFFIC",
+      "hierarchy": "TACGRP.CSS.LNE.SLPRUT.1WTRFF",
+      "affiliation": "*"
+    },
+    "LRT---": {
+      "name": "ALTERNATING TRAFFIC",
+      "hierarchy": "TACGRP.CSS.LNE.SLPRUT.ATRFF",
+      "affiliation": "*"
+    },
+    "LRW---": {
+      "name": "TWO-WAY TRAFFIC",
+      "hierarchy": "TACGRP.CSS.LNE.SLPRUT.2WTRFF",
+      "affiliation": "*"
+    },
+    "A-----": {
+      "name": "AREA",
+      "hierarchy": "TACGRP.CSS.ARA",
+      "affiliation": "*"
+    },
+    "AD----": {
+      "name": "DETAINEE HOLDING AREA",
+      "hierarchy": "TACGRP.CSS.ARA.DHA",
+      "affiliation": "*"
+    },
+    "AE----": {
+      "name": "ENEMY PRISONER OF WAR (EPW) HOLDING AREA",
+      "hierarchy": "TACGRP.CSS.ARA.EPWHA",
+      "affiliation": "*"
+    },
+    "AR----": {
+      "name": "FORWARD ARMING AND REFUELING AREA (FARP)",
+      "hierarchy": "TACGRP.CSS.ARA.FARP",
+      "affiliation": "*"
+    },
+    "AH----": {
+      "name": "REFUGEE HOLDING AREA",
+      "hierarchy": "TACGRP.CSS.ARA.RHA",
+      "affiliation": "*"
+    },
+    "AS----": {
+      "name": "SUPPORT AREAS",
+      "hierarchy": "TACGRP.CSS.ARA.SUPARS",
+      "affiliation": "*"
+    },
+    "ASB---": {
+      "name": "BRIGADE (BSA)",
+      "hierarchy": "TACGRP.CSS.ARA.SUPARS.BSA",
+      "affiliation": "*"
+    },
+    "ASD---": {
+      "name": "DIVISION (DSA)",
+      "hierarchy": "TACGRP.CSS.ARA.SUPARS.DSA",
+      "affiliation": "*"
+    },
+    "ASR---": {
+      "name": "REGIMENTAL (RSA)",
+      "hierarchy": "TACGRP.CSS.ARA.SUPARS.RSA",
+      "affiliation": "*"
+    }
+  },
+  "P": {
+    "------": {
+      "name": "SPACE TRACK",
+      "hierarchy": "WAR.SPC",
+      "affiliation": "*"
+    },
+    "S-----": {
+      "name": "SATELLITE",
+      "hierarchy": "WAR.SPC.SAT",
+      "affiliation": "*"
+    },
+    "SC----": {
+      "name": "COMMUNICATIONS",
+      "hierarchy": "SIGINT.SPC.SIGINC.COMM",
+      "affiliation": "*"
+    },
+    "SCD---": {
+      "name": "SATELLITE DOWN-LINK",
+      "hierarchy": "SIGINT.SPC.SIGINC.COMM.SATDL",
+      "affiliation": "*"
+    },
+    "SR----": {
+      "name": "RADAR",
+      "hierarchy": "SIGINT.SPC.SIGINC.RAD",
+      "affiliation": "*"
+    },
+    "SRD---": {
+      "name": "DATA TRANSMISSION",
+      "hierarchy": "SIGINT.SPC.SIGINC.RAD.DATTMN",
+      "affiliation": "*"
+    },
+    "SRE---": {
+      "name": "EARTH SURVEILLANCE",
+      "hierarchy": "SIGINT.SPC.SIGINC.RAD.ERHSVL",
+      "affiliation": "*"
+    },
+    "SRI---": {
+      "name": "IFF (TRANSPONDER)",
+      "hierarchy": "SIGINT.SPC.SIGINC.RAD.IFF",
+      "affiliation": "*"
+    },
+    "SRM---": {
+      "name": "MULTI-FUNCTION",
+      "hierarchy": "SIGINT.SPC.SIGINC.RAD.MFN",
+      "affiliation": "*"
+    },
+    "SRT---": {
+      "name": "TARGET ACQUISITION",
+      "hierarchy": "SIGINT.SPC.SIGINC.RAD.TGTAQ",
+      "affiliation": "*"
+    },
+    "SRS---": {
+      "name": "SPACE",
+      "hierarchy": "SIGINT.SPC.SIGINC.RAD.SPC",
+      "affiliation": "*"
+    },
+    "SRU---": {
+      "name": "UNKNOWN",
+      "hierarchy": "SIGINT.SPC.SIGINC.RAD.UNK",
+      "affiliation": "*"
+    },
+    "V-----": {
+      "name": "CREWED SPACE VEHICLE",
+      "hierarchy": "WAR.SPC.CSV",
+      "affiliation": "*"
+    },
+    "T-----": {
+      "name": "SPACE STATION",
+      "hierarchy": "WAR.SPC.SST",
+      "affiliation": "*"
+    },
+    "L-----": {
+      "name": "SPACE LAUNCH VEHICLE",
+      "hierarchy": "WAR.SPC.SLV",
+      "affiliation": "*"
+    }
+  },
+  "U": {
+    "------": {
+      "name": "SUBSURFACE TRACK",
+      "hierarchy": "WAR.SBSUF",
+      "affiliation": "*"
+    },
+    "S-----": {
+      "name": "SUBMARINE",
+      "hierarchy": "WAR.SBSUF.SUB",
+      "affiliation": "*"
+    },
+    "SC----": {
+      "name": "CONVENTIONAL PROPULSION",
+      "hierarchy": "WAR.SBSUF.SUB.CNVPRN",
+      "affiliation": "*"
+    },
+    "SCO---": {
+      "name": "OMNI-LINE-OF-SIGHT (LOS)",
+      "hierarchy": "SIGINT.SBSUF.SIGINC.COMM.OLOS",
+      "affiliation": "*"
+    },
+    "SCP---": {
+      "name": "POINT-TO-POINT LINE-OF-SIGHT (LOS)",
+      "hierarchy": "SIGINT.SBSUF.SIGINC.COMM.PTPLOS",
+      "affiliation": "*"
+    },
+    "SCS---": {
+      "name": "SATELLITE UP-LINK",
+      "hierarchy": "SIGINT.SBSUF.SIGINC.COMM.SATUL",
+      "affiliation": "*"
+    },
+    "SR----": {
+      "name": "RADAR",
+      "hierarchy": "SIGINT.SBSUF.SIGINC.RAD",
+      "affiliation": "*"
+    },
+    "SRD---": {
+      "name": "DATA TRANSMISSION",
+      "hierarchy": "SIGINT.SBSUF.SIGINC.RAD.DATTMN",
+      "affiliation": "*"
+    },
+    "SRE---": {
+      "name": "EARLY WARNING",
+      "hierarchy": "SIGINT.SBSUF.SIGINC.RAD.EW",
+      "affiliation": "*"
+    },
+    "SRM---": {
+      "name": "MULTI-FUNCTION",
+      "hierarchy": "SIGINT.SBSUF.SIGINC.RAD.MFN",
+      "affiliation": "*"
+    },
+    "SRS---": {
+      "name": "SURFACE SEARCH",
+      "hierarchy": "SIGINT.SBSUF.SIGINC.RAD.SUFSRH",
+      "affiliation": "*"
+    },
+    "SRT---": {
+      "name": "TARGET ACQUISITION",
+      "hierarchy": "SIGINT.SBSUF.SIGINC.RAD.TGTAQ",
+      "affiliation": "*"
+    },
+    "SRU---": {
+      "name": "UNKNOWN",
+      "hierarchy": "SIGINT.SBSUF.SIGINC.RAD.UNK",
+      "affiliation": "*"
+    },
+    "SF----": {
+      "name": "SURFACED SUBMARINE",
+      "hierarchy": "WAR.SBSUF.SUB.SURF",
+      "affiliation": "*"
+    },
+    "SN----": {
+      "name": "NUCLEAR PROPULSION",
+      "hierarchy": "WAR.SBSUF.SUB.NPRN",
+      "affiliation": "*"
+    },
+    "SNF---": {
+      "name": "SURFACED NUCLEAR PROPULSION SUBMARINE",
+      "hierarchy": "WAR.SBSUF.SUB.NPRN.SURF",
+      "affiliation": "*"
+    },
+    "SNA---": {
+      "name": "ATTACK SUBMARINE (SSN)",
+      "hierarchy": "WAR.SBSUF.SUB.NPRN.ATK",
+      "affiliation": "*"
+    },
+    "SNM---": {
+      "name": "MISSILE SUBMARINE (TYPE UNKNOWN)",
+      "hierarchy": "WAR.SBSUF.SUB.NPRN.MSL",
+      "affiliation": "*"
+    },
+    "SNG---": {
+      "name": "GUIDED MISSILE SUBMARINE (SSGN)",
+      "hierarchy": "WAR.SBSUF.SUB.NPRN.GDD",
+      "affiliation": "*"
+    },
+    "SNB---": {
+      "name": "BALLISTIC MISSILE SUBMARINE (SSBN)",
+      "hierarchy": "WAR.SBSUF.SUB.NPRN.BLST",
+      "affiliation": "*"
+    },
+    "SCF---": {
+      "name": "SURFACED CONVENTIONAL PROPULSION SUBMARINE",
+      "hierarchy": "WAR.SBSUF.SUB.CNVPRN.SURF",
+      "affiliation": "*"
+    },
+    "SCA---": {
+      "name": "ATTACK SUBMARINE (SS)",
+      "hierarchy": "WAR.SBSUF.SUB.CNVPRN.ATK",
+      "affiliation": "*"
+    },
+    "SCM---": {
+      "name": "MISSILE SUBMARINE (TYPE UNKNOWN)",
+      "hierarchy": "WAR.SBSUF.SUB.CNVPRN.MSL",
+      "affiliation": "*"
+    },
+    "SCG---": {
+      "name": "GUIDED MISSILE SUBMARINE (SSG)",
+      "hierarchy": "WAR.SBSUF.SUB.CNVPRN.GDD",
+      "affiliation": "*"
+    },
+    "SCB---": {
+      "name": "BALLISTIC MISSILE SUBMARINE (SSB)",
+      "hierarchy": "WAR.SBSUF.SUB.CNVPRN.BLST",
+      "affiliation": "*"
+    },
+    "SO----": {
+      "name": "OTHER SUBMERSIBLE",
+      "hierarchy": "WAR.SBSUF.SUB.OTH",
+      "affiliation": "*"
+    },
+    "SOF---": {
+      "name": "SURFACED OTHER SUBMERSIBLE",
+      "hierarchy": "WAR.SBSUF.SUB.OTH.SURF",
+      "affiliation": "*"
+    },
+    "SS----": {
+      "name": "STATION",
+      "hierarchy": "WAR.SBSUF.SUB.STN",
+      "affiliation": "*"
+    },
+    "SSA---": {
+      "name": "ASW SUBMARINE",
+      "hierarchy": "WAR.SBSUF.SUB.STN.ASWSUB",
+      "affiliation": "*"
+    },
+    "SU----": {
+      "name": "UNMANNED UNDERWATER VEHICLE (UUV)",
+      "hierarchy": "WAR.SBSUF.SUB.UUV",
+      "affiliation": "*"
+    },
+    "SUM---": {
+      "name": "MINE WARFARE SUBSURFACE DRONE",
+      "hierarchy": "WAR.SBSUF.SUB.UUV.MNEW",
+      "affiliation": "*"
+    },
+    "SUS---": {
+      "name": "ANTISUBMARINE WARFARE SUBSURFACE DRONE",
+      "hierarchy": "WAR.SBSUF.SUB.UUV.ASBW",
+      "affiliation": "*"
+    },
+    "SUN---": {
+      "name": "ANTISURFACE WARFARE SUBSURFACE DRONE",
+      "hierarchy": "WAR.SBSUF.SUB.UUV.ASUW",
+      "affiliation": "*"
+    },
+    "W-----": {
+      "name": "UNDERWATER WEAPON",
+      "hierarchy": "WAR.SBSUF.UH2WPN",
+      "affiliation": "*"
+    },
+    "WT----": {
+      "name": "TORPEDO",
+      "hierarchy": "WAR.SBSUF.UH2WPN.TPD",
+      "affiliation": "*"
+    },
+    "WM----": {
+      "name": "SEA MINE",
+      "hierarchy": "WAR.SBSUF.UH2WPN.SMNE",
+      "affiliation": "*"
+    },
+    "WMD---": {
+      "name": "SEA MINE DEALT",
+      "hierarchy": "WAR.SBSUF.UH2WPN.SMNE.DLT",
+      "affiliation": "*"
+    },
+    "WMG---": {
+      "name": "SEA MINE (GROUND)",
+      "hierarchy": "WAR.SBSUF.UH2WPN.SMNE.SMG",
+      "affiliation": "*"
+    },
+    "WMGD--": {
+      "name": "SEA MINE (GROUND) DEALT",
+      "hierarchy": "WAR.SBSUF.UH2WPN.SMNE.SMG.DLT",
+      "affiliation": "*"
+    },
+    "WMM---": {
+      "name": "SEA MINE (MOORED)",
+      "hierarchy": "WAR.SBSUF.UH2WPN.SMNE.SMM",
+      "affiliation": "*"
+    },
+    "WMMD--": {
+      "name": "SEA MINE (MOORED) DEALT",
+      "hierarchy": "WAR.SBSUF.UH2WPN.SMNE.SMM.DLT",
+      "affiliation": "*"
+    },
+    "WMF---": {
+      "name": "SEA MINE (FLOATING)",
+      "hierarchy": "WAR.SBSUF.UH2WPN.SMNE.SMF",
+      "affiliation": "*"
+    },
+    "WMFD--": {
+      "name": "SEA MINE (FLOATING) DEALT",
+      "hierarchy": "WAR.SBSUF.UH2WPN.SMNE.SMF.DLT",
+      "affiliation": "*"
+    },
+    "WMO---": {
+      "name": "SEA MINE (OTHER POSITION)",
+      "hierarchy": "WAR.SBSUF.UH2WPN.SMNE.SMOP",
+      "affiliation": "*"
+    },
+    "WMOD--": {
+      "name": "SEA MINE (OTHER POSITION) DEALT",
+      "hierarchy": "WAR.SBSUF.UH2WPN.SMNE.SMOP.DLT",
+      "affiliation": "*"
+    },
+    "WD----": {
+      "name": "UNDERWATER DECOY",
+      "hierarchy": "WAR.SBSUF.UH2DCY",
+      "affiliation": "*"
+    },
+    "WDM---": {
+      "name": "SEA MINE DECOY",
+      "hierarchy": "WAR.SBSUF.UH2DCY.SMDCY",
+      "affiliation": "*"
+    },
+    "N-----": {
+      "name": "NON-SUBMARINE",
+      "hierarchy": "WAR.SBSUF.NSUB",
+      "affiliation": "*"
+    },
+    "ND----": {
+      "name": "DIVER",
+      "hierarchy": "WAR.SBSUF.NSUB.DVR",
+      "affiliation": "*"
+    }
+  },
+  "F": {
+    "------": {
+      "name": "FIRE SUPPORT",
+      "hierarchy": "TACGRP.FSUPP",
+      "affiliation": "*"
+    },
+    "A-----": {
+      "name": "AREAS",
+      "hierarchy": "TACGRP.FSUPP.ARS",
+      "affiliation": "*"
+    },
+    "AF----": {
+      "name": "SOF UNIT FIXED WING",
+      "hierarchy": "WAR.SOFUNT.AVN.FIXD",
+      "affiliation": "*"
+    },
+    "AFA---": {
+      "name": "SOF UNIT ATTACK",
+      "hierarchy": "WAR.SOFUNT.AVN.FIXD.ATK",
+      "affiliation": "*"
+    },
+    "AFK---": {
+      "name": "SOF UNIT REFUEL",
+      "hierarchy": "WAR.SOFUNT.AVN.FIXD.RFE",
+      "affiliation": "*"
+    },
+    "AFU---": {
+      "name": "SOF UNIT UTILITY",
+      "hierarchy": "WAR.SOFUNT.AVN.FIXD.UTY",
+      "affiliation": "*"
+    },
+    "AFUL--": {
+      "name": "SOF UNIT UTILITY (LIGHT)",
+      "hierarchy": "WAR.SOFUNT.AVN.FIXD.UTY.LIT",
+      "affiliation": "*"
+    },
+    "AFUM--": {
+      "name": "SOF UNIT UTILITY (MEDIUM)",
+      "hierarchy": "WAR.SOFUNT.AVN.FIXD.UTY.MDM",
+      "affiliation": "*"
+    },
+    "AFUH--": {
+      "name": "SOF UNIT UTILITY (HEAVY)",
+      "hierarchy": "WAR.SOFUNT.AVN.FIXD.UTY.HVY",
+      "affiliation": "*"
+    },
+    "AV----": {
+      "name": "SOF UNIT V/STOL",
+      "hierarchy": "WAR.SOFUNT.AVN.VSTOL",
+      "affiliation": "*"
+    },
+    "AH----": {
+      "name": "SOF UNIT ROTARY WING",
+      "hierarchy": "WAR.SOFUNT.AVN.ROT",
+      "affiliation": "*"
+    },
+    "AHH---": {
+      "name": "SOF UNIT COMBAT SEARCH AND RESCUE",
+      "hierarchy": "WAR.SOFUNT.AVN.ROT.CSAR",
+      "affiliation": "*"
+    },
+    "AHA---": {
+      "name": "SOF UNIT ATTACK",
+      "hierarchy": "WAR.SOFUNT.AVN.ROT.ATK",
+      "affiliation": "*"
+    },
+    "AHU---": {
+      "name": "SOF UNIT UTILITY",
+      "hierarchy": "WAR.SOFUNT.AVN.ROT.UTY",
+      "affiliation": "*"
+    },
+    "AHUL--": {
+      "name": "SOF UNIT UTILITY (LIGHT)",
+      "hierarchy": "WAR.SOFUNT.AVN.ROT.UTY.LIT",
+      "affiliation": "*"
+    },
+    "AHUM--": {
+      "name": "SOF UNIT UTILITY (MEDIUM)",
+      "hierarchy": "WAR.SOFUNT.AVN.ROT.UTY.MDM",
+      "affiliation": "*"
+    },
+    "AHUH--": {
+      "name": "SOF UNIT UTILITY (HEAVY)",
+      "hierarchy": "WAR.SOFUNT.AVN.ROT.UTY.HVY",
+      "affiliation": "*"
+    },
+    "N-----": {
+      "name": "SOF UNIT SOF UNIT NAVAL",
+      "hierarchy": "WAR.SOFUNT.NAV",
+      "affiliation": "*"
+    },
+    "NS----": {
+      "name": "SOF UNIT SEAL",
+      "hierarchy": "WAR.SOFUNT.NAV.SEAL",
+      "affiliation": "*"
+    },
+    "NU----": {
+      "name": "SOF UNIT UNDERWATER DEMOLITION TEAM",
+      "hierarchy": "WAR.SOFUNT.NAV.UH2DML",
+      "affiliation": "*"
+    },
+    "NB----": {
+      "name": "SOF UNIT SPECIAL BOAT",
+      "hierarchy": "WAR.SOFUNT.NAV.SBT",
+      "affiliation": "*"
+    },
+    "NN----": {
+      "name": "SOF UNIT SPECIAL SSNR",
+      "hierarchy": "WAR.SOFUNT.NAV.SSSNR",
+      "affiliation": "*"
+    },
+    "G-----": {
+      "name": "SOF UNIT GROUND",
+      "hierarchy": "WAR.SOFUNT.GRD",
+      "affiliation": "*"
+    },
+    "GS----": {
+      "name": "SOF UNIT SPECIAL FORCES",
+      "hierarchy": "WAR.SOFUNT.GRD.SOF",
+      "affiliation": "*"
+    },
+    "GR----": {
+      "name": "SOF UNIT RANGER",
+      "hierarchy": "WAR.SOFUNT.GRD.RGR",
+      "affiliation": "*"
+    },
+    "GP----": {
+      "name": "SOF UNIT PSYCHOLOGICAL OPERATIONS (PSYOP)",
+      "hierarchy": "WAR.SOFUNT.GRD.PSYOP",
+      "affiliation": "*"
+    },
+    "GPA---": {
+      "name": "SOF UNIT FIXED WING AVIATION",
+      "hierarchy": "WAR.SOFUNT.GRD.PSYOP.FIXAVN",
+      "affiliation": "*"
+    },
+    "GC----": {
+      "name": "SOF UNIT CIVIL AFFAIRS",
+      "hierarchy": "WAR.SOFUNT.GRD.CVLAFF",
+      "affiliation": "*"
+    },
+    "B-----": {
+      "name": "SOF UNIT SUPPORT",
+      "hierarchy": "WAR.SOFUNT.SUP",
+      "affiliation": "*"
+    },
+    "P-----": {
+      "name": "POINT",
+      "hierarchy": "TACGRP.FSUPP.PNT",
+      "affiliation": "*"
+    },
+    "PT----": {
+      "name": "TARGET",
+      "hierarchy": "TACGRP.FSUPP.PNT.TGT",
+      "affiliation": "*"
+    },
+    "PTS---": {
+      "name": "POINT/SINGLE TARGET",
+      "hierarchy": "TACGRP.FSUPP.PNT.TGT.PTGT",
+      "affiliation": "*"
+    },
+    "PTN---": {
+      "name": "NUCLEAR TARGET",
+      "hierarchy": "TACGRP.FSUPP.PNT.TGT.NUCTGT",
+      "affiliation": "*"
+    },
+    "PC----": {
+      "name": "COMMAND & CONTROL POINTS",
+      "hierarchy": "TACGRP.FSUPP.PNT.C2PNT",
+      "affiliation": "*"
+    },
+    "PCF---": {
+      "name": "FIRE SUPPORT STATION",
+      "hierarchy": "TACGRP.FSUPP.PNT.C2PNT.FSS",
+      "affiliation": "*"
+    },
+    "PCS---": {
+      "name": "SURVEY CONTROL POINT",
+      "hierarchy": "TACGRP.FSUPP.PNT.C2PNT.SCP",
+      "affiliation": "*"
+    },
+    "PCB---": {
+      "name": "FIRING POINT",
+      "hierarchy": "TACGRP.FSUPP.PNT.C2PNT.FP",
+      "affiliation": "*"
+    },
+    "PCR---": {
+      "name": "RELOAD POINT",
+      "hierarchy": "TACGRP.FSUPP.PNT.C2PNT.RP",
+      "affiliation": "*"
+    },
+    "PCH---": {
+      "name": "HIDE POINT",
+      "hierarchy": "TACGRP.FSUPP.PNT.C2PNT.HP",
+      "affiliation": "*"
+    },
+    "PCL---": {
+      "name": "LAUNCH POINT",
+      "hierarchy": "TACGRP.FSUPP.PNT.C2PNT.LP",
+      "affiliation": "*"
+    },
+    "L-----": {
+      "name": "LINES",
+      "hierarchy": "TACGRP.FSUPP.LNE",
+      "affiliation": "*"
+    },
+    "LT----": {
+      "name": "LINEAR TARGET",
+      "hierarchy": "TACGRP.FSUPP.LNE.LNRTGT",
+      "affiliation": "*"
+    },
+    "LTS---": {
+      "name": "LINEAR SMOKE TARGET",
+      "hierarchy": "TACGRP.FSUPP.LNE.LNRTGT.LSTGT",
+      "affiliation": "*"
+    },
+    "LTF---": {
+      "name": "FINAL PROTECTIVE FIRE (FPF)",
+      "hierarchy": "TACGRP.FSUPP.LNE.LNRTGT.FPF",
+      "affiliation": "*"
+    },
+    "LC----": {
+      "name": "COMMAND & CONTROL LINES",
+      "hierarchy": "TACGRP.FSUPP.LNE.C2LNE",
+      "affiliation": "*"
+    },
+    "LCF---": {
+      "name": "FIRE SUPPORT COORDINATION LINE (FSCL)",
+      "hierarchy": "TACGRP.FSUPP.LNE.C2LNE.FSCL",
+      "affiliation": "*"
+    },
+    "LCC---": {
+      "name": "COORDINATED FIRE LINE (CFL)",
+      "hierarchy": "TACGRP.FSUPP.LNE.C2LNE.CFL",
+      "affiliation": "*"
+    },
+    "LCN---": {
+      "name": "NO-FIRE LINE (NFL)",
+      "hierarchy": "TACGRP.FSUPP.LNE.C2LNE.NFL",
+      "affiliation": "*"
+    },
+    "LCR---": {
+      "name": "RESTRICTIVE FIRE LINE (RFL)",
+      "hierarchy": "TACGRP.FSUPP.LNE.C2LNE.RFL",
+      "affiliation": "*"
+    },
+    "AT----": {
+      "name": "AREA TARGET",
+      "hierarchy": "TACGRP.FSUPP.ARS.ARATGT",
+      "affiliation": "*"
+    },
+    "ATR---": {
+      "name": "RECTANGULAR TARGET",
+      "hierarchy": "TACGRP.FSUPP.ARS.ARATGT.RTGTGT",
+      "affiliation": "*"
+    },
+    "ATC---": {
+      "name": "CIRCULAR TARGET",
+      "hierarchy": "TACGRP.FSUPP.ARS.ARATGT.CIRTGT",
+      "affiliation": "*"
+    },
+    "ATG---": {
+      "name": "SERIES OR GROUP OF TARGETS",
+      "hierarchy": "TACGRP.FSUPP.ARS.ARATGT.SGTGT",
+      "affiliation": "*"
+    },
+    "ATS---": {
+      "name": "SMOKE",
+      "hierarchy": "TACGRP.FSUPP.ARS.ARATGT.SMK",
+      "affiliation": "*"
+    },
+    "ATB---": {
+      "name": "BOMB AREA",
+      "hierarchy": "TACGRP.FSUPP.ARS.ARATGT.BMARA",
+      "affiliation": "*"
+    },
+    "AC----": {
+      "name": "COMMAND & CONTROL AREAS",
+      "hierarchy": "TACGRP.FSUPP.ARS.C2ARS",
+      "affiliation": "*"
+    },
+    "ACS---": {
+      "name": "FIRE SUPPORT AREA (FSA)",
+      "hierarchy": "TACGRP.FSUPP.ARS.C2ARS.FSA",
+      "affiliation": "*"
+    },
+    "ACSI--": {
+      "name": "FIRE SUPPORT AREA (FSA), IRREGULAR",
+      "hierarchy": "TACGRP.FSUPP.ARS.C2ARS.FSA.IRR",
+      "affiliation": "*"
+    },
+    "ACSR--": {
+      "name": "FIRE SUPPORT AREA (FSA), RECTANGULAR",
+      "hierarchy": "TACGRP.FSUPP.ARS.C2ARS.FSA.RTG",
+      "affiliation": "*"
+    },
+    "ACSC--": {
+      "name": "FIRE SUPPORT AREA (FSA), CIRCULAR",
+      "hierarchy": "TACGRP.FSUPP.ARS.C2ARS.FSA.CIRCLR",
+      "affiliation": "*"
+    },
+    "ACA---": {
+      "name": "AIRSPACE COORDINATION AREA (ACA)",
+      "hierarchy": "TACGRP.FSUPP.ARS.C2ARS.ACA",
+      "affiliation": "*"
+    },
+    "ACAI--": {
+      "name": "AIRSPACE COORDINATION AREA (ACA), IRREGULAR",
+      "hierarchy": "TACGRP.FSUPP.ARS.C2ARS.ACA.IRR",
+      "affiliation": "*"
+    },
+    "ACAR--": {
+      "name": "AIRSPACE COORDINATION AREA (ACA), RECTANGULAR",
+      "hierarchy": "TACGRP.FSUPP.ARS.C2ARS.ACA.RTG",
+      "affiliation": "*"
+    },
+    "ACAC--": {
+      "name": "AIRSPACE COORDINATION AREA (ACA), CIRCULAR",
+      "hierarchy": "TACGRP.FSUPP.ARS.C2ARS.ACA.CIRCLR",
+      "affiliation": "*"
+    },
+    "ACF---": {
+      "name": "FREE FIRE AREA (FFA)",
+      "hierarchy": "TACGRP.FSUPP.ARS.C2ARS.FFA",
+      "affiliation": "*"
+    },
+    "ACFI--": {
+      "name": "FREE FIRE AREA (FFA), IRREGULAR",
+      "hierarchy": "TACGRP.FSUPP.ARS.C2ARS.FFA.IRR",
+      "affiliation": "*"
+    },
+    "ACFR--": {
+      "name": "FREE FIRE AREA (FFA), RECTANGULAR",
+      "hierarchy": "TACGRP.FSUPP.ARS.C2ARS.FFA.RTG",
+      "affiliation": "*"
+    },
+    "ACFC--": {
+      "name": "FREE FIRE AREA (FFA), CIRCULAR",
+      "hierarchy": "TACGRP.FSUPP.ARS.C2ARS.FFA.CIRCLR",
+      "affiliation": "*"
+    },
+    "ACN---": {
+      "name": "NO-FIRE AREA (NFA)",
+      "hierarchy": "TACGRP.FSUPP.ARS.C2ARS.NFA",
+      "affiliation": "*"
+    },
+    "ACNI--": {
+      "name": "NO FIRE AREA (NFA), IRREGULAR",
+      "hierarchy": "TACGRP.FSUPP.ARS.C2ARS.NFA.IRR",
+      "affiliation": "*"
+    },
+    "ACNR--": {
+      "name": "NO FIRE AREA (NFA), RECTANGULAR",
+      "hierarchy": "TACGRP.FSUPP.ARS.C2ARS.NFA.RTG",
+      "affiliation": "*"
+    },
+    "ACNC--": {
+      "name": "NO FIRE AREA (NFA), CIRCULAR",
+      "hierarchy": "TACGRP.FSUPP.ARS.C2ARS.NFA.CIRCLR",
+      "affiliation": "*"
+    },
+    "ACR---": {
+      "name": "RESTRICTIVE FIRE AREA (RFA)",
+      "hierarchy": "TACGRP.FSUPP.ARS.C2ARS.RFA",
+      "affiliation": "*"
+    },
+    "ACRI--": {
+      "name": "RESTRICTIVE FIRE AREA (RFA), IRREGULAR",
+      "hierarchy": "TACGRP.FSUPP.ARS.C2ARS.RFA.IRR",
+      "affiliation": "*"
+    },
+    "ACRR--": {
+      "name": "RESTRICTIVE FIRE AREA (RFA), RECTANGULAR",
+      "hierarchy": "TACGRP.FSUPP.ARS.C2ARS.RFA.RTG",
+      "affiliation": "*"
+    },
+    "ACRC--": {
+      "name": "RESTRICTIVE FIRE AREA (RFA), CIRCULAR",
+      "hierarchy": "TACGRP.FSUPP.ARS.C2ARS.RFA.CIRCLR",
+      "affiliation": "*"
+    },
+    "ACP---": {
+      "name": "POSITION AREA FOR ARTILLERY (PAA)",
+      "hierarchy": "TACGRP.FSUPP.ARS.C2ARS.PAA",
+      "affiliation": "*"
+    },
+    "ACPR--": {
+      "name": "POSITION AREA FOR ARTILLERY (PAA), RECTANGULAR",
+      "hierarchy": "TACGRP.FSUPP.ARS.C2ARS.PAA.RTG",
+      "affiliation": "*"
+    },
+    "ACPC--": {
+      "name": "POSITION AREA FOR ARTILLERY (PAA), CIRCULAR",
+      "hierarchy": "TACGRP.FSUPP.ARS.C2ARS.PAA.CIRCLR",
+      "affiliation": "*"
+    },
+    "AZ----": {
+      "name": "TARGET ACQUISTION ZONES",
+      "hierarchy": "TACGRP.FSUPP.ARS.TGTAQZ",
+      "affiliation": "*"
+    },
+    "AZI---": {
+      "name": "ARTILLERY TARGET INTELLIGENCE (ATI) ZONE",
+      "hierarchy": "TACGRP.FSUPP.ARS.TGTAQZ.ATIZ",
+      "affiliation": "*"
+    },
+    "AZII--": {
+      "name": "ARTILLERY TARGET INTELLIGENCE (ATI) ZONE, IRREGULAR",
+      "hierarchy": "TACGRP.FSUPP.ARS.TGTAQZ.ATIZ.IRR",
+      "affiliation": "*"
+    },
+    "AZIR--": {
+      "name": "ARTILLERY TARGET INTELLIGENCE (ATI) ZONE, RECTANGULAR",
+      "hierarchy": "TACGRP.FSUPP.ARS.TGTAQZ.ATIZ.RTG",
+      "affiliation": "*"
+    },
+    "AZIC--": {
+      "name": "ARTILLERY TARGET INTELLIGENCE (ATI) ZONE, CIRCULAR",
+      "hierarchy": "TACGRP.FSUPP.ARS.TGTAQZ.ATIZ.CIRCLR",
+      "affiliation": "*"
+    },
+    "AZX---": {
+      "name": "CALL FOR FIRE ZONE (CFFZ)",
+      "hierarchy": "TACGRP.FSUPP.ARS.TGTAQZ.CFFZ",
+      "affiliation": "*"
+    },
+    "AZXI--": {
+      "name": "CALL FOR FIRE ZONE (CFFZ), IRREGULAR",
+      "hierarchy": "TACGRP.FSUPP.ARS.TGTAQZ.CFFZ.IRR",
+      "affiliation": "*"
+    },
+    "AZXR--": {
+      "name": "CALL FOR FIRE ZONE (CFFZ), RECTANGULAR",
+      "hierarchy": "TACGRP.FSUPP.ARS.TGTAQZ.CFFZ.RTG",
+      "affiliation": "*"
+    },
+    "AZXC--": {
+      "name": "CALL FOR FIRE ZONE (CFFZ), CIRCULAR",
+      "hierarchy": "TACGRP.FSUPP.ARS.TGTAQZ.CFFZ.CIRCLR",
+      "affiliation": "*"
+    },
+    "AZS---": {
+      "name": "SENSOR ZONE",
+      "hierarchy": "TACGRP.FSUPP.ARS.TGTAQZ.SNSZ",
+      "affiliation": "*"
+    },
+    "AZSI--": {
+      "name": "SENSOR ZONE, IRREGULAR",
+      "hierarchy": "TACGRP.FSUPP.ARS.TGTAQZ.SNSZ.IRR",
+      "affiliation": "*"
+    },
+    "AZSR--": {
+      "name": "SENSOR ZONE, RECTANGULAR",
+      "hierarchy": "TACGRP.FSUPP.ARS.TGTAQZ.SNSZ.RTG",
+      "affiliation": "*"
+    },
+    "AZSC--": {
+      "name": "SENSOR ZONE, CIRCULAR",
+      "hierarchy": "TACGRP.FSUPP.ARS.TGTAQZ.SNSZ.CIRCLR",
+      "affiliation": "*"
+    },
+    "AZC---": {
+      "name": "CENSOR ZONE",
+      "hierarchy": "TACGRP.FSUPP.ARS.TGTAQZ.CNS",
+      "affiliation": "*"
+    },
+    "AZCI--": {
+      "name": "CENSOR ZONE, IRREGULAR",
+      "hierarchy": "TACGRP.FSUPP.ARS.TGTAQZ.CNS.IRR",
+      "affiliation": "*"
+    },
+    "AZCR--": {
+      "name": "CENSOR ZONE, RECTANGULAR",
+      "hierarchy": "TACGRP.FSUPP.ARS.TGTAQZ.CNS.RTG",
+      "affiliation": "*"
+    },
+    "AZCC--": {
+      "name": "CENSOR ZONE, CIRCULAR",
+      "hierarchy": "TACGRP.FSUPP.ARS.TGTAQZ.CNS.CIRCLR",
+      "affiliation": "*"
+    },
+    "AZD---": {
+      "name": "DEAD SPACE AREA (DA)",
+      "hierarchy": "TACGRP.FSUPP.ARS.TGTAQZ.DA",
+      "affiliation": "*"
+    },
+    "AZDI--": {
+      "name": "DEAD SPACE AREA (DA), IRREGULAR",
+      "hierarchy": "TACGRP.FSUPP.ARS.TGTAQZ.DA.IRR",
+      "affiliation": "*"
+    },
+    "AZDR--": {
+      "name": "DEAD SPACE AREA (DA), RECTANGULAR",
+      "hierarchy": "TACGRP.FSUPP.ARS.TGTAQZ.DA.RTG",
+      "affiliation": "*"
+    },
+    "AZDC--": {
+      "name": "DEAD SPACE AREA (DA), CIRCULAR",
+      "hierarchy": "TACGRP.FSUPP.ARS.TGTAQZ.DA.CIRCLR",
+      "affiliation": "*"
+    },
+    "AZF---": {
+      "name": "CRITICAL FRIENDLY ZONE (CFZ)",
+      "hierarchy": "TACGRP.FSUPP.ARS.TGTAQZ.CFZ",
+      "affiliation": "*"
+    },
+    "AZFI--": {
+      "name": "CRITICAL FRIENDLY ZONE (CFZ), IRREGULAR",
+      "hierarchy": "TACGRP.FSUPP.ARS.TGTAQZ.CFZ.IRR",
+      "affiliation": "*"
+    },
+    "AZFR--": {
+      "name": "CRITICAL FRIENDLY ZONE (CFZ), RECTANGULAR",
+      "hierarchy": "TACGRP.FSUPP.ARS.TGTAQZ.CFZ.RTG",
+      "affiliation": "*"
+    },
+    "AZFC--": {
+      "name": "CRITICAL FRIENDLY ZONE (CFZ), CIRCULAR",
+      "hierarchy": "TACGRP.FSUPP.ARS.TGTAQZ.CFZ.CIRCLR",
+      "affiliation": "*"
+    },
+    "AZZ---": {
+      "name": "ZONE OF RESPONSIBILITY (ZOR)",
+      "hierarchy": "TACGRP.FSUPP.ARS.TGTAQZ.ZOR",
+      "affiliation": "*"
+    },
+    "AZZI--": {
+      "name": "ZONE OF RESPONSIBILITY (ZOR), IRREGULAR",
+      "hierarchy": "TACGRP.FSUPP.ARS.TGTAQZ.ZOR.IRR",
+      "affiliation": "*"
+    },
+    "AZZR--": {
+      "name": "ZONE OF RESPONSIBILITY (ZOR), RECTANGULAR",
+      "hierarchy": "TACGRP.FSUPP.ARS.TGTAQZ.ZOR.RTG",
+      "affiliation": "*"
+    },
+    "AZZC--": {
+      "name": "ZONE OF RESPONSIBILITY (ZOR), CIRCULAR",
+      "hierarchy": "TACGRP.FSUPP.ARS.TGTAQZ.ZOR.CIRCLR",
+      "affiliation": "*"
+    },
+    "AZB---": {
+      "name": "TARGET BUILD-UP AREA (TBA)",
+      "hierarchy": "TACGRP.FSUPP.ARS.TGTAQZ.TBA",
+      "affiliation": "*"
+    },
+    "AZBI--": {
+      "name": "TARGET BUILD UP AREA (TBA), IRREGULAR",
+      "hierarchy": "TACGRP.FSUPP.ARS.TGTAQZ.TBA.IRR",
+      "affiliation": "*"
+    },
+    "AZBR--": {
+      "name": "TARGET BUILD UP AREA (TBA), RECTANGULAR",
+      "hierarchy": "TACGRP.FSUPP.ARS.TGTAQZ.TBA.RTG",
+      "affiliation": "*"
+    },
+    "AZBC--": {
+      "name": "TARGET BUILD UP AREA (TBA), CIRCULAR",
+      "hierarchy": "TACGRP.FSUPP.ARS.TGTAQZ.TBA.CIRCLR",
+      "affiliation": "*"
+    },
+    "AZV---": {
+      "name": "TARGET VALUE AREA (TVAR)",
+      "hierarchy": "TACGRP.FSUPP.ARS.TGTAQZ.TVAR",
+      "affiliation": "*"
+    },
+    "AZVI--": {
+      "name": "TARGET VALUE AREA (TVAR), IRREGULAR",
+      "hierarchy": "TACGRP.FSUPP.ARS.TGTAQZ.TVAR.IRR",
+      "affiliation": "*"
+    },
+    "AZVR--": {
+      "name": "TARGET VALUE AREA (TVAR), RECTANGULAR",
+      "hierarchy": "TACGRP.FSUPP.ARS.TGTAQZ.TVAR.RTG",
+      "affiliation": "*"
+    },
+    "AZVC--": {
+      "name": "TARGET VALUE AREA (TVAR), CIRCULAR",
+      "hierarchy": "TACGRP.FSUPP.ARS.TGTAQZ.TVAR.CIRCLR",
+      "affiliation": "*"
+    },
+    "AX----": {
+      "name": "WEAPONS/RADAR RANGE FANS",
+      "hierarchy": "TACGRP.FSUPP.ARS.WPNRF",
+      "affiliation": "*"
+    },
+    "AXC---": {
+      "name": "WEAPONS/RADAR RANGE FANS, CIRCULAR",
+      "hierarchy": "TACGRP.FSUPP.ARS.WPNRF.CIRCLR",
+      "affiliation": "*"
+    },
+    "AXS---": {
+      "name": "WEAPONS/RADAR RANGE FANS, SECTOR",
+      "hierarchy": "TACGRP.FSUPP.ARS.WPNRF.SCR",
+      "affiliation": "*"
+    }
+  },
+  "T": {
+    "------": {
+      "name": "TASKS",
+      "hierarchy": "TACGRP.TSK",
+      "affiliation": "*"
+    },
+    "B-----": {
+      "name": "BLOCK",
+      "hierarchy": "TACGRP.TSK.BLK",
+      "affiliation": "*"
+    },
+    "H-----": {
+      "name": "BREACH",
+      "hierarchy": "TACGRP.TSK.BRH",
+      "affiliation": "*"
+    },
+    "Y-----": {
+      "name": "BYPASS",
+      "hierarchy": "TACGRP.TSK.BYS",
+      "affiliation": "*"
+    },
+    "C-----": {
+      "name": "CANALIZE",
+      "hierarchy": "TACGRP.TSK.CNZ",
+      "affiliation": "*"
+    },
+    "X-----": {
+      "name": "CLEAR",
+      "hierarchy": "TACGRP.TSK.CLR",
+      "affiliation": "*"
+    },
+    "J-----": {
+      "name": "CONTAIN",
+      "hierarchy": "TACGRP.TSK.CNT",
+      "affiliation": "*"
+    },
+    "K-----": {
+      "name": "COUNTERATTACK (CATK)",
+      "hierarchy": "TACGRP.TSK.CATK",
+      "affiliation": "*"
+    },
+    "KF----": {
+      "name": "COUNTERATTACK BY FIRE",
+      "hierarchy": "TACGRP.TSK.CATK.CATKF",
+      "affiliation": "*"
+    },
+    "L-----": {
+      "name": "DELAY",
+      "hierarchy": "TACGRP.TSK.DLY",
+      "affiliation": "*"
+    },
+    "D-----": {
+      "name": "DESTROY",
+      "hierarchy": "TACGRP.TSK.DSTY",
+      "affiliation": "*"
+    },
+    "T-----": {
+      "name": "DISRUPT",
+      "hierarchy": "TACGRP.TSK.DRT",
+      "affiliation": "*"
+    },
+    "F-----": {
+      "name": "FIX",
+      "hierarchy": "TACGRP.TSK.FIX",
+      "affiliation": "*"
+    },
+    "A-----": {
+      "name": "FOLLOW AND ASSUME",
+      "hierarchy": "TACGRP.TSK.FLWASS",
+      "affiliation": "*"
+    },
+    "AS----": {
+      "name": "FOLLOW AND SUPPORT",
+      "hierarchy": "TACGRP.TSK.FLWASS.FLWSUP",
+      "affiliation": "*"
+    },
+    "I-----": {
+      "name": "INTERDICT",
+      "hierarchy": "TACGRP.TSK.ITDT",
+      "affiliation": "*"
+    },
+    "E-----": {
+      "name": "ISOLATE",
+      "hierarchy": "TACGRP.TSK.ISL",
+      "affiliation": "*"
+    },
+    "N-----": {
+      "name": "NEUTRALIZE",
+      "hierarchy": "TACGRP.TSK.NEUT",
+      "affiliation": "*"
+    },
+    "O-----": {
+      "name": "OCCUPY",
+      "hierarchy": "TACGRP.TSK.OCC",
+      "affiliation": "*"
+    },
+    "P-----": {
+      "name": "PENETRATE",
+      "hierarchy": "TACGRP.TSK.PNE",
+      "affiliation": "*"
+    },
+    "R-----": {
+      "name": "RELIEF IN PLACE (RIP)",
+      "hierarchy": "TACGRP.TSK.RIP",
+      "affiliation": "*"
+    },
+    "Q-----": {
+      "name": "RETAIN",
+      "hierarchy": "TACGRP.TSK.RTN",
+      "affiliation": "*"
+    },
+    "M-----": {
+      "name": "RETIREMENT",
+      "hierarchy": "TACGRP.TSK.RTM",
+      "affiliation": "*"
+    },
+    "S-----": {
+      "name": "SECURE",
+      "hierarchy": "TACGRP.TSK.SCE",
+      "affiliation": "*"
+    },
+    "U-----": {
+      "name": "SECURITY",
+      "hierarchy": "TACGRP.TSK.SEC",
+      "affiliation": "-"
+    },
+    "US----": {
+      "name": "SCREEN",
+      "hierarchy": "TACGRP.TSK.SEC.SCN",
+      "affiliation": "*"
+    },
+    "UG----": {
+      "name": "GUARD",
+      "hierarchy": "TACGRP.TSK.SEC.GUD",
+      "affiliation": "*"
+    },
+    "UC----": {
+      "name": "COVER",
+      "hierarchy": "TACGRP.TSK.SEC.COV",
+      "affiliation": "*"
+    },
+    "Z-----": {
+      "name": "SEIZE",
+      "hierarchy": "TACGRP.TSK.SZE",
+      "affiliation": "*"
+    },
+    "W-----": {
+      "name": "WITHDRAW",
+      "hierarchy": "TACGRP.TSK.WDR",
+      "affiliation": "*"
+    },
+    "WP----": {
+      "name": "WITHDRAW UNDER PRESSURE",
+      "hierarchy": "TACGRP.TSK.WDR.WDRUP",
+      "affiliation": "*"
+    }
+  },
+  "M": {
+    "------": {
+      "name": "MOBILITY/SURVIVABILITY",
+      "hierarchy": "TACGRP.MOBSU",
+      "affiliation": "*"
+    },
+    "O-----": {
+      "name": "OBSTACLES",
+      "hierarchy": "TACGRP.MOBSU.OBST",
+      "affiliation": "*"
+    },
+    "OG----": {
+      "name": "GENERAL",
+      "hierarchy": "TACGRP.MOBSU.OBST.GNL",
+      "affiliation": "*"
+    },
+    "OGB---": {
+      "name": "BELT",
+      "hierarchy": "TACGRP.MOBSU.OBST.GNL.BLT",
+      "affiliation": "*"
+    },
+    "OGL---": {
+      "name": "LINE",
+      "hierarchy": "TACGRP.MOBSU.OBST.GNL.LNE",
+      "affiliation": "*"
+    },
+    "OGZ---": {
+      "name": "ZONE",
+      "hierarchy": "TACGRP.MOBSU.OBST.GNL.Z",
+      "affiliation": "*"
+    },
+    "OGF---": {
+      "name": "OBSTACLE FREE AREA",
+      "hierarchy": "TACGRP.MOBSU.OBST.GNL.OFA",
+      "affiliation": "*"
+    },
+    "OGR---": {
+      "name": "OBSTACLE RESTRICTED AREA",
+      "hierarchy": "TACGRP.MOBSU.OBST.GNL.ORA",
+      "affiliation": "*"
+    },
+    "OS----": {
+      "name": "ABATIS",
+      "hierarchy": "TACGRP.MOBSU.OBST.ABS",
+      "affiliation": "*"
+    },
+    "OA----": {
+      "name": "ANTITANK OBSTACLES",
+      "hierarchy": "TACGRP.MOBSU.OBST.ATO",
+      "affiliation": "*"
+    },
+    "OAD---": {
+      "name": "ANTITANK DITCH",
+      "hierarchy": "TACGRP.MOBSU.OBST.ATO.ATD",
+      "affiliation": "*"
+    },
+    "OADU--": {
+      "name": "UNDER CONSTRUCTION",
+      "hierarchy": "TACGRP.MOBSU.OBST.ATO.ATD.ATDUC",
+      "affiliation": "*"
+    },
+    "OADC--": {
+      "name": "COMPLETE",
+      "hierarchy": "TACGRP.MOBSU.OBST.ATO.ATD.ATDC",
+      "affiliation": "*"
+    },
+    "OAR---": {
+      "name": "ANTITANK DITCH REINFORCED WITH ANTITANK MINES",
+      "hierarchy": "TACGRP.MOBSU.OBST.ATO.ATDATM",
+      "affiliation": "*"
+    },
+    "OAO---": {
+      "name": "ANTITANK OBSTACLES: TETRAHEDRONS, DRAGONS TEETH, AND OTHER SIMILAR OBSTACLES",
+      "hierarchy": "TACGRP.MOBSU.OBST.ATO.TDTSM",
+      "affiliation": "*"
+    },
+    "OAOF--": {
+      "name": "FIXED AND PREFABRICATED",
+      "hierarchy": "TACGRP.MOBSU.OBST.ATO.TDTSM.FIXPFD",
+      "affiliation": "*"
+    },
+    "OAOM--": {
+      "name": "MOVEABLE",
+      "hierarchy": "TACGRP.MOBSU.OBST.ATO.TDTSM.MVB",
+      "affiliation": "*"
+    },
+    "OAOP--": {
+      "name": "MOVEABLE AND PREFABRICATED",
+      "hierarchy": "TACGRP.MOBSU.OBST.ATO.TDTSM.MVBPFD",
+      "affiliation": "*"
+    },
+    "OAW---": {
+      "name": "ANTITANK WALL",
+      "hierarchy": "TACGRP.MOBSU.OBST.ATO.ATW",
+      "affiliation": "*"
+    },
+    "OB----": {
+      "name": "BOOBY TRAP",
+      "hierarchy": "TACGRP.MOBSU.OBST.BBY",
+      "affiliation": "*"
+    },
+    "OM----": {
+      "name": "MINES",
+      "hierarchy": "TACGRP.MOBSU.OBST.MNE",
+      "affiliation": "*"
+    },
+    "OMU---": {
+      "name": "UNSPECIFIED MINE",
+      "hierarchy": "TACGRP.MOBSU.OBST.MNE.USPMNE",
+      "affiliation": "*"
+    },
+    "OMT---": {
+      "name": "ANTITANK MINE (AT)",
+      "hierarchy": "TACGRP.MOBSU.OBST.MNE.ATMNE",
+      "affiliation": "*"
+    },
+    "OMD---": {
+      "name": "ANTITANK MINE WITH ANTIHANDLING DEVICE",
+      "hierarchy": "TACGRP.MOBSU.OBST.MNE.ATMAHD",
+      "affiliation": "*"
+    },
+    "OME---": {
+      "name": "ANTITANK MINE (DIRECTIONAL)",
+      "hierarchy": "TACGRP.MOBSU.OBST.MNE.ATMDIR",
+      "affiliation": "*"
+    },
+    "OMP---": {
+      "name": "ANTIPERSONNEL (AP) MINES",
+      "hierarchy": "TACGRP.MOBSU.OBST.MNE.APMNE",
+      "affiliation": "*"
+    },
+    "OMW---": {
+      "name": "WIDE AREA MINES",
+      "hierarchy": "TACGRP.MOBSU.OBST.MNE.WAMNE",
+      "affiliation": "*"
+    },
+    "OMC---": {
+      "name": "MINE CLUSTER",
+      "hierarchy": "TACGRP.MOBSU.OBST.MNE.MCLST",
+      "affiliation": "*"
+    },
+    "OF----": {
+      "name": "MINEFIELDS",
+      "hierarchy": "TACGRP.MOBSU.OBST.MNEFLD",
+      "affiliation": "*"
+    },
+    "OFS---": {
+      "name": "STATIC DEPICTION",
+      "hierarchy": "TACGRP.MOBSU.OBST.MNEFLD.STC",
+      "affiliation": "*"
+    },
+    "OFD---": {
+      "name": "DYNAMIC DEPICTION",
+      "hierarchy": "TACGRP.MOBSU.OBST.MNEFLD.DYN",
+      "affiliation": "*"
+    },
+    "OFG---": {
+      "name": "GAP",
+      "hierarchy": "TACGRP.MOBSU.OBST.MNEFLD.GAP",
+      "affiliation": "*"
+    },
+    "OFA---": {
+      "name": "MINED AREA",
+      "hierarchy": "TACGRP.MOBSU.OBST.MNEFLD.MNDARA",
+      "affiliation": "*"
+    },
+    "OE----": {
+      "name": "OBSTACLE EFFECT",
+      "hierarchy": "TACGRP.MOBSU.OBST.OBSEFT",
+      "affiliation": "*"
+    },
+    "OEB---": {
+      "name": "BLOCK",
+      "hierarchy": "TACGRP.MOBSU.OBST.OBSEFT.BLK",
+      "affiliation": "*"
+    },
+    "OEF---": {
+      "name": "FIX",
+      "hierarchy": "TACGRP.MOBSU.OBST.OBSEFT.FIX",
+      "affiliation": "*"
+    },
+    "OET---": {
+      "name": "TURN",
+      "hierarchy": "TACGRP.MOBSU.OBST.OBSEFT.TUR",
+      "affiliation": "*"
+    },
+    "OED---": {
+      "name": "DISRUPT",
+      "hierarchy": "TACGRP.MOBSU.OBST.OBSEFT.DRT",
+      "affiliation": "*"
+    },
+    "OU----": {
+      "name": "UNEXPLODED ORDNANCE AREA (UXO)",
+      "hierarchy": "TACGRP.MOBSU.OBST.UXO",
+      "affiliation": "*"
+    },
+    "OR----": {
+      "name": "ROADBLOCKS, CRATERS, AND BLOWN BRIDGES",
+      "hierarchy": "TACGRP.MOBSU.OBST.RCBB",
+      "affiliation": "*"
+    },
+    "ORP---": {
+      "name": "PLANNED",
+      "hierarchy": "TACGRP.MOBSU.OBST.RCBB.PLND",
+      "affiliation": "*"
+    },
+    "ORS---": {
+      "name": "EXPLOSIVES, STATE OF READINESS 1 (SAFE)",
+      "hierarchy": "TACGRP.MOBSU.OBST.RCBB.SAFE",
+      "affiliation": "*"
+    },
+    "ORA---": {
+      "name": "EXPLOSIVES, STATE OF READINESS 2 (ARMED-BUT PASSABLE)",
+      "hierarchy": "TACGRP.MOBSU.OBST.RCBB.ABP",
+      "affiliation": "*"
+    },
+    "ORC---": {
+      "name": "ROADBLOCK COMPLETE (EXECUTED)",
+      "hierarchy": "TACGRP.MOBSU.OBST.RCBB.EXCD",
+      "affiliation": "*"
+    },
+    "OT----": {
+      "name": "TRIP WIRE",
+      "hierarchy": "TACGRP.MOBSU.OBST.TRIPWR",
+      "affiliation": "*"
+    },
+    "OW----": {
+      "name": "WIRE OBSTACLE",
+      "hierarchy": "TACGRP.MOBSU.OBST.WREOBS",
+      "affiliation": "*"
+    },
+    "OWU---": {
+      "name": "UNSPECIFIED",
+      "hierarchy": "TACGRP.MOBSU.OBST.WREOBS.USP",
+      "affiliation": "*"
+    },
+    "OWS---": {
+      "name": "SINGLE FENCE",
+      "hierarchy": "TACGRP.MOBSU.OBST.WREOBS.SNGFNC",
+      "affiliation": "*"
+    },
+    "OWD---": {
+      "name": "DOUBLE FENCE",
+      "hierarchy": "TACGRP.MOBSU.OBST.WREOBS.DBLFNC",
+      "affiliation": "*"
+    },
+    "OWA---": {
+      "name": "DOUBLE APRON FENCE",
+      "hierarchy": "TACGRP.MOBSU.OBST.WREOBS.DAFNC",
+      "affiliation": "*"
+    },
+    "OWL---": {
+      "name": "LOW WIRE FENCE",
+      "hierarchy": "TACGRP.MOBSU.OBST.WREOBS.LWFNC",
+      "affiliation": "*"
+    },
+    "OWH---": {
+      "name": "HIGH WIRE FENCE",
+      "hierarchy": "TACGRP.MOBSU.OBST.WREOBS.HWFNC",
+      "affiliation": "*"
+    },
+    "OWC---": {
+      "name": "CONCERTINA",
+      "hierarchy": "TACGRP.MOBSU.OBST.WREOBS.CCTA",
+      "affiliation": "*"
+    },
+    "OWCS--": {
+      "name": "SINGLE CONCERTINA",
+      "hierarchy": "TACGRP.MOBSU.OBST.WREOBS.CCTA.SNG",
+      "affiliation": "*"
+    },
+    "OWCD--": {
+      "name": "DOUBLE STRAND CONCERTINA",
+      "hierarchy": "TACGRP.MOBSU.OBST.WREOBS.CCTA.DBLSTD",
+      "affiliation": "*"
+    },
+    "OWCT--": {
+      "name": "TRIPLE STRAND CONCERTINA",
+      "hierarchy": "TACGRP.MOBSU.OBST.WREOBS.CCTA.TRISTD",
+      "affiliation": "*"
+    },
+    "B-----": {
+      "name": "OBSTACLE BYPASS",
+      "hierarchy": "TACGRP.MOBSU.OBSTBP",
+      "affiliation": "*"
+    },
+    "BD----": {
+      "name": "OBSTACLE BYPASS DIFFICULTY",
+      "hierarchy": "TACGRP.MOBSU.OBSTBP.DFTY",
+      "affiliation": "*"
+    },
+    "BDE---": {
+      "name": "BYPASS EASY",
+      "hierarchy": "TACGRP.MOBSU.OBSTBP.DFTY.ESY",
+      "affiliation": "*"
+    },
+    "BDD---": {
+      "name": "BYPASS DIFFICULT",
+      "hierarchy": "TACGRP.MOBSU.OBSTBP.DFTY.DFT",
+      "affiliation": "*"
+    },
+    "BDI---": {
+      "name": "BYPASS IMPOSSIBLE",
+      "hierarchy": "TACGRP.MOBSU.OBSTBP.DFTY.IMP",
+      "affiliation": "*"
+    },
+    "BC----": {
+      "name": "CROSSING SITE/WATER CROSSING",
+      "hierarchy": "TACGRP.MOBSU.OBSTBP.CSGSTE",
+      "affiliation": "*"
+    },
+    "BCA---": {
+      "name": "ASSAULT CROSSING AREA",
+      "hierarchy": "TACGRP.MOBSU.OBSTBP.CSGSTE.ASTCA",
+      "affiliation": "*"
+    },
+    "BCB---": {
+      "name": "BRIDGE OR GAP",
+      "hierarchy": "TACGRP.MOBSU.OBSTBP.CSGSTE.BRG",
+      "affiliation": "*"
+    },
+    "BCF---": {
+      "name": "FERRY",
+      "hierarchy": "TACGRP.MOBSU.OBSTBP.CSGSTE.FRY",
+      "affiliation": "*"
+    },
+    "BCE---": {
+      "name": "FORD EASY",
+      "hierarchy": "TACGRP.MOBSU.OBSTBP.CSGSTE.FRDESY",
+      "affiliation": "*"
+    },
+    "BCD---": {
+      "name": "FORD DIFFICULT",
+      "hierarchy": "TACGRP.MOBSU.OBSTBP.CSGSTE.FRDDFT",
+      "affiliation": "*"
+    },
+    "BCL---": {
+      "name": "LANE",
+      "hierarchy": "TACGRP.MOBSU.OBSTBP.CSGSTE.LANE",
+      "affiliation": "*"
+    },
+    "BCR---": {
+      "name": "RAFT SITE",
+      "hierarchy": "TACGRP.MOBSU.OBSTBP.CSGSTE.RFT",
+      "affiliation": "*"
+    },
+    "BCP---": {
+      "name": "ENGINEER REGULATING POINT",
+      "hierarchy": "TACGRP.MOBSU.OBSTBP.CSGSTE.ERP",
+      "affiliation": "*"
+    },
+    "S-----": {
+      "name": "SURVIVABILITY",
+      "hierarchy": "TACGRP.MOBSU.SU",
+      "affiliation": "*"
+    },
+    "SE----": {
+      "name": "EARTHWORK, SMALL TRENCH OR FORTIFICATION",
+      "hierarchy": "TACGRP.MOBSU.SU.ESTOF",
+      "affiliation": "*"
+    },
+    "SF----": {
+      "name": "FORT",
+      "hierarchy": "TACGRP.MOBSU.SU.FRT",
+      "affiliation": "*"
+    },
+    "SL----": {
+      "name": "FORTIFIED LINE",
+      "hierarchy": "TACGRP.MOBSU.SU.FTFDLN",
+      "affiliation": "*"
+    },
+    "SW----": {
+      "name": "FOXHOLE, EMPLACEMENT OR WEAPON SITE",
+      "hierarchy": "TACGRP.MOBSU.SU.FEWS",
+      "affiliation": "*"
+    },
+    "SP----": {
+      "name": "STRONG POINT",
+      "hierarchy": "TACGRP.MOBSU.SU.STRGPT",
+      "affiliation": "*"
+    },
+    "SS----": {
+      "name": "SURFACE SHELTER",
+      "hierarchy": "TACGRP.MOBSU.SU.SUFSHL",
+      "affiliation": "*"
+    },
+    "SU----": {
+      "name": "UNDERGROUND SHELTER",
+      "hierarchy": "TACGRP.MOBSU.SU.UGDSHL",
+      "affiliation": "*"
+    },
+    "N-----": {
+      "name": "NUCLEAR, BIOLOGICAL AND CHEMICAL",
+      "hierarchy": "TACGRP.MOBSU.NBC",
+      "affiliation": "*"
+    },
+    "NM----": {
+      "name": "MINIMUM SAFE DISTANCE ZONES",
+      "hierarchy": "TACGRP.MOBSU.NBC.MSDZ",
+      "affiliation": "*"
+    },
+    "NZ----": {
+      "name": "NUCLEAR DETINATIONS GROUND ZERO",
+      "hierarchy": "TACGRP.MOBSU.NBC.NDGZ",
+      "affiliation": "*"
+    },
+    "NF----": {
+      "name": "FALLOUT PRODUCING",
+      "hierarchy": "TACGRP.MOBSU.NBC.FAOTP",
+      "affiliation": "*"
+    },
+    "NR----": {
+      "name": "RADIOACTIVE AREA",
+      "hierarchy": "TACGRP.MOBSU.NBC.RADA",
+      "affiliation": "*"
+    },
+    "NB----": {
+      "name": "BIOLOGICALLY CONTAMINATED AREA",
+      "hierarchy": "TACGRP.MOBSU.NBC.BIOCA",
+      "affiliation": "*"
+    },
+    "NC----": {
+      "name": "CHEMICALLY CONTAMINATED AREA",
+      "hierarchy": "TACGRP.MOBSU.NBC.CMLCA",
+      "affiliation": "*"
+    },
+    "NE----": {
+      "name": "RELEASE EVENTS",
+      "hierarchy": "TACGRP.MOBSU.NBC.REEVNT",
+      "affiliation": "*"
+    },
+    "NEB---": {
+      "name": "BIOLOGICAL",
+      "hierarchy": "TACGRP.MOBSU.NBC.REEVNT.BIO",
+      "affiliation": "*"
+    },
+    "NEC---": {
+      "name": "CHEMICAL",
+      "hierarchy": "TACGRP.MOBSU.NBC.REEVNT.CML",
+      "affiliation": "*"
+    },
+    "ND----": {
+      "name": "DECONTAMINATION (DECON) POINTS",
+      "hierarchy": "TACGRP.MOBSU.NBC.DECONP",
+      "affiliation": "*"
+    },
+    "NDP---": {
+      "name": "DECON SITE/POINT (UNSPECIFIED)",
+      "hierarchy": "TACGRP.MOBSU.NBC.DECONP.USP",
+      "affiliation": "*"
+    },
+    "NDA---": {
+      "name": "ALTERNATE DECON SITE/POINT (UNSPECIFIED)",
+      "hierarchy": "TACGRP.MOBSU.NBC.DECONP.ALTUSP",
+      "affiliation": "*"
+    },
+    "NDT---": {
+      "name": "DECON SITE/POINT (TROOPS)",
+      "hierarchy": "TACGRP.MOBSU.NBC.DECONP.TRP",
+      "affiliation": "*"
+    },
+    "NDE---": {
+      "name": "DECON SITE/POINT (EQUIPMENT)",
+      "hierarchy": "TACGRP.MOBSU.NBC.DECONP.EQT",
+      "affiliation": "*"
+    },
+    "NDB---": {
+      "name": "DECON SITE/POINT (EQUIPMENT AND TROOPS)",
+      "hierarchy": "TACGRP.MOBSU.NBC.DECONP.EQTTRP",
+      "affiliation": "*"
+    },
+    "NDO---": {
+      "name": "DECON SITE/POINT (OPERATIONAL DECONTAMINATION)",
+      "hierarchy": "TACGRP.MOBSU.NBC.DECONP.OPDECN",
+      "affiliation": "*"
+    },
+    "NDD---": {
+      "name": "DECON SITE/POINT (THOROUGH DECONTAMINATION)",
+      "hierarchy": "TACGRP.MOBSU.NBC.DECONP.TRGH",
+      "affiliation": "*"
+    },
+    "NL----": {
+      "name": "DOSE RATE CONTOUR LINES",
+      "hierarchy": "TACGRP.MOBSU.NBC.DRCL",
+      "affiliation": "*"
+    }
+  }
+}

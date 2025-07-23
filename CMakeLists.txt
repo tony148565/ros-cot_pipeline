@@ -5,53 +5,72 @@ if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
 
-# 1. find ROS2 依賴
+# 1. 找 ROS2 依賴
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 
-# 2. include 自定義的 include path（ROS node + CoT_event）
+# 2. include path（支援 JSON / XML / ROS node / CoT）
 include_directories(
   ros_nodes/include
   CoT_event/include
+  /usr/include/nlohmann
 )
 
-# 3. 建立 CoT_event 核心模組 library
+# 3. CoT library: cot_builder（僅含 builder / parser）
 add_library(cot_builder
   CoT_event/src/cot_builder.cpp
+  CoT_event/src/sidc_parser.cpp
 )
 target_include_directories(cot_builder PUBLIC CoT_event/include)
 
-# (之後你可以額外加上 cot_validator.cpp、cot_decoder.cpp 等）
+# 4. CoT library: cot_validator（含 validator / json loader）
+add_library(cot_validator
+  CoT_event/src/cot_validator.cpp
+  CoT_event/src/sidc_validator.cpp
+)
+target_include_directories(cot_validator PUBLIC CoT_event/include)
+target_link_libraries(cot_validator tinyxml2)
 
-# 4. ROS node 可執行檔（仍叫 SimDataPublisher）
+# 5. ROS node 可執行檔
 add_executable(SimDataPublisher
   ros_nodes/src/sim_data_publisher.cpp
   ros_nodes/src/processor_node.cpp
   ros_nodes/src/cot_encoder_node.cpp
   ros_nodes/src/main.cpp
 )
-
-# 5. 指定 ROS 依賴
 ament_target_dependencies(SimDataPublisher
   rclcpp
   std_msgs
 )
+target_link_libraries(SimDataPublisher
+  cot_builder
+  cot_validator
+)
 
-# 6. 將 ROS node 連接 cot_builder library
-target_link_libraries(SimDataPublisher cot_builder)
+# 6. CoT 測試用主程式（main.cpp）
+add_executable(cot_test
+  CoT_event/test/main.cpp
+)
+target_link_libraries(cot_test
+  cot_builder
+  cot_validator
+)
 
-# 7. 若啟用測試（可留著不動）
+# 7. 安裝執行檔
+install(TARGETS SimDataPublisher
+  DESTINATION lib/${PROJECT_NAME}
+)
+install(TARGETS cot_test
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+# 8. 測試設定
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   set(ament_cmake_copyright_FOUND TRUE)
   set(ament_cmake_cpplint_FOUND TRUE)
   ament_lint_auto_find_test_dependencies()
 endif()
-
-# 8. 安裝
-install(TARGETS SimDataPublisher
-  DESTINATION lib/${PROJECT_NAME}
-)
 
 ament_package()
