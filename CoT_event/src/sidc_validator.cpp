@@ -6,10 +6,10 @@
 
 namespace sidc {
 
-// ✅ 正確定義（與 header 一致）
+//  正確定義（與 header 一致）
 std::unordered_map<std::string, std::unordered_map<std::string, FunctionEntry>> function_index;
 
-// ✅ count_specific_match 可放這或放公共工具函式
+//  count_specific_match 可放這或放公共工具函式
 int count_specific_match(const std::string& pattern, const std::string& func) {
     int score = 0;
 
@@ -25,7 +25,7 @@ int count_specific_match(const std::string& pattern, const std::string& func) {
     return score;
 }
 
-// ✅ 正常操作 function_index
+// 正常操作 function_index
 void load_function_index(const std::string& filepath) {
     std::ifstream file(filepath);
     if (!file.is_open()) {
@@ -46,7 +46,7 @@ void load_function_index(const std::string& filepath) {
         }
     }
 
-    std::cout << "✅ Loaded function index. Dimension count: " << function_index.size() << std::endl;
+    std::cout << " Loaded function index. Dimension count: " << function_index.size() << std::endl;
 }
 
 bool is_valid_sidc(const std::string& sidc) {
