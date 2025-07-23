@@ -4,7 +4,7 @@
 #include <iostream>
 #include <sstream>
 
-namespace cot {
+namespace sidc {
 
 // ✅ 正確定義（與 header 一致）
 std::unordered_map<std::string, std::unordered_map<std::string, FunctionEntry>> function_index;
@@ -94,4 +94,4 @@ bool validate_type(const std::string& type) {
 
     return false;
 }
-} // namespace cot
+} // namespace sidc

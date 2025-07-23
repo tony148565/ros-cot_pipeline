@@ -1,6 +1,6 @@
 #pragma once
 #include <string>
 
-namespace cot {
+namespace sidc {
     std::string sidc_to_cot_type(const std::string& sidc);
 }

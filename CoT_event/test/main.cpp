@@ -9,7 +9,7 @@
 
 int main() {
     // ✅ 載入 Function Index（新版 JSON）
-    cot::load_function_index("CoT_event/resources/valid_types.json");
+    sidc::load_function_index("CoT_event/resources/valid_types.json");
 
     std::vector<std::string> sidc_list = {
         "SFAPMF--------",     // → a-f-A-MF----
@@ -33,12 +33,12 @@ int main() {
 
         try {
             // ✅ 先驗證合法性
-            if (!cot::is_valid_sidc(sidc)) {
+            if (!sidc::is_valid_sidc(sidc)) {
                 std::cerr << "❌ 非法 SIDC，跳過解析\n";
                 continue;
             }
 
-            std::string type = cot::sidc_to_cot_type(sidc);
+            std::string type = sidc::sidc_to_cot_type(sidc);
             std::cout << "[Type] " << type << "\n";
 
             CoTInfo info("UAV001", type);

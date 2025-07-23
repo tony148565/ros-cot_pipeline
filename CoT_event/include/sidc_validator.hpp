@@ -2,7 +2,7 @@
 #include <string>
 #include <unordered_map>
 
-namespace cot {
+namespace sidc {
 
 // 每個 function pattern 對應的資料
 struct FunctionEntry {

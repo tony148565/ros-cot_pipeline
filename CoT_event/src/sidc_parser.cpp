@@ -10,7 +10,7 @@
     // 1. SIDC至少有4碼，codingscheme(會被"A"取代)、affiliation、battledimension與status
     // 2. 5-10碼是funcion id
 
-namespace cot {
+namespace sidc {
 
 std::string sidc_to_cot_type(const std::string& sidc) {
     if (sidc.length() < 10) {
@@ -60,4 +60,4 @@ std::string sidc_to_cot_type(const std::string& sidc) {
     throw std::runtime_error("No matching pattern found for SIDC");
 }
 
-} // namespace cot
+} // namespace sidc
