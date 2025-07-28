@@ -26,3 +26,7 @@
 　| (￣ヽ＿_ヽ_)__)
 　＼二つ
 ```
+
+### 參照
+1. [FreeTAKServer文件](https://freetakteam.github.io/FreeTAKServer-User-Docs)
+2. [spatialillusions github](https://github.com/spatialillusions/mil-std-2525/blob/master/tsv-tables)
