@@ -70,28 +70,30 @@ bool is_valid_sidc(const std::string& sidc) {
     return false;
 }
 
-bool validate_type(const std::string& type) {
-    // type 例：a-f-A-MFB---
-    std::istringstream iss(type);
-    std::string scheme, aff, dim, func;
-    if (!std::getline(iss, scheme, '-') ||
-        !std::getline(iss, aff, '-') ||
-        !std::getline(iss, dim, '-') ||
-        !std::getline(iss, func)) {
-        return false;
+std::string to_cot_type(const std::string& pattern) {
+    std::string cot_type;
+
+    for (char c : pattern) {
+        if (c == '-') continue; // 忽略補位符
+        cot_type += std::tolower(c);
+        cot_type += '-';
     }
 
-    auto dim_it = function_index.find(dim);
-    if (dim_it == function_index.end()) return false;
+    if (!cot_type.empty() && cot_type.back() == '-') {
+        cot_type.pop_back(); // 移除尾端 -
+    }
 
-    for (const auto& [pattern, entry] : dim_it->second) {
-        int score = count_specific_match(pattern, func);
-        if (score >= 0 &&
-            (entry.affiliation == "*" || entry.affiliation.find(aff) != std::string::npos)) {
-            return true;
+    return cot_type;
+}
+
+
+bool contains_illegal_sidc_chars(const std::string& sidc) {
+    for (char c : sidc) {
+        if (!(std::isupper(c) || c == '-')) {
+            return true;  // 有非法字元
         }
     }
-
     return false;
 }
+
 } // namespace sidc

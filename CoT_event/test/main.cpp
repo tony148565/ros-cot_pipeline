@@ -45,10 +45,6 @@ int main() {
 
             //  組裝 CoTInfo 並轉為 XML
             CoTInfo info("UAV001", type);
-            if (!validator.validate_type(type)) {
-                std::cerr << "X 無效 Type，驗證失敗\n";
-                continue;
-            }
 
             std::string xml = builder.toXML(info);
             std::cout << "[XML]\n" << xml << "\n";

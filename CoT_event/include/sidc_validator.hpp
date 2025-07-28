@@ -18,4 +18,6 @@ extern std::unordered_map<std::string, std::unordered_map<std::string, FunctionE
 void load_function_index(const std::string& filepath);
 bool is_valid_sidc(const std::string& sidc);
 int count_specific_match(const std::string& pattern, const std::string& func);
+std::string to_cot_type(const std::string& pattern);
+bool contains_illegal_sidc_chars(const std::string& sidc);
 }

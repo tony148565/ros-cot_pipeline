@@ -11,12 +11,20 @@
     // 1. SIDC至少有4碼，codingscheme(會被"a"取代)、affiliation(大寫應轉小寫)、battledimension與status
     // 2. 5-10碼是funcion id
     // 3. SIDC 轉 CoT type 時應保留affiliation、battledimension與funcion id
+    // SIDC編碼:
+    // Scheme - Affiliation - Battle Dimension - Status - Function ID(5-10) - Symbol Modifier(11, 12) - Country Code(13, 14) - Order of Battle
 
 namespace sidc {
 
 std::string sidc_to_cot_type(const std::string& sidc) {
     if (sidc.length() < 10) {
         throw std::runtime_error("SIDC too short");
+    }
+    else if (sidc.length() > 15){
+        throw std::runtime_error("SIDC too long");
+    }
+    else if (contains_illegal_sidc_chars(sidc)){
+        throw std::runtime_error("illegal character");
     }
 
     char aff = std::tolower(sidc[1]);  // 強制轉小寫
@@ -31,6 +39,16 @@ std::string sidc_to_cot_type(const std::string& sidc) {
     int best_score = -1;
     std::string best_pattern;
 
+    // 特例處理：允許精確 fallback match "------"
+    if (func == "------") {
+        auto fallback_it = dim_it->second.find("------");
+        if (fallback_it != dim_it->second.end() &&
+            (fallback_it->second.affiliation == "*" || fallback_it->second.affiliation.find(aff) != std::string::npos)) {
+            return "a-" + std::string(1, aff) + "-" + std::string(1, dim);
+        }
+    }
+
+    // 主要判斷區塊
     for (const auto& [pattern, entry] : dim_it->second) {
         int score = count_specific_match(pattern, func);
 
@@ -43,17 +61,12 @@ std::string sidc_to_cot_type(const std::string& sidc) {
 
     // 僅接受「嚴格匹配」的 pattern（score >= 1）
     if (best_score > 0) {
-        return "a-" + std::string(1, aff) + "-" + std::string(1, dim) + "-" + best_pattern;
+        // e.g. "MFF---" → "m-f-f"
+        //best_pattern = normalize_sidc_function_id(best_pattern);
+        return "a-" + std::string(1, aff) + "-" + std::string(1, dim) + "-" + to_cot_type(best_pattern);
     }
 
-    // 特例處理：允許精確 fallback match "------"
-    auto fallback_it = dim_it->second.find("------");
-    if (fallback_it != dim_it->second.end()) {
-        if (func == "------" &&
-            (fallback_it->second.affiliation == "*" || fallback_it->second.affiliation.find(aff) != std::string::npos)) {
-            return "a-" + std::string(1, aff) + "-" + std::string(1, dim) + "-" + "------";
-        }
-    }
+    
 
     throw std::runtime_error("No matching pattern found for SIDC");
 }
