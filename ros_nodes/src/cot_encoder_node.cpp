@@ -24,8 +24,8 @@ void CotEncoderNode::eventpush()
     // 這裡為簡化，直接產生一筆固定格式 CoT XML
 
     CoTInfo info("drone-001", "a-f-A-M-F-U-C"); // uid, type
-    info.lat = 24.12345;
-    info.lon = 120.54321;
+    //info.lat = 24.12345;
+    //info.lon = 120.54321;
 
     
     std::string cot_xml = CoTBuilder::toXML(info);
