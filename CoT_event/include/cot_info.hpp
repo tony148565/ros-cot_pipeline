@@ -2,11 +2,13 @@
 #include <iostream>
 #include <string>
 #include <chrono>
+#include "cottypeinfo.hpp"
+
 
 struct CoTInfo {
     // ===== 基本事件欄位 =====
     std::string uid;
-    std::string type;
+    CoTTypeInfo typeinfo;
     std::string how;
     std::chrono::time_point<std::chrono::system_clock> time;
     std::chrono::time_point<std::chrono::system_clock> start_time;
@@ -21,10 +23,10 @@ struct CoTInfo {
 
     // ===== 建構子 =====
     CoTInfo(const std::string& uid_,
-            const std::string& type_,
+            const CoTTypeInfo& typeinfo_,
             std::string how_ = "m-g",
             std::chrono::time_point<std::chrono::system_clock> now = std::chrono::system_clock::now())
-        : uid(uid_), type(type_), how(how_), time(now), start_time(now),
+        : uid(uid_), typeinfo(typeinfo_), how(how_), time(now), start_time(now),
           stale_time(now + std::chrono::seconds(300)) {}
 
     // ===== 封裝位置資訊 =====

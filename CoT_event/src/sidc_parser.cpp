@@ -4,6 +4,7 @@
 #include <string>
 #include <cctype>
 
+
 // 根據以下網站的觀察
     // 1. "https://freetakteam.github.io/FreeTAKServer-User-Docs/About/architecture/mil_std_2525/"
     // 2. "https://github.com/spatialillusions/mil-std-2525/blob/master/tsv-tables"
@@ -30,7 +31,7 @@ std::string sidc_to_cot_type(const std::string& sidc) {
     char aff = std::tolower(sidc[1]);  // 強制轉小寫
     char dim = sidc[2];
     std::string func = sidc.substr(4, 6);  // 5~10碼為 function id
-
+    
     auto dim_it = function_index.find(std::string(1, dim));
     if (dim_it == function_index.end()) {
         throw std::runtime_error("Unknown dimension: " + std::string(1, dim));
@@ -70,5 +71,13 @@ std::string sidc_to_cot_type(const std::string& sidc) {
 
     throw std::runtime_error("No matching pattern found for SIDC");
 }
+
+CoTTypeInfo make_cot_type_info(const std::string& sidc_str) {
+    CoTTypeInfo info;
+    info.sidc = sidc_str;
+    info.type = sidc_to_cot_type(sidc_str);
+    return info;
+}
+
 
 } // namespace sidc

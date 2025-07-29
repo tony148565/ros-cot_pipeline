@@ -7,6 +7,8 @@
 #include "cot_validator.hpp"
 #include "sidc_parser.hpp"      // sidc::sidc_to_cot_type()
 #include "sidc_validator.hpp"   // sidc::load_function_index(), sidc::is_valid_sidc()
+#include "cottypeinfo.hpp"
+
 
 int main() {
     // 載入新版 Function Index（整合 type 驗證與解析）
@@ -40,11 +42,11 @@ int main() {
             }
 
             //  從 SIDC 推導出 CoT type
-            std::string type = sidc::sidc_to_cot_type(sidc_str);
-            std::cout << "[Type] " << type << "\n";
+            CoTTypeInfo typeinfo = sidc::make_cot_type_info(sidc_str);
+            std::cout << "[Type] " << typeinfo.type << "\n";
 
             //  組裝 CoTInfo 並轉為 XML
-            CoTInfo info("UAV001", type);
+            CoTInfo info("UAV001", typeinfo);
 
             std::string xml = builder.toXML(info);
             std::cout << "[XML]\n" << xml << "\n";

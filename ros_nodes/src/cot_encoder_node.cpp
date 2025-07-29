@@ -1,5 +1,5 @@
 #include "cot_pipeline/cot_encoder_node.hpp"
-#include "cot_info.hpp"
+//#include "cot_info.hpp"
 #include "cot_builder.hpp"
 #include <chrono>
 #include <sstream>
@@ -23,16 +23,16 @@ void CotEncoderNode::eventpush()
     // 🔧 TODO: 實際應解析 msg->data (JSON) → struct → XML
     // 這裡為簡化，直接產生一筆固定格式 CoT XML
 
-    CoTInfo info("drone-001", "a-f-A-M-F-U-C"); // uid, type
+    //CoTInfo info("drone-001", "a-f-A-M-F-U-C"); // uid, type
     //info.lat = 24.12345;
     //info.lon = 120.54321;
 
     
-    std::string cot_xml = CoTBuilder::toXML(info);
+    //std::string cot_xml = CoTBuilder::toXML(info);
 
-    std_msgs::msg::String out_msg;
-    out_msg.data = cot_xml;
+    //std_msgs::msg::String out_msg;
+    //out_msg.data = cot_xml;
 
-    publisher_->publish(out_msg);
+    //publisher_->publish(out_msg);
     RCLCPP_INFO(this->get_logger(), "Published CoT XML event.");
 };

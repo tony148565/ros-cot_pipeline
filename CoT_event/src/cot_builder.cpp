@@ -18,7 +18,7 @@ std::string CoTBuilder::toXML(const CoTInfo& e) {
     // event 標籤
     oss << "<event version=\"2.0\""
         << " uid=\"" << e.uid << "\""
-        << " type=\"" << e.type << "\""
+        << " type=\"" << e.typeinfo.type << "\""
         << " time=\"" << formatTime(e.time) << "\""
         << " start=\"" << formatTime(e.start_time) << "\""
         << " stale=\"" << formatTime(e.stale_time) << "\""
@@ -47,6 +47,9 @@ std::string CoTBuilder::toXML(const CoTInfo& e) {
 
     // source 子節點
     oss << "    <__contact source=\"" << e.source << "\" />\n";
+
+    // sidc function id
+    oss << "    <symbol sidc=\"" << e.typeinfo.sidc << "\" />\n"; 
 
     // remarks 子節點（可選）
     if (!e.remarks.empty()) {
