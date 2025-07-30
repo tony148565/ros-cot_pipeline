@@ -47,7 +47,7 @@ int main() {
 
             //  組裝 CoTInfo 並轉為 XML
             CoTInfo info("UAV001", typeinfo);
-
+            info.set_parent_infotmation("command-001", "007");
             std::string xml = builder.toXML(info);
             std::cout << "[XML]\n" << xml << "\n";
 

@@ -3,7 +3,7 @@
 #include <string>
 #include <chrono>
 #include "cottypeinfo.hpp"
-
+#include <optional>
 
 struct CoTInfo {
     // ===== 基本事件欄位 =====
@@ -20,6 +20,12 @@ struct CoTInfo {
     std::string remarks = "";
     std::string source = "CoT-ROS";
     std::string group_affiliation = "friendly";
+
+
+    std::optional<std::string> parent_uid;
+    std::optional<std::string> parent_callsign;
+    std::string parent_type;
+
 
     // ===== 建構子 =====
     CoTInfo(const std::string& uid_,
@@ -41,6 +47,12 @@ public:
         hae = hae_;
         ce = ce_;
         le = le_;
+    }
+
+    void set_parent_infotmation(const std::string& uid, const std::string& callsign, const std::string& type = "a-f-G"){
+        parent_uid = uid;
+        parent_callsign = callsign;
+        parent_type = type;
     }
 
     // 如不希望外部讀取，不加 getter。只給 Builder 讀取就加 friend。
