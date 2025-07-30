@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<event version="2.0" uid="UAV001" type="a-f-A-m-f-b" time="2025-07-29T03:36:32Z" start="2025-07-29T03:36:32Z" stale="2025-07-29T03:41:32Z" how="m-g">
+  <point lat="24.0300" lon="125.5600" hae="10.0" ce="5.0" le="5.0" />
+  <detail>
+  </detail>
+</event>
