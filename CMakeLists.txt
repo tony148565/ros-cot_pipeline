@@ -19,8 +19,10 @@ include_directories(
 
 # 3. CoT library: cot_builder（僅含 builder / parser）
 add_library(cot_builder
-  CoT_event/src/cot_builder.cpp
+  CoT_event/src/event_builder.cpp
   CoT_event/src/sidc_parser.cpp
+  CoT_event/src/time_formatter.cpp
+  CoT_event/src/detail_builder.cpp
 )
 target_include_directories(cot_builder PUBLIC CoT_event/include)
 

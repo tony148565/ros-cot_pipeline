@@ -36,7 +36,6 @@ struct CoTInfo {
           stale_time(now + std::chrono::seconds(300)) {}
 
     // ===== 封裝位置資訊 =====
-private:
     double lat = 0.0, lon = 0.0, hae = 9999999.0, ce = 9999999.0, le = 9999999.0;
 
 public:

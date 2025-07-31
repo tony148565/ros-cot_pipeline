@@ -3,12 +3,12 @@
 #include <string>
 
 #include "cot_info.hpp"
-#include "cot_builder.hpp"
+//#include "cot_builder.hpp"
 #include "cot_validator.hpp"
 #include "sidc_parser.hpp"      // sidc::sidc_to_cot_type()
 #include "sidc_validator.hpp"   // sidc::load_function_index(), sidc::is_valid_sidc()
 #include "cottypeinfo.hpp"
-
+#include "event_builder.hpp"
 
 int main() {
     // 載入新版 Function Index（整合 type 驗證與解析）
@@ -27,7 +27,7 @@ int main() {
         "SFAXXX----"          // → 無合法匹配（無 fallback）
     };
 
-    CoTBuilder builder;
+    //CoTBuilder builder;
     cot::CoTValidator validator;
 
     for (const auto& sidc_str : sidc_list) {
@@ -48,7 +48,7 @@ int main() {
             //  組裝 CoTInfo 並轉為 XML
             CoTInfo info("UAV001", typeinfo);
             info.set_parent_infotmation("command-001", "007");
-            std::string xml = builder.toXML(info);
+            std::string xml = EventBuilder(info).toXML();
             std::cout << "[XML]\n" << xml << "\n";
 
             //  驗證 XML 結構
