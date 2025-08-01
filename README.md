@@ -16,7 +16,12 @@
     5. 組裝：轉為 XML 字串（cot_builder）
     6. 驗證：確認組裝結果符合 CoT XML 規範（cot_validator）
 
-### 流程圖(待補)
+### 流程圖
+#### SIDC
+![SIDC](https://raw.githubusercontent.com/tony148565/ros-cot_pipeline/master/img/sidc_flow_chart.png)
+
+#### CoT
+![CoT](https://raw.githubusercontent.com/tony148565/ros-cot_pipeline/master/img/cot_flow_chart.png)
 
 ### WinTAK的匯入流程
     1. 打開WinTAK
