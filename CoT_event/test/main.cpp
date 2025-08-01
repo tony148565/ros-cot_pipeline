@@ -35,12 +35,6 @@ int main() {
         std::cout << "[SIDC] " << sidc_str << "\n";
 
         try {
-            //  驗證 SIDC 合法性（由 function_index 驗證）
-            if (!sidc::is_valid_sidc(sidc_str)) {
-                std::cerr << "X 非法 SIDC，跳過解析\n";
-                continue;
-            }
-
             //  從 SIDC 推導出 CoT type
             CoTTypeInfo typeinfo = sidc::make_cot_type_info(sidc_str);
             std::cout << "[Type] " << typeinfo.type << "\n";

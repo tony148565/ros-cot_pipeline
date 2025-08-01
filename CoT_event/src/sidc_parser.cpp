@@ -24,7 +24,7 @@ std::string sidc_to_cot_type(const std::string& sidc) {
     else if (sidc.length() > 15){
         throw std::runtime_error("SIDC too long");
     }
-    else if (contains_illegal_sidc_chars(sidc)){
+    else if (contains_illegal_sidc_chars(sidc) || !sidc::is_valid_sidc(sidc)){
         throw std::runtime_error("illegal character");
     }
 
