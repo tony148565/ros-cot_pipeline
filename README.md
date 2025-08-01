@@ -29,9 +29,9 @@
     3. cot event可以使用[TAK_MINIMAL_BARE.cot](example/TAK_MINIMAL_BARE.cot)
     4. 畫面上會出現"UAV001"的"a-f-A"物件
 
-### 代辦事項
-1. 補文件
-2. 解釋WinTAK的解析方式? 為甚麼有沒有detail不影響匯入，保留字有哪些
+### "待"辦事項
+1. 解釋WinTAK的解析方式? 為甚麼有沒有detail不影響匯入，保留字有哪些
+2. 補樹狀圖
 3. 餵貓
 
 ### 貓貓(路過可以摸)
