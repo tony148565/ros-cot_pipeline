@@ -3,6 +3,9 @@
 #include <chrono>
 #include <string>
 
-namespace cot {
-    std::string format_time_utc(const std::chrono::time_point<std::chrono::system_clock>& tp);
+namespace cot
+{
+std::string format_time_utc(
+  const std::chrono::time_point<std::chrono::system_clock> & tp
+);
 }

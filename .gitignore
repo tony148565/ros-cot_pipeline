@@ -1,5 +1,9 @@
 build/
 install/
 log/
+*.swp
+*.out
 .vscode/
+.idea/
+
 __pycache__/

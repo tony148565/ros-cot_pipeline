@@ -1,13 +1,16 @@
 // event_builder.hpp
 #pragma once
-#include "cot_info.hpp"
 #include <string>
+#include "cot_info.hpp"
 
-class EventBuilder {
+class EventBuilder
+{
 public:
-    EventBuilder(const CoTInfo& info);
-    std::string toXML() const;
+  EventBuilder(
+    const CoTInfo & info
+  );
+  std::string toXML() const;
 
 private:
-    const CoTInfo& e;
+  const CoTInfo & e;
 };

@@ -1,4 +1,5 @@
-struct TargetInfo {
+struct TargetInfo
+{
   std::string id;
   double lat;
   double lon;

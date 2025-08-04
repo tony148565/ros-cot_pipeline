@@ -5,6 +5,9 @@ if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
 
+enable_testing()
+find_package(GTest REQUIRED)
+
 # 1. 找 ROS2 依賴
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
@@ -59,6 +62,13 @@ target_link_libraries(cot_test
   cot_validator
 )
 
+# gtest
+add_executable(test_time_formatter CoT_event/test/test_time_formatter.cpp)
+target_link_libraries(test_time_formatter PRIVATE cot_builder GTest::gtest_main)
+
+include(GoogleTest)
+gtest_discover_tests(test_time_formatter)
+
 # 7. 安裝執行檔
 install(TARGETS SimDataPublisher
   DESTINATION lib/${PROJECT_NAME}
@@ -70,7 +80,7 @@ install(TARGETS cot_test
 # 8. 測試設定
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
-  set(ament_cmake_copyright_FOUND TRUE)
+  #set(ament_cmake_copyright_FOUND TRUE)
   set(ament_cmake_cpplint_FOUND TRUE)
   ament_lint_auto_find_test_dependencies()
 endif()

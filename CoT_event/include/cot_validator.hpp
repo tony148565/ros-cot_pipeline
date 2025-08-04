@@ -1,11 +1,13 @@
 #pragma once
 #include <string>
 
-namespace cot {
+namespace cot
+{
 
-class CoTValidator {
+class CoTValidator
+{
 public:
-    bool validate_xml(const std::string& xml);
+  bool validate_xml(const std::string & xml);
 };
 
-}
+}  // namespace cot

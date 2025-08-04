@@ -3,20 +3,20 @@
 
 TEST(SIDCParserTest, BasicMapping)
 {
-    std::string sidc = "SFAPMF--------";
-    std::string expected = "a-f-A-M-F";
-    EXPECT_EQ(sidc_to_cot_type(sidc), expected);
+  std::string sidc = "SFAPMF--------";
+  std::string expected = "a-f-A-M-F";
+  EXPECT_EQ(sidc_to_cot_type(sidc), expected);
 }
 
 TEST(SIDCParserTest, NoFunctionID)
 {
-    std::string sidc = "SFAP------*****";
-    std::string expected = "a-f-A";
-    EXPECT_EQ(sidc_to_cot_type(sidc), expected);
+  std::string sidc = "SFAP------*****";
+  std::string expected = "a-f-A";
+  EXPECT_EQ(sidc_to_cot_type(sidc), expected);
 }
 
 TEST(SIDCParserTest, InvalidSIDC)
 {
-    std::string sidc = "S";
-    EXPECT_THROW(sidc_to_cot_type(sidc), std::invalid_argument);
+  std::string sidc = "S";
+  EXPECT_THROW(sidc_to_cot_type(sidc), std::invalid_argument);
 }

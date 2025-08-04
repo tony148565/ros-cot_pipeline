@@ -26,9 +26,9 @@ std::string sidc_to_cot_type(const std::string & sidc)
     throw std::runtime_error("illegal character");
   }
 
-  char aff = std::tolower(sidc[1]); // 強制轉小寫
+  char aff = std::tolower(sidc[1]);  // 強制轉小寫
   char dim = sidc[2];
-  std::string func = sidc.substr(4, 6); // 5~10碼為 function id
+  std::string func = sidc.substr(4, 6);  // 5~10碼為 function id
 
   auto dim_it = function_index.find(std::string(1, dim));
   if (dim_it == function_index.end()) {
@@ -70,7 +70,6 @@ std::string sidc_to_cot_type(const std::string & sidc)
 
   throw std::runtime_error("No matching pattern found for SIDC");
 }
-
 CoTTypeInfo make_cot_type_info(const std::string & sidc_str)
 {
   CoTTypeInfo info;
@@ -78,5 +77,4 @@ CoTTypeInfo make_cot_type_info(const std::string & sidc_str)
   info.type = sidc_to_cot_type(sidc_str);
   return info;
 }
-
 } // namespace sidc

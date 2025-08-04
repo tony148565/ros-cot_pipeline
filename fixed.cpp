@@ -13,9 +13,12 @@
 // 3. SIDC 轉 CoT type 時應保留affiliation、battledimension與funcion id
 // SIDC編碼:
 // Scheme - Affiliation - Battle Dimension - Status - Function ID(5-10) - Symbol Modifier(11, 12) -
-// Country Code(13, 14) - Order of Battle
+// Country Code(13, 14)
+// - Order of Battle
+
 namespace sidc
 {
+
 std::string sidc_to_cot_type(const std::string & sidc)
 {
   if (sidc.length() < 10) {
@@ -26,9 +29,9 @@ std::string sidc_to_cot_type(const std::string & sidc)
     throw std::runtime_error("illegal character");
   }
 
-  char aff = std::tolower(sidc[1]); // 強制轉小寫
+  char aff = std::tolower(sidc[1]);  // 強制轉小寫
   char dim = sidc[2];
-  std::string func = sidc.substr(4, 6); // 5~10碼為 function id
+  std::string func = sidc.substr(4, 6);  // 5~10碼為 function id
 
   auto dim_it = function_index.find(std::string(1, dim));
   if (dim_it == function_index.end()) {
@@ -78,5 +81,4 @@ CoTTypeInfo make_cot_type_info(const std::string & sidc_str)
   info.type = sidc_to_cot_type(sidc_str);
   return info;
 }
-
-} // namespace sidc
+}

@@ -1,0 +1,4 @@
+cpplint:
+  filter: "-whitespace/line_length,-whitespace/comments"
+  extensions: "cpp,hpp"
+  linelength: 120

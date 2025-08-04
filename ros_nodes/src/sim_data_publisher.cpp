@@ -8,14 +8,14 @@ SimDataPublisher::SimDataPublisher()
 : Node("sim_data_publisher")
 {
   publisher_ = this->create_publisher<std_msgs::msg::String>("raw_sim_data", 10);
-  timer_ = this->create_wall_timer(
-    1000ms, std::bind(&SimDataPublisher::publish_fake_data, this));
+  timer_ = this->create_wall_timer(1000ms, std::bind(&SimDataPublisher::publish_fake_data, this));
 }
 
 void SimDataPublisher::publish_fake_data()
 {
   std_msgs::msg::String msg;
-  msg.data = R"({
+  msg.data =
+    R"({
     "id": "target_001",
     "lat": 24.12345,
     "lon": 120.54321,

@@ -1,14 +1,15 @@
 #pragma once
-#include "cot_info.hpp"
 #include <string>
+#include "cot_info.hpp"
 #include "time_formatter.hpp"
 
-class DetailBuilder {
+class DetailBuilder
+{
 public:
-    DetailBuilder(const CoTInfo& info);
-    std::string toXML() const;
+  DetailBuilder(const CoTInfo & info);
+  std::string toXML() const;
 
 private:
-    const CoTInfo& e;
-    std::string build_icon_path() const;
+  const CoTInfo & e;
+  std::string build_icon_path() const;
 };
