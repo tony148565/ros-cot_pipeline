@@ -3,6 +3,7 @@
 #include <stdexcept>
 #include <string>
 #include "sidc_validator.hpp"  // 使用共享的 function_index
+#include <iostream>
 
 // 根據以下網站的觀察
 // 1. "https://freetakteam.github.io/FreeTAKServer-User-Docs/About/architecture/mil_std_2525/"
@@ -16,14 +17,14 @@
 // Country Code(13, 14) - Order of Battle
 namespace sidc
 {
-std::string sidc_to_cot_type(const std::string & sidc)
+std::string sidc_to_cot_type(const std::string & sidc, bool strict)
 {
   if (sidc.length() < 10) {
-    throw std::runtime_error("SIDC too short");
+      throw std::runtime_error("SIDC too short");
   } else if (sidc.length() > 15) {
-    throw std::runtime_error("SIDC too long");
-  } else if (contains_illegal_sidc_chars(sidc) || !sidc::is_valid_sidc(sidc)) {
-    throw std::runtime_error("illegal character");
+      throw std::runtime_error("SIDC too long");
+  } else if (contains_illegal_sidc_chars(sidc)) {
+      throw std::runtime_error("illegal character");
   }
 
   char aff = std::tolower(sidc[1]); // 強制轉小寫
@@ -31,45 +32,55 @@ std::string sidc_to_cot_type(const std::string & sidc)
   std::string func = sidc.substr(4, 6); // 5~10碼為 function id
 
   auto dim_it = function_index.find(std::string(1, dim));
+  std::cout << std::string(1, dim) << std::endl;
   if (dim_it == function_index.end()) {
-    throw std::runtime_error("Unknown dimension: " + std::string(1, dim));
+      throw std::runtime_error("Unknown dimension: " + std::string(1, dim));
   }
 
-  int best_score = -1;
-  std::string best_pattern;
-
-  // 特例處理：允許精確 fallback match "------"
+  // 精確 fallback
   if (func == "------") {
-    auto fallback_it = dim_it->second.find("------");
-    if (fallback_it != dim_it->second.end() &&
-      (fallback_it->second.affiliation == "*" ||
-      fallback_it->second.affiliation.find(aff) != std::string::npos))
-    {
-      return "a-" + std::string(1, aff) + "-" + std::string(1, dim);
-    }
+      auto fallback_it = dim_it->second.find("------");
+      if (fallback_it != dim_it->second.end() &&
+          (fallback_it->second.affiliation == "*" ||
+            fallback_it->second.affiliation.find(aff) != std::string::npos))
+      {
+          return "a-" + std::string(1, aff) + "-" + std::string(1, dim);
+      }
   }
 
-  // 主要判斷區塊
-  for (const auto & [pattern, entry] : dim_it->second) {
-    int score = count_specific_match(pattern, func);
+  if (strict) {
+      // 嚴格模式：只接受完全相等的 pattern
+      auto entry_it = dim_it->second.find(func);
+      if (entry_it != dim_it->second.end() &&
+          (entry_it->second.affiliation == "*" || entry_it->second.affiliation.find(aff) != std::string::npos))
+      {
+          return "a-" + std::string(1, aff) + "-" + std::string(1, dim) + "-" + to_cot_type(func);
+      }
+      // fallback 也不允許
+      throw std::runtime_error("No matching pattern found for SIDC");
+  } else {
+      // 原本模糊搜尋：計算最高分
+      int best_score = -1;
+      std::string best_pattern;
 
-    if (score > best_score &&
-      (entry.affiliation == "*" || entry.affiliation.find(aff) != std::string::npos))
-    {
-      best_score = score;
-      best_pattern = pattern;
-    }
+      for (const auto & [pattern, entry] : dim_it->second) {
+          int score = count_specific_match(pattern, func);
+          if (score > best_score &&
+              (entry.affiliation == "*" || entry.affiliation.find(aff) != std::string::npos))
+          {
+              best_score = score;
+              best_pattern = pattern;
+          }
+      }
+
+      // 僅接受「嚴格匹配」的 pattern（score >= 1）
+      if (best_score > 0) {
+          return "a-" + std::string(1, aff) + "-" + std::string(1, dim) + "-" + to_cot_type(best_pattern);
+      }
+      throw std::runtime_error("No matching pattern found for SIDC");
   }
-
-  // 僅接受「嚴格匹配」的 pattern（score >= 1）
-  if (best_score > 0) {
-    // e.g. "MFF---" → "m-f-f"
-    // best_pattern = normalize_sidc_function_id(best_pattern);
-    return "a-" + std::string(1, aff) + "-" + std::string(1, dim) + "-" + to_cot_type(best_pattern);
-  }
-
-  throw std::runtime_error("No matching pattern found for SIDC");
 }
+
 
 CoTTypeInfo make_cot_type_info(const std::string & sidc_str)
 {

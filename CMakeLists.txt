@@ -5,6 +5,7 @@ if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
 
+# 啟動測試設定
 enable_testing()
 find_package(GTest REQUIRED)
 
@@ -63,8 +64,19 @@ target_link_libraries(cot_test
 )
 
 # gtest
-add_executable(test_time_formatter CoT_event/test/test_time_formatter.cpp)
-target_link_libraries(test_time_formatter PRIVATE cot_builder GTest::gtest_main)
+add_executable(test_time_formatter
+  CoT_event/test/test_time_formatter.cpp
+  CoT_event/test/test_sidc_parser.cpp
+)
+
+target_link_libraries(test_time_formatter PRIVATE cot_builder PRIVATE cot_validator GTest::gtest_main)
+
+# 複製檔案至"build"中
+add_custom_command(TARGET test_time_formatter POST_BUILD
+    COMMAND ${CMAKE_COMMAND} -E copy_directory
+        ${CMAKE_SOURCE_DIR}/CoT_event/resources
+        $<TARGET_FILE_DIR:test_time_formatter>/resources)
+
 
 include(GoogleTest)
 gtest_discover_tests(test_time_formatter)

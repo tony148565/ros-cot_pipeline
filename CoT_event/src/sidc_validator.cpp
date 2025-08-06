@@ -58,7 +58,11 @@ void load_function_index(const std::string & filepath)
 
 bool is_valid_sidc(const std::string & sidc)
 {
-  if (sidc.length() < 10) {
+  if (sidc.length() < 10) { // too short
+    return false;
+  }
+
+  if (sidc.length() > 15) { // too long
     return false;
   }
 
@@ -67,11 +71,11 @@ bool is_valid_sidc(const std::string & sidc)
   std::string func = sidc.substr(4, 6);
 
   auto dim_it = function_index.find(std::string(1, dim));
-  if (dim_it == function_index.end()) {
+  if (dim_it == function_index.end()) { // Unknown dimension
     return false;
   }
 
-  for (const auto & [pattern, entry] : dim_it->second) {
+  for (const auto & [pattern, entry] : dim_it->second) { // pattern found
     int score = count_specific_match(pattern, func);
     if (score >= 0 &&
       (entry.affiliation == "*" || entry.affiliation.find(aff) != std::string::npos))
