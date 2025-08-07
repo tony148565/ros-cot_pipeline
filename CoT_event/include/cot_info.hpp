@@ -26,6 +26,8 @@ struct CoTInfo
   std::optional<std::string> parent_callsign;
   std::string parent_type;
 
+  CoTInfo() = default;
+  
   // ===== 建構子 =====
   CoTInfo(
     const std::string & uid_, const CoTTypeInfo & typeinfo_, std::string how_ = "m-g",

@@ -7,7 +7,7 @@ namespace cot
 class CoTValidator
 {
 public:
-  bool validate_xml(const std::string & xml);
+  static bool validate_xml(const std::string & xml);
 };
 
 }  // namespace cot

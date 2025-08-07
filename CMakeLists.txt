@@ -64,23 +64,26 @@ target_link_libraries(cot_test
 )
 
 # gtest
-add_executable(test_time_formatter
+add_executable(unit_test
   CoT_event/test/test_time_formatter.cpp
   CoT_event/test/test_sidc_parser.cpp
   CoT_event/test/test_sidc_validator.cpp
+  CoT_event/test/test_detail_builder.cpp
+  CoT_event/test/test_event_builder.cpp
+  CoT_event/test/test_cot_validator.cpp
 )
 
-target_link_libraries(test_time_formatter PRIVATE cot_builder PRIVATE cot_validator GTest::gtest_main)
+target_link_libraries(unit_test PRIVATE cot_builder PRIVATE cot_validator GTest::gtest_main)
 
 # 複製檔案至"build"中
-add_custom_command(TARGET test_time_formatter POST_BUILD
+add_custom_command(TARGET unit_test POST_BUILD
     COMMAND ${CMAKE_COMMAND} -E copy_directory
         ${CMAKE_SOURCE_DIR}/CoT_event/resources
-        $<TARGET_FILE_DIR:test_time_formatter>/resources)
+        $<TARGET_FILE_DIR:unit_test>/resources)
 
 
 include(GoogleTest)
-gtest_discover_tests(test_time_formatter)
+gtest_discover_tests(unit_test)
 
 # 7. 安裝執行檔
 install(TARGETS SimDataPublisher
