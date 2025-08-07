@@ -67,6 +67,7 @@ target_link_libraries(cot_test
 add_executable(test_time_formatter
   CoT_event/test/test_time_formatter.cpp
   CoT_event/test/test_sidc_parser.cpp
+  CoT_event/test/test_sidc_validator.cpp
 )
 
 target_link_libraries(test_time_formatter PRIVATE cot_builder PRIVATE cot_validator GTest::gtest_main)
